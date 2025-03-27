@@ -1,0 +1,15 @@
+{
+  "name": "nikke_wiki",
+  "version": "1.0.0",
+  "description": "게임 '승리의 여신 : 니케' 의 정보를 모아둔 사이트 제작을 위한 리포지토리",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
