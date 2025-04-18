@@ -1,0 +1,40 @@
+.Title {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+
+.MainHomeBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-image: url(MainHomeImg/MainHomeBanner.png);
+    background-size: 100% 100%;
+}
+
+.MainContainer {
+    display: flex;
+    height: auto;
+}
+
+.NikkeList {
+    width: 60%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.NikkeInfo {
+    display: flex;
+    height: 70px;
+    padding: auto;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.Search {
+    display: block;
+    width: 40%;
+    height: 5000px;
+    border: 2px solid rgb(254, 194, 29);
+}
