@@ -13,28 +13,80 @@
     background-size: 100% 100%;
 }
 
+.blank {
+    height: 50px;
+}
+
 .MainContainer {
     display: flex;
     height: auto;
 }
 
-.NikkeList {
-    width: 60%;
+#NikkeList {
+    width: 80%;
+    margin-top: 10px;
     height: 100%;
-    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .NikkeInfo {
+    background-image: url(/NikkeCardImg/elysion.png);
+    background-repeat: no-repeat;
     display: flex;
-    height: 70px;
-    padding: auto;
-    border: 2px solid black;
-    align-items: center;
+    margin-top: 10px;
+    height: 120px;
+    width: 775px;
 }
+
+.NikkeInfo .NikkeName {
+    width: auto;
+    font-size: 30px;
+    margin: 0;
+    align-content: center;
+    color: white;
+}
+
+.NikkeInfo .NikkeTags {
+    width: 45%;
+}
+
+.NikkeInfo .NikkeMarks {
+    display: flex;
+    width: auto;
+}
+
+.NikkeInfo .NikkeMarks .Marksdiv1 {
+    width: 81.6334px;
+    align-content: center;
+}
+
+.NikkeInfo .NikkeMarks .Marksdiv1 img {
+    padding: 3px 0px 3px;
+    margin-left: 50%;
+}
+
+.NikkeInfo .NikkeMarks .Marksdiv2 {
+    width: 81.6334px;
+    align-content: center;
+}
+
+.NikkeInfo .NikkeMarks .Marksdiv2 img {
+    padding: 3px 0px 3px;
+    margin-left: 20%;
+}
+
 
 .Search {
     display: block;
     width: 40%;
     height: 5000px;
     border: 2px solid rgb(254, 194, 29);
+}
+
+.ProfileImg {
+    height: 100%;
+    width: auto;
 }

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "라피",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    {
+        "name": "라피",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    {
+        "name": "라피",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    }
+]
