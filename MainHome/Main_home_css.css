@@ -1,15 +1,26 @@
-.Title {
-    text-align: center;
-    font-size: 75px;
-    color: white;
+body {
+    background-color: rgb(40, 40, 46);
+}
+
+.abc {
+    align-content: center;
+    height: 100px;
+    background-color: rgb(28, 29, 33);
+    border-bottom: 1px solid;
+    border-color: rgb(64, 64, 67);
+    margin-bottom: 35px;
+}
+
+.abc .Logo {
+    width: 198px;
+    height: 109px;
 }
 
 .MainHomeBanner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-    background-image: url(MainHomeImg/MainHomeBanner.png);
+    margin: 0 auto;
+    width: 1200px;
+    height: 667px;
+    background-image: url(MainHomeImg/MainBanner.png);
     background-size: 100% 100%;
 }
 
@@ -20,16 +31,17 @@
 .MainContainer {
     display: flex;
     height: auto;
+    justify-content: center;
 }
 
 #NikkeList {
-    width: 80%;
-    margin-top: 10px;
-    height: 100%;
+    width: 44%;
+    margin-right: 10px;
+    height: 1000px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-content: center;
+    background-color: rgb(28, 29, 33);
 }
 
 .NikkeInfo {
@@ -81,9 +93,10 @@
 
 .Search {
     display: block;
-    width: 40%;
+    width: 20%;
     height: 5000px;
     border: 2px solid rgb(254, 194, 29);
+    background-color: rgb(28, 29, 33);
 }
 
 .ProfileImg {
