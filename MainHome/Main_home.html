@@ -16,66 +16,7 @@
     <div class="blank"></div>
     <div class="MainContainer">
         <div id=NikkeList></div>
-
-        <script>
-            fetch('/NikkeList.json')
-                .then(res => res.json())
-                .then(data => data.forEach(char => {
-                    const card = document.createElement("div");
-                    card.className = 'NikkeInfo';
-                    //이미지 삽입
-                    const NikkeImg = document.createElement("img");
-                    NikkeImg.src = `${char.nikkeimg}`;
-                    NikkeImg.classList.add("ProfileImg");
-                    card.appendChild(NikkeImg);
-                    //이름 삽입
-                    const NikkeName = document.createElement("p");
-                    NikkeName.className = 'NikkeName';
-                    NikkeName.textContent = '라피';
-                    card.appendChild(NikkeName);
-                    //태그 삽입
-                    const NikkeTags = document.createElement("div");
-                    NikkeTags.className = 'NikkeTags';
-                    card.appendChild(NikkeTags);
-                    //마크 영역 생성
-                    const NikkeMarks = document.createElement("div");
-                    NikkeMarks.className = 'NikkeMarks';
-                    //마크 구역1(무기,클래스) 생성
-                    const Marksdiv1 = document.createElement("div");
-                    Marksdiv1.className = 'Marksdiv1';
-                    //무기 마크 삽입
-                    const WeaponMark = document.createElement("img");
-                    WeaponMark.src = `${char.weaponimg}`;
-                    WeaponMark.classList.add("WeaponImg");
-                    Marksdiv1.appendChild(WeaponMark);
-                    //클래스 마크 삽입
-                    const ClassMark = document.createElement("img");
-                    ClassMark.src = `${char.classimg}`;
-                    ClassMark.classList.add("ClassImg");
-                    Marksdiv1.appendChild(ClassMark);
-                    //마크 구역1 삽입
-                    NikkeMarks.appendChild(Marksdiv1);
-                    //마크 구역2 생성
-                    const Marksdiv2 = document.createElement("div");
-                    Marksdiv2.className = 'Marksdiv2';
-                    //속성 마크 삽입
-                    const TypeMark = document.createElement("img");
-                    TypeMark.src = `${char.typeimg}`;
-                    TypeMark.classList.add("TypeImg");
-                    Marksdiv2.appendChild(TypeMark);
-                    //버스트 마크 삽입
-                    const BurstMark = document.createElement("img");
-                    BurstMark.src = `${char.burstimg}`;
-                    BurstMark.classList.add("BurstImg");
-                    Marksdiv2.appendChild(BurstMark);
-                    //마크 구역2 삽입
-                    NikkeMarks.appendChild(Marksdiv2);
-                    //마크 영역 삽입
-                    card.appendChild(NikkeMarks);
-                    document.getElementById("NikkeList").appendChild(card);
-                })
-                )
-        </script>
+        <script src='NikkeCard/NikkeCard.js'></script>
         <div class="Search">
             <div class="SearchBar">
             </div>

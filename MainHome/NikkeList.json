@@ -5,6 +5,10 @@
         "type": "작열",
         "weapon": "AR",
         "burst": "3",
+        "tags": [
+            "공격력 증가",
+            "최종 데미지 n% 공격"
+        ],
         "nikkeimg": "/NikkeCardImg/Rapi.png",
         "classimg": "/NikkeCardImg/Attacker.png",
         "burstimg": "/NikkeCardImg/Burst3.png",
@@ -18,6 +22,10 @@
         "type": "작열",
         "weapon": "AR",
         "burst": "3",
+        "tags": [
+            "공격력 증가",
+            "최종 데미지 n% 공격"
+        ],
         "nikkeimg": "/NikkeCardImg/Rapi.png",
         "classimg": "/NikkeCardImg/Attacker.png",
         "burstimg": "/NikkeCardImg/Burst3.png",
@@ -31,6 +39,10 @@
         "type": "작열",
         "weapon": "AR",
         "burst": "3",
+        "tags": [
+            "공격력 증가",
+            "최종 데미지 n% 공격"
+        ],
         "nikkeimg": "/NikkeCardImg/Rapi.png",
         "classimg": "/NikkeCardImg/Attacker.png",
         "burstimg": "/NikkeCardImg/Burst3.png",

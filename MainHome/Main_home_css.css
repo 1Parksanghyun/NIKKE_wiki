@@ -63,6 +63,14 @@ body {
 
 .NikkeInfo .NikkeTags {
     width: 45%;
+    display: flex;
+}
+
+.NikkeInfo .NikkeTags p {
+    color: white;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .NikkeInfo .NikkeMarks {
