@@ -45,7 +45,7 @@ body {
 }
 
 .NikkeInfo {
-    background-image: url(/NikkeCardImg/elysion.png);
+    background-image: url(NikkeCard/NikkeCardImg/elysion.png);
     background-repeat: no-repeat;
     display: flex;
     margin-top: 10px;

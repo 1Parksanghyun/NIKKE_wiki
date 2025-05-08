@@ -9,12 +9,12 @@
             "공격력 증가",
             "최종 데미지 n% 공격"
         ],
-        "nikkeimg": "/NikkeCardImg/Rapi.png",
-        "classimg": "/NikkeCardImg/Attacker.png",
-        "burstimg": "/NikkeCardImg/Burst3.png",
-        "weaponimg": "/NikkeCardImg/AR.png",
-        "typeimg": "/NikkeCardImg/HSTA.png",
-        "exampleimg": "/NikkeCardImg/elysion.png"
+        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
+        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
+        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
+        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
+        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
+        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
     },
     {
         "name": "라피",
@@ -26,12 +26,12 @@
             "공격력 증가",
             "최종 데미지 n% 공격"
         ],
-        "nikkeimg": "/NikkeCardImg/Rapi.png",
-        "classimg": "/NikkeCardImg/Attacker.png",
-        "burstimg": "/NikkeCardImg/Burst3.png",
-        "weaponimg": "/NikkeCardImg/AR.png",
-        "typeimg": "/NikkeCardImg/HSTA.png",
-        "exampleimg": "/NikkeCardImg/elysion.png"
+        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
+        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
+        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
+        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
+        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
+        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
     },
     {
         "name": "라피",
@@ -43,11 +43,11 @@
             "공격력 증가",
             "최종 데미지 n% 공격"
         ],
-        "nikkeimg": "/NikkeCardImg/Rapi.png",
-        "classimg": "/NikkeCardImg/Attacker.png",
-        "burstimg": "/NikkeCardImg/Burst3.png",
-        "weaponimg": "/NikkeCardImg/AR.png",
-        "typeimg": "/NikkeCardImg/HSTA.png",
-        "exampleimg": "/NikkeCardImg/elysion.png"
+        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
+        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
+        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
+        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
+        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
+        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
     }
 ]
