@@ -113,7 +113,7 @@ body {
     height: 20px;
     margin-top: 2px;
     margin-bottom: 2px;
-    border: 1px solid white;
+    border: 1px solid rgb(95, 95, 99);
     border-radius: 5px;
 }
 
@@ -125,9 +125,14 @@ body {
     color: white;
     margin-top: 2px;
     margin-bottom: 2px;
-    border: 1px solid white;
+    border: 1px solid rgb(95, 95, 99);
     border-radius: 5px;
     background-color: rgb(28, 29, 33);
+}
+
+.Search #SearchBar:focus {
+    outline: none;
+
 }
 
 .ProfileImg {
