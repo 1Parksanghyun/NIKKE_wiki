@@ -2,8 +2,10 @@ fetch('../NikkeList.json')
     .then(res => res.json())
     .then(data => data.forEach(char => {
         //프로필 카드 생성
-        const card = document.createElement("div");
+        const card = document.createElement("button");
         card.className = 'NikkeInfo';
+        card.dataset.name = char.dataname;
+        card.onclick = () => Hello(card);
         InsertNikkeImg(card, char.nikkeimg);
         InsertNikkeName(card, char.name);
         InsertNikkeTags(card, char.tags);
@@ -28,7 +30,6 @@ function InsertNikkeName(card, data) {
 function InsertNikkeTags(card, data) {
     const NikkeTags = document.createElement("div");
     NikkeTags.className = 'NikkeTags';
-    console.log(data[0]);
     for (let index = 0; index < data.length; index++) {
         const Tag = document.createElement("p");
         Tag.className = 'Tag'

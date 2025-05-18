@@ -1,6 +1,7 @@
 [
     {
         "name": "라피",
+        "dataname": "Rapi",
         "class": "화력형",
         "type": "작열",
         "weapon": "AR",
@@ -18,6 +19,7 @@
     },
     {
         "name": "라피",
+        "dataname": "Neon",
         "class": "화력형",
         "type": "작열",
         "weapon": "AR",
@@ -35,6 +37,7 @@
     },
     {
         "name": "라피",
+        "dataname": "Anis",
         "class": "화력형",
         "type": "작열",
         "weapon": "AR",

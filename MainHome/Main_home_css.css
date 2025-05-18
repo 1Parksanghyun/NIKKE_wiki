@@ -40,15 +40,18 @@ body {
     height: 1000px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     background-color: rgb(28, 29, 33);
 }
 
 .NikkeInfo {
+    background: none;
+    cursor: pointer;
+    border: none;
     background-image: url(NikkeCard/NikkeCardImg/elysion.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-top: 10px;
+    margin: 10px 0px 0px 0px;
     height: 120px;
     width: 775px;
 }
