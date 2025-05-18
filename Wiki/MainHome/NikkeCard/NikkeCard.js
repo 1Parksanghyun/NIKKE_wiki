@@ -1,4 +1,4 @@
-fetch('../NikkeList.json')
+fetch('./NikkeList.json')
     .then(res => res.json())
     .then(data => data.forEach(char => {
         //프로필 카드 생성

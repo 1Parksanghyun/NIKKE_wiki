@@ -2,11 +2,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.use(express.static(path.join(__dirname, 'MainHome')));
+app.use(express.static(path.join(__dirname, 'Wiki')));
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'MainHome', 'Main_home.html'));
-});
+const MainRoute = require('./Wiki/MainHome/Main_home.js');
+//const InfoRoute = require('')
+
+app.use('/', MainRoute);
 
 const PORT = 3000;
 app.listen(PORT, '0.0.0.0', () => {
