@@ -5,7 +5,7 @@ fetch('./NikkeList.json')
         const card = document.createElement("button");
         card.className = 'NikkeInfo';
         card.dataset.name = char.dataname;
-        card.onclick = () => Hello(card);
+        card.onclick = () => AllocateDataname(card);
         InsertNikkeImg(card, char.nikkeimg);
         InsertNikkeName(card, char.name);
         InsertNikkeTags(card, char.tags);
