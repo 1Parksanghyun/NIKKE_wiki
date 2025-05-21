@@ -1,4 +1,7 @@
 [
+
+    //화력형
+
     {
         "name": "라피",
         "class": "화력형",
@@ -12,8 +15,37 @@
         "typeimg": "/NikkeCardImg/HSTA.png",
         "exampleimg": "/NikkeCardImg/elysion.png"
     },
+
     {
-        "name": "라피",
+        "name": "솔저 E.G.",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "미하라",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "시키나미 아스카 랑그레이",
         "class": "화력형",
         "type": "작열",
         "weapon": "AR",
@@ -25,12 +57,1192 @@
         "typeimg": "/NikkeCardImg/HSTA.png",
         "exampleimg": "/NikkeCardImg/elysion.png"
     },
+
     {
-        "name": "라피",
+        "name": "헬름: 아쿠아 마린",
         "class": "화력형",
+        "type": "철갑",
+        "weapon": "AR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "루피",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "AR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "율리아",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "스노우 화이트",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "스노우 화이트: 이노센트 데이즈",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "홍련",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "길로틴: 윈터 슬레이어",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "팬텀",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "프리바티",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "브리드",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "마나",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "아야나미 레이(가칭)",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "사쿠라: 볼룸 인 서머",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "볼륨",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "SMG",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "시그널",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SMG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "퀸시: 이스케이프 퀸",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SMG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    
+    {
+        "name": "D",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "SMG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "솔린",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SMG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "바이퍼",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "길티",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "SG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "드레이크",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "이사벨",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "누아르",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "프리바티: 언카인드 메이드",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "메이든",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "슈가",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "소다: 트윙클링 바니",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "네베",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "밀크",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SR",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "은화",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "니힐리스타",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "앨리스",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "트로니",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "율하",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "브레디",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "헬름",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "아인",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "하란",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "맥스웰",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "레드 후드",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "SR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "벨로타",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "RL",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "A2",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "파워",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "에밀리아",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "베스티",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "홍련: 흑영",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "라플라스",
+        "class": "화력형",
+        "type": "철갑",
+        "weapon": "RL",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "프로덕트 12",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    
+    {
+        "name": "로산나",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "MG",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "아리아",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "MG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "미하라: 본딩 체인",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "라피: 레드 후드",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "모더니아",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    
+    {
+        "name": "아야나미 레이",
+        "class": "화력형",
+        "type": "작열",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "네온: 블루 오션",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+    
+    {
+        "name": "루드밀라: 윈터 오너",
+        "class": "화력형",
+        "type": "수냉",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "시키나미 아스카 랑그레이: WILLE",
+        "class": "화력형",
+        "type": "풍압",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "길로틴",
+        "class": "화력형",
+        "type": "전격",
+        "weapon": "MG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+
+    
+    {
+        "name": "모리",
+        "class": "방어형",
+        "type": "풍압",
+        "weapon": "AR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+
+    {
+        "name": "목란",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "AR",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "루피: 윈터 쇼퍼",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "AR",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "풀크방",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "AR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "블랑",
+        "class": "방어형",
+        "type": "풍압",
+        "weapon": "AR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "신",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "AR",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "2B",
+        "class": "방어형",
         "type": "작열",
         "weapon": "AR",
         "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "라이",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "SMG",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "루드밀라",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "SMG",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "네로",
+        "class": "방어형",
+        "type": "작열",
+        "weapon": "SMG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "마키마",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "SMG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "노벨",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "SMG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "크로우",
+        "class": "방어형",
+        "type": "작열",
+        "weapon": "SMG",
+        "burst": "3",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "에테르",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "SG",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "폴리",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "SG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "솔저 FA",
+        "class": "방어형",
+        "type": "철갑갑",
+        "weapon": "SG",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "라푼젤: 퓨어 그레이스",
+        "class": "방어형",
+        "type": "철갑",
+        "weapon": "SR",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "람",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "SR",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "델타",
+        "class": "방어형",
+        "type": "전격",
+        "weapon": "SR",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "루마니",
+        "class": "방어형",
+        "type": "수냉",
+        "weapon": "RL",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "자칼",
+        "class": "방어형",
+        "type": "철갑",
+        "weapon": "RL",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "티아",
+        "class": "방어형",
+        "type": "철갑",
+        "weapon": "RL",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "앵커",
+        "class": "방어형",
+        "type": "풍압",
+        "weapon": "RL",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "I-DOLL 플라워",
+        "class": "방어형",
+        "type": "풍압",
+        "weapon": "RL",
+        "burst": "1",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "베이",
+        "class": "방어형",
+        "type": "작열",
+        "weapon": "RL",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "유니",
+        "class": "방어형",
+        "type": "작열",
+        "weapon": "RL",
+        "burst": "2",
+        "nikkeimg": "/NikkeCardImg/Rapi.png",
+        "classimg": "/NikkeCardImg/Attacker.png",
+        "burstimg": "/NikkeCardImg/Burst3.png",
+        "weaponimg": "/NikkeCardImg/AR.png",
+        "typeimg": "/NikkeCardImg/HSTA.png",
+        "exampleimg": "/NikkeCardImg/elysion.png"
+    },
+
+    {
+        "name": "노아",
+        "class": "방어형",
+        "type": "풍압",
+        "weapon": "RL",
+        "burst": "2",
         "nikkeimg": "/NikkeCardImg/Rapi.png",
         "classimg": "/NikkeCardImg/Attacker.png",
         "burstimg": "/NikkeCardImg/Burst3.png",
@@ -38,4 +1250,22 @@
         "typeimg": "/NikkeCardImg/HSTA.png",
         "exampleimg": "/NikkeCardImg/elysion.png"
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
