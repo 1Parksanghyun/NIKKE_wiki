@@ -2,7 +2,7 @@ body {
     background-color: rgb(40, 40, 46);
 }
 
-.abc {
+.LogoPlace {
     align-content: center;
     height: 100px;
     background-color: rgb(28, 29, 33);
@@ -11,7 +11,7 @@ body {
     margin-bottom: 35px;
 }
 
-.abc .Logo {
+.LogoPlace .Logo {
     width: 198px;
     height: 109px;
 }
