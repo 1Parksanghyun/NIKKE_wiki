@@ -5,6 +5,7 @@ fetch('./NikkeList.json')
         const card = document.createElement("button");
         card.className = 'NikkeInfo';
         card.dataset.name = char.dataname;
+        //클릭시 함수 실행(NikkeInfo.js)
         card.onclick = () => AllocateDataname(card);
         InsertNikkeImg(card, char.nikkeimg);
         InsertNikkeName(card, char.name);
