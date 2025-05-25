@@ -35,3 +35,19 @@ body {
     margin: 0px;
     color: white;
 }
+
+.NikkeProfileBox .ProfileDisplaySector {
+    display: flex;
+}
+
+.SkillInfoSector .FirstSkill p {
+    color: white;
+}
+
+.SkillInfoSector .SecondSkill p {
+    color: white;
+}
+
+.SkillInfoSector .BurstSkill p {
+    color: white;
+}
