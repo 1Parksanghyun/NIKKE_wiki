@@ -3,28 +3,33 @@
 
 <head>
     <title>니케 위키</title>
-    <script src="/InfoPage/LoadNikkeData.js"></script>
+    <script src="/InfoPage/LoadNikkeData.js" defer></script>
     <link rel="stylesheet" href="/InfoPage/InfoPage.css">
 </head>
 
 <body>
-    <div class="LogoPlace">
-        <img src="../MainHome/MainHomeImg/Logo.png" class="Logo">
+    <div id="LogoPlace">
+        <img src="../MainHome/MainHomeImg/Logo.png" id="Logo">
     </div>
-    <div class="NikkeDataSector">
-        <div class="NikkeProfileBox">
-            <p class="NikkeName">라피</p>
-            <div class="ProfileDisplaySector">
-                <img src="/InfoPage/InfoPageImage/RapiStand.png" class="NikkeStandImage">
-                <div class="SkillInfoSector">
-                    <div class="FirstSkill">
-                        <p>스킬 1</p>
+    <div id="NikkeDataSector">
+        <div id="NikkeProfileBox">
+            <p id="NikkeName"></p>
+            <div id="ProfileDisplaySector">
+                <img id="NikkeStandImg">
+                <div class="Blank"></div>
+                <div id="SkillInfoSector">
+                    <div id="FirstSkill">
+                        <p class="SkillName"></p>
+                        <p class="SkillEffect"></p>
                     </div>
-                    <div class="SecondSkill">
-                        <p>스킬 2</p>
+                    <div id="SecondSkill">
+                        <p class="SkillName"></p>
+                        <p class="SkillEffect"></p>
                     </div>
-                    <div class="BurstSkill">
-                        <p>버스트 스킬</p>
+
+                    <div id="BurstSkill">
+                        <p class="SkillName"></p>
+                        <p class="SkillEffect"></p>
                     </div>
                 </div>
             </div>
