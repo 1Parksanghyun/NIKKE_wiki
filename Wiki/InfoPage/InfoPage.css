@@ -62,7 +62,14 @@ body {
 }
 
 #SkillInfoSector #NikkeDetails {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid;
+    border-color: rgb(76, 77, 83);
+    border-radius: 10px;
+    background-color: rgb(28, 29, 33);
     height: 20%;
+    box-sizing: border-box;
 }
 
 #SkillInfoSector .Skill {
@@ -79,21 +86,38 @@ body {
 
 
 .SkillType {
+    margin: 0px;
     width: 15%;
     text-align: center;
     align-content: center;
+    border-right: 1px solid;
+    border-color: rgb(76, 77, 83);
     color: white;
+}
+
+.SkillInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .SkillName {
     min-width: 50%;
+    width: 100%;
+    margin: 10px 0px 15px 0px;
+    padding: 0px 0px 10px 10px;
     align-content: center;
+    border-bottom: 1px solid;
+    border-color: rgb(76, 77, 83);
     color: white;
     font-size: 20px;
     font-weight: 700;
+    box-sizing: border-box;
 }
 
 .SkillEffect {
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
     align-content: center;
     color: white;
 }
