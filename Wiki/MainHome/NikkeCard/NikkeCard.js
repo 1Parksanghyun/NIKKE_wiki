@@ -7,7 +7,7 @@ fetch('./NikkeList.json')
         card.dataset.name = char.dataname;
         //클릭시 함수 실행(NikkeInfo.js)
         card.onclick = () => AllocateDataname(card);
-        InsertNikkeImg(card, char.nikkeimg);
+        InsertNikkeImg(card, `NikkeCard/NikkeCardImg/Nikke/${char.dataname}.png`);
         InsertNikkeName(card, char.name);
         InsertNikkeTags(card, char.tags);
         InsertNikkeMarks(card, char);

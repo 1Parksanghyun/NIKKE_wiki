@@ -2,10 +2,11 @@
     {
         "name": "라피",
         "dataname": "Rapi",
-        "class": "화력형",
-        "type": "작열",
+        "class": "Attacker",
+        "type": "HSTA",
         "weapon": "AR",
-        "burst": "3",
+        "burst": "Burst3",
+        "company": "elysion",
         "tags": [
             "공격력 증가",
             "최종 데미지 n% 공격"
