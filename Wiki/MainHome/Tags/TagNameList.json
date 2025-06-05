@@ -1,0 +1,8 @@
+{
+    "공격력 증가": "ATK_UP",
+    "시전자 공격력 증가": "ATK_UP_CASTER",
+    "크리티컬 확률 증가": "CRT_CHANCE_UP",
+    "크리티컬 데미지 증가": "CRT_CHANCE_UP",
+    "공격 데미지 증가": "ATK_DMG_UP",
+    "코어 데미지 증가": "CORE_DMG_UP"
+}

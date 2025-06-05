@@ -145,7 +145,13 @@ body {
 
 }
 
+
 .ProfileImg {
     height: 100%;
     width: auto;
+}
+
+#TagList {
+    width: 100%;
+    height: 100%;
 }
