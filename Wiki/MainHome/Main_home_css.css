@@ -120,12 +120,28 @@ body {
 }
 
 .Search #SelectedTagList {
+    display: flex;
     min-height: 30px;
     height: auto;
     margin-top: 2px;
     margin-bottom: 2px;
     border: 1px solid rgb(95, 95, 99);
     border-radius: 5px;
+}
+
+#SelectedTags {
+    flex: 1;
+    height: auto;
+    min-height: 25px;
+    padding: 2px;
+}
+
+.SelectedTag {
+    margin: 1px;
+}
+
+#SearchButton {
+    width: auto;
 }
 
 .Search #SearchBar {
