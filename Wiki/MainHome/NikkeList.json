@@ -9,49 +9,72 @@
         "company": "elysion",
         "tags": [
             "공격력 증가",
-            "최종 데미지 n% 공격"
+            "최종 공격력 n% 데미지"
         ],
-        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
-        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
-        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
-        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
-        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
-        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
+        "tagvalue": 129
     },
     {
-        "name": "라피",
+        "name": "네온",
         "dataname": "Neon",
-        "class": "화력형",
-        "type": "작열",
-        "weapon": "AR",
-        "burst": "3",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "elysion",
         "tags": [
-            "공격력 증가",
-            "최종 데미지 n% 공격"
-        ],
-        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
-        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
-        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
-        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
-        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
-        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
+            "크리티컬 확률 증가",
+            "최종 공격력 n% 데미지",
+            "최대 장탄수 증가"
+        ]
     },
     {
-        "name": "라피",
+        "name": "아니스",
         "dataname": "Anis",
-        "class": "화력형",
-        "type": "작열",
-        "weapon": "AR",
-        "burst": "3",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "RL",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": [
+            "방어력 증가",
+            "피격 데미지 분배",
+            "최종 공격력 n% 데미지",
+            "적 방어력 감소"
+        ]
+    },
+    {
+        "name": "퀸시:이스케이프 퀸",
+        "dataname": "Quency_EscapeQueen",
+        "class": "Attacker",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst3",
+        "company": "missilis",
         "tags": [
             "공격력 증가",
-            "최종 데미지 n% 공격"
-        ],
-        "nikkeimg": "NikkeCard/NikkeCardImg/Rapi.png",
-        "classimg": "NikkeCard/NikkeCardImg/Attacker.png",
-        "burstimg": "NikkeCard/NikkeCardImg/Burst3.png",
-        "weaponimg": "NikkeCard/NikkeCardImg/AR.png",
-        "typeimg": "NikkeCard/NikkeCardImg/HSTA.png",
-        "exampleimg": "NikkeCard/NikkeCardImg/elysion.png"
+            "명중률 증가",
+            "크리티컬 확률 증가",
+            "분배 데미지 증가",
+            "코어 데미지 증가",
+            "공격 데미지 증가",
+            "재장전 속도 증가",
+            "최종 공격력 n% 분배 데미지"
+        ]
+    },
+    {
+        "name": "홍련",
+        "dataname": "Scarlet",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "AR",
+        "burst": "Burst3",
+        "company": "pilgrim",
+        "tags": [
+            "공격력 증가",
+            "최종 공격력 n% 데미지",
+            "크리티컬 확률 증가",
+            "크리티컬 데미지 증가",
+            "현재 체력 감소"
+        ]
     }
 ]

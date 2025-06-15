@@ -5,6 +5,7 @@
     <script src="../InfoPage/NikkeInfo.js" defer></script>
     <script src="./Tags/SelectedTagList.js" defer></script>
     <script src="./Tags/TagList.js" defer></script>
+    <script src="./Searching.js" defer></script>
     <link rel="stylesheet" href="/MainHome/Main_home_css.css">
     <title>니케 위키</title>
 </head>
@@ -23,7 +24,7 @@
         <div class="Search">
             <div id="SelectedTagList">
                 <div id="SelectedTags"></div>
-                <button id="SearchButton">검색</button>
+                <button id="SearchButton" onclick="SearchingTag()">검색</button>
             </div>
             <input type="text" id="SearchBar" placeholder="태그 검색">
             <div id="TagList">

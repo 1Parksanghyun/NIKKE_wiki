@@ -4,5 +4,7 @@
     "크리티컬 확률 증가": "CRT_CHANCE_UP",
     "크리티컬 데미지 증가": "CRT_DMG_UP",
     "공격 데미지 증가": "ATK_DMG_UP",
-    "코어 데미지 증가": "CORE_DMG_UP"
+    "코어 데미지 증가": "CORE_DMG_UP",
+    "최종 공격력 n% 데미지": "DEAL_BY_FINAL_ATK",
+    "최대 장탄수 증가": "MAX_AMMO_UP"
 }

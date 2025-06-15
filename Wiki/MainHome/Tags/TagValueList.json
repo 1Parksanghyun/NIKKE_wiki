@@ -1,10 +1,11 @@
 {
-    "ATK_BUFF": {
-        "ATK_UP": 0,
-        "ATK_UP_CASTER": 1,
-        "CRT_CHANCE_UP": 2,
-        "CRT_DMG_UP": 3,
-        "ATK_DMG_UP": 4,
-        "CORE_DMG_UP": 5
-    }
+    "ATK_UP": 0,
+    "ATK_UP_CASTER": 1,
+    "CRT_CHANCE_UP": 2,
+    "CRT_DMG_UP": 3,
+    "ATK_DMG_UP": 4,
+    "CORE_DMG_UP": 5,
+    "MAX_HP_UP": 6,
+    "DEAL_BY_FINAL_ATK": 7,
+    "MAX_AMMO_UP": 8
 }

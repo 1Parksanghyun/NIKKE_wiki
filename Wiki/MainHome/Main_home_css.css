@@ -35,6 +35,7 @@ body {
 }
 
 #NikkeList {
+    min-width: fit-content;
     width: 44%;
     margin-right: 10px;
     height: 1000px;
@@ -56,22 +57,28 @@ body {
     width: 775px;
 }
 
-.NikkeInfo .NikkeName {
+#NameAndTag {
+    width: 60%;
+}
+
+.NikkeName {
     width: auto;
-    font-size: 30px;
-    margin: 0;
-    align-content: center;
+    font-size: 22px;
+    text-align: left;
+    margin: 2px;
     color: white;
 }
 
-.NikkeInfo .NikkeTags {
-    width: 45%;
+.NikkeTags {
+    max-width: 389px;
+    max-height: 86px;
+    flex-wrap: wrap;
+    overflow: auto;
     display: flex;
-    padding-top: 10px;
 }
 
-.NikkeInfo .NikkeTags p {
-    height: fit-content;
+.NikkeTags p {
+    white-space: nowrap;
     margin: 2px;
     border: 2px solid;
     border-radius: 10px;
@@ -81,6 +88,15 @@ body {
     padding: 2px;
     font-size: 12px;
     font-weight: bold;
+}
+
+.NikkeTags::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.NikkeTags::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .NikkeInfo .NikkeMarks {
