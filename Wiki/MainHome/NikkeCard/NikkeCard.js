@@ -37,7 +37,7 @@ function InsertNikkeTags(addeddiv, data) {
     NikkeTags.className = 'NikkeTags';
     for (let index = 0; index < data.length; index++) {
         const Tag = document.createElement("p");
-        Tag.className = 'Tag'
+        Tag.className = 'NikkeTag'
         Tag.textContent = data[index];
         NikkeTags.appendChild(Tag);
     }

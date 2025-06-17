@@ -8,6 +8,13 @@ fetch('./Tags/TagNameList.json')
             Tag.innerText = `${TagName}`;
             Tag.dataset.name = `${TagCode}`;
             Tag.onclick = () => SelectTag(TagName, TagCode);
+            Tag.filtering = function (inputstring) {
+                if (inputstring == "" || Tag.innerText.includes(inputstring)) {
+                    Tag.hidden = false;
+                } else {
+                    Tag.hidden = true;
+                }
+            }
 
             document.getElementById('TagList').appendChild(Tag);
         }
