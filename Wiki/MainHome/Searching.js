@@ -9,14 +9,19 @@ function SearchingNikke() {
     for (let index of document.getElementById('SelectedTags').children) {
         SelectedTagValue |= (1 << TagValues[index.dataset.name] % 32);
     }
-    console.log(SelectedTagValue.toString(2));
+    const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
+    Nikkeinfo.forEach((ele) => {
+        ele.filtering(SelectedTagValue, 1);
+        ele.filtering(SelectedTagValue, 2);
+        ele.filtering(SelectedTagValue, 3);
+    })
+    //console.log(SelectedTagValue.toString(2));
 }
 
 async function LoadTagValue() {
     try {
         const res = await fetch('./Tags/TagValueList.json');
         TagValues = await res.json();
-        console.log('성공');
     } catch (error) {
         console.log('ERROR:', error);
     }

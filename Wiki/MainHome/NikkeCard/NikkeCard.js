@@ -6,6 +6,27 @@ fetch('./NikkeList.json')
         card.className = 'NikkeInfo';
         card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.png')`
         card.dataset.name = char.dataname;
+        card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
+        card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
+        card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
+        card.filtering = function (comparisonValue, valueType) {
+            if (hasTagvalue(card, valueType)) {
+                card.style.display = 'flex';
+                if (comparisonValue > 0) {
+                    let comparisonBinary = reverseString(comparisonValue.toString(2));
+                    let tagvalueBinary = whatTagvalue(card, valueType);
+                    console.log('비교값:', comparisonBinary, '니케값:', tagvalueBinary, '벨류타입:', valueType);
+                    for (let index = 0; index < comparisonBinary.length; index++) {
+                        //console.log('횟수:', index);
+                        if (comparisonBinary[index] != 0 && tagvalueBinary[index] != 1) {
+                            //console.log('비교값:', comparisonBinary[index], '니케값:', tagvalueBinary[index]);
+                            card.style.display = 'none';
+                            break;
+                        }
+                    }
+                }
+            }
+        }
         //클릭시 함수 실행(NikkeInfo.js)
         card.onclick = () => AllocateDataname(card);
         InsertNikkeImg(card, `NikkeCard/NikkeCardImg/Nikke/${char.dataname}.png`);
@@ -84,4 +105,26 @@ function InsertMarkdiv2(NikkeMarks, data) {
     //마크 구역2 삽입
     NikkeMarks.appendChild(Marksdiv2);
 
+}
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
+function whatTagvalue(card, valueType) {
+    if (valueType == 1)
+        return reverseString(card.dataset.tagvalue1);
+    else if (valueType == 2)
+        return reverseString(card.dataset.tagvalue2);
+    else
+        return reverseString(card.dataset.tagvalue3);
+}
+
+function hasTagvalue(card, valueType) {
+    if (valueType == 1)
+        return card.dataset.tagvalue1 > 0;
+    else if (valueType == 2)
+        return card.dataset.tagvalue2 > 0;
+    else
+        return card.dataset.tagvalue3 > 0;
 }
