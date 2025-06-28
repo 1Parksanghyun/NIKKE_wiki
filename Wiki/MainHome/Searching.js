@@ -1,21 +1,28 @@
 SearchingTag();
 let TagValues = null;
 LoadTagValue();
-let SelectedTagValue = 0;
+let SelectedTagsValue = new Uint32Array(3);
 
 function SearchingNikke() {
-    SelectedTagValue = 0;
+    for (let index = 0; index < SelectedTagsValue.length; index++) {
+        SelectedTagsValue[index] = 0;
+    }
     //console.log(TagValues);
     for (let index of document.getElementById('SelectedTags').children) {
-        SelectedTagValue |= (1 << TagValues[index.dataset.name] % 32);
+        ClassifyTagValue(TagValues[index.dataset.name], Math.floor(TagValues[index.dataset.name] / 32));
     }
+    //console.log('1번', SelectedTagsValue[0].toString(2), '2번', SelectedTagsValue[1].toString(2), '3번', SelectedTagsValue[2].toString(2));
     const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
     Nikkeinfo.forEach((ele) => {
-        ele.filtering(SelectedTagValue, 1);
-        ele.filtering(SelectedTagValue, 2);
-        ele.filtering(SelectedTagValue, 3);
+        ele.filtering(SelectedTagsValue);
     })
     //console.log(SelectedTagValue.toString(2));
+}
+
+function ResetList(params) {
+    document.querySelectorAll('.NikkeInfo').forEach((el) => {
+        el.style.display = 'flex';
+    })
 }
 
 async function LoadTagValue() {
@@ -34,4 +41,8 @@ function SearchingTag() {
             el.filtering(event.target.value);
         });
     })
+}
+
+function ClassifyTagValue(TagValue, TagType) {
+    SelectedTagsValue[TagType] |= (1 << TagValue % 32);
 }

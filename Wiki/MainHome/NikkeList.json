@@ -1,21 +1,5 @@
 [
     {
-        "name": "라피",
-        "dataname": "Rapi",
-        "class": "Attacker",
-        "type": "HSTA",
-        "weapon": "AR",
-        "burst": "Burst3",
-        "company": "elysion",
-        "tags": [
-            "공격력 증가",
-            "최종 공격력 n% 데미지"
-        ],
-        "tagvalue1": 262145,
-        "tagvalue2": 0,
-        "tagvalue3": 0
-    },
-    {
         "name": "네온",
         "dataname": "Neon",
         "class": "Supporter",
@@ -33,21 +17,190 @@
         "tagvalue3": 0
     },
     {
-        "name": "아니스",
-        "dataname": "Anis",
+        "name": "미란다",
+        "dataname": "Miranda",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "공격력 증가",
+            "명중률 증가",
+            "크리티컬 데미지 증가"
+        ],
+        "tagvalue1": 19,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "D:킬러 와이프",
+        "dataname": "D_KillerWife",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "시전자 공격력 증가",
+            "공격 데미지 증가",
+            "코어 데미지 증가",
+            "관통 데미지 증가",
+            "최종 공격력 n% 데미지",
+            "관통 특화",
+            "버스트 쿨타임 감소"
+        ],
+        "tagvalue1": 2147746148,
+        "tagvalue2": 1,
+        "tagvalue3": 0
+    },
+    {
+        "name": "츠바이",
+        "dataname": "Zwei",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "크리티컬 확률 증가",
+            "관통 데미지 증가",
+            "엄페물 체력 회복",
+            "무기변경"
+        ],
+        "tagvalue1": 33554696,
+        "tagvalue2": 1048576,
+        "tagvalue3": 0
+    },
+    {
+        "name": "엠마",
+        "dataname": "Emma",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "MG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "최대 체력 비례 회복",
+            "받는 체력 회복량 증가",
+            "공격 데미지 비례 회복"
+        ],
+        "tagvalue1": 23068672,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "라피",
+        "dataname": "Rapi",
+        "class": "Attacker",
+        "type": "HSTA",
+        "weapon": "AR",
+        "burst": "Burst3",
+        "company": "elysion",
+        "tags": [
+            "공격력 증가",
+            "최종 공격력 n% 데미지"
+        ],
+        "tagvalue1": 262145,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "페퍼",
+        "dataname": "Pepper",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "최종 공격력 n% 데미지",
+            "최대 체력 비례 회복",
+            "받는 체력 회복량 증가",
+            "중첩 가능한 효과 중첩 증가",
+            "적 공격력 감소"
+        ],
+        "tagvalue1": 6553600,
+        "tagvalue2": 16392,
+        "tagvalue3": 0
+    },
+    {
+        "name": "자칼",
+        "dataname": "Jackal",
         "class": "Defender",
         "type": "DMTR",
         "weapon": "RL",
-        "burst": "Burst2",
-        "company": "tetra",
+        "burst": "Burst1",
+        "company": "missilis",
         "tags": [
             "방어력 증가",
-            "피격 데미지 분배",
-            "최종 공격력 n% 데미지",
-            "적 방어력 감소"
+            "받는 데미지 균등 분배",
+            "적 공격력 감소",
+            "적 받는 데미지 증가",
+            "1인 대상 버스트 스킬 데미지 증가"
         ],
-        "tagvalue1": 1284,
-        "tagvalue2": 0,
+        "tagvalue1": 805306368,
+        "tagvalue2": 2179072,
+        "tagvalue3": 0
+    },
+    {
+        "name": "리타",
+        "dataname": "Liter",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "공격력 증가",
+            "크리티컬 데미지 증가",
+            "최대 장탄수 증가",
+            "엄페물 체력 회복",
+            "버스트 쿨타임 감소"
+        ],
+        "tagvalue1": 33587217,
+        "tagvalue2": 1,
+        "tagvalue3": 0
+    },
+    {
+        "name": "토브",
+        "dataname": "Tove",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "시전자 공격력 증가",
+            "크리티컬 데미지 증가",
+            "최대 장탄수 증가",
+            "공격 속도 증가",
+            "탄환 충전"
+        ],
+        "tagvalue1": 163860,
+        "tagvalue2": 4,
+        "tagvalue3": 0
+    },
+    {
+        "name": "티아",
+        "dataname": "Tia",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "공격 데미지 증가",
+            "최대 체력 비례 보호막",
+            "공격 데미지 비례 회복",
+            "엄페물 체력 회복",
+            "엄페물 최대체력 증가",
+            "버스트 쿨타임 감소",
+            "도발",
+            "버스트 재진입"
+        ],
+        "tagvalue1": 125829152,
+        "tagvalue2": 49,
         "tagvalue3": 0
     },
     {
@@ -68,7 +221,486 @@
             "재장전 속도 증가",
             "최종 공격력 n% 분배 데미지"
         ],
-        "tagvalue1": 18308,
+        "tagvalue1": 2155,
+        "tagvalue2": 8194,
+        "tagvalue3": 0
+    },
+    {
+        "name": "엑시아",
+        "dataname": "Exia",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "최종 공격력 n% 데미지",
+            "적 공격력 감소",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 262145,
+        "tagvalue2": 49152,
+        "tagvalue3": 0
+    },
+    {
+        "name": "프림",
+        "dataname": "Frima",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최종 공격력 n% 데미지",
+            "최대 체력 증가",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 134479872,
+        "tagvalue2": 32768,
+        "tagvalue3": 0
+    },
+    {
+        "name": "루드밀라",
+        "dataname": "Ludmila",
+        "class": "Defender",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최종 공격력 n% 데미지",
+            "방어력 증가",
+            "받는 데미지 감소",
+            "도발",
+            "적 공격력 감소",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 1342439424,
+        "tagvalue2": 49168,
+        "tagvalue3": 0
+    },
+    {
+        "name": "얀",
+        "dataname": "Yan",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "크리티컬 확률 증가",
+            "최종 공격력 n% 데미지",
+            "차지 데미지 증가",
+            "공격 범위 중심 강제 이동"
+        ],
+        "tagvalue1": 1318913,
+        "tagvalue2": 16777216,
+        "tagvalue3": 0
+    },
+    {
+        "name": "볼륨",
+        "dataname": "Volume",
+        "class": "Attacker",
+        "type": "ANMI",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "크리티컬 확률 증가",
+            "크리티컬 데미지 증가",
+            "버스트 쿨타임 감소"
+        ],
+        "tagvalue1": 25,
+        "tagvalue2": 1,
+        "tagvalue3": 0
+    },
+    {
+        "name": "루피 : 윈터 쇼퍼",
+        "dataname": "Rupee_WinterShopper",
+        "class": "Defender",
+        "type": "ZEUS",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격 데미지 비례 회복",
+            "방어력 증가",
+            "재장전 속도 증가",
+            "도발",
+            "버스트 재진입",
+            "버스트 게이지 충전 속도 증가"
+        ],
+        "tagvalue1": 285212672,
+        "tagvalue2": 178,
+        "tagvalue3": 0
+    },
+    {
+        "name": "코코아",
+        "dataname": "Cocoa",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "엄페물 체력 회복",
+            "받는 데미지 감소",
+            "해로운 효과 해제",
+            "적 공격력 감소"
+        ],
+        "tagvalue1": 1107296256,
+        "tagvalue2": 16896,
+        "tagvalue3": 0
+    },
+    {
+        "name": "소다",
+        "dataname": "Soda",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "MG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최종 공격력 n% 데미지",
+            "최대 체력 비례 회복",
+            "최대 체력 증가",
+            "중첩 가능한 효과 중첩 증가",
+            "적 기절"
+        ],
+        "tagvalue1": 2883584,
+        "tagvalue2": 1032,
+        "tagvalue3": 0
+    },
+    {
+        "name": "라이",
+        "dataname": "Rei",
+        "class": "Defender",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "받는 데미지 감소",
+            "도발",
+            "디코이",
+            "디코이 회복",
+            "버스트 충전"
+        ],
+        "tagvalue1": 1073741824,
+        "tagvalue2": 912,
+        "tagvalue3": 0
+    },
+    {
+        "name": "메어리 : 베이 갓데스",
+        "dataname": "Mary_BayGoddess",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "우월코드 데미지 증가",
+            "최대 체력 증가",
+            "최대 체력 비례 회복"
+        ],
+        "tagvalue1": 2621569,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "미카 : 스노우 버디",
+        "dataname": "Mica_SnowBuddy",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "시전자 공격력 증가",
+            "최대 장탄수 증가",
+            "받는 데미지 감소",
+            "중첩 가능한 효과 중첩 증가",
+            "해로운 효과 해제",
+            "버스트 충전 속도 증가"
+        ],
+        "tagvalue1": 1073774596,
+        "tagvalue2": 1096,
+        "tagvalue3": 0
+    },
+    {
+        "name": "루주",
+        "dataname": "Rouge",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "시전자 공격력 증가",
+            "공격 데미지 증가",
+            "최대 체력 증가",
+            "최대 체력만 증가",
+            "받는 데미지 감소",
+            "버스트 쿨타임 감소"
+        ],
+        "tagvalue1": 1075314724,
+        "tagvalue2": 1,
+        "tagvalue3": 0
+    },
+    {
+        "name": "루마니",
+        "dataname": "Rumani",
+        "class": "Defender",
+        "type": "HSTA",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격 데미지 증가",
+            "파츠 데미지 증가",
+            "최대 체력 증가",
+            "받는 데미지 감소",
+            "도발"
+        ],
+        "tagvalue1": 1074270240,
+        "tagvalue2": 16,
+        "tagvalue3": 0
+    },
+    {
+        "name": "메어리",
+        "dataname": "Mary",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최대 체력 비례 회복",
+            "받는 체력 회복량 증가",
+            "방어력 증가"
+        ],
+        "tagvalue1": 274726912,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "밀크",
+        "dataname": "Milk",
+        "class": "Attacker",
+        "type": "PSID",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "크리티컬 데미지 증가",
+            "최종 공격력 n% 데미지",
+            "공격 데미지 비례 회복"
+        ],
+        "tagvalue1": 17039377,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "노이즈",
+        "dataname": "Noise",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "받는 데미지 감소",
+            "도발",
+            "최대 체력 증가",
+            "최대 체력 비례 회복"
+        ],
+        "tagvalue1": 1076363264,
+        "tagvalue2": 16,
+        "tagvalue3": 0
+    },
+    {
+        "name": "사쿠라",
+        "dataname": "Sakura",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "시전자 공격력 증가",
+            "발사체 데미지 증가",
+            "저지 부위 데미지 증가",
+            "방어력 증가",
+            "받는 데미지 감소",
+            "버스트 쿨타임 감소"
+        ],
+        "tagvalue1": 1342201860,
+        "tagvalue2": 1,
+        "tagvalue3": 0
+    },
+    {
+        "name": "로산나",
+        "dataname": "Rosanna",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "MG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "크리티컬 확률 증가",
+            "최종 공격력 n% 데미지",
+            "버스트 충전",
+            "은신",
+            "적 이로운 효과 해제"
+        ],
+        "tagvalue1": 262153,
+        "tagvalue2": 526848,
+        "tagvalue3": 0
+    },
+    {
+        "name": "목단",
+        "dataname": "Moran",
+        "class": "Defender",
+        "type": "ZEUS",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최종 공격력 n% 데미지",
+            "최대 체력 증가",
+            "공격 데미지 비례 회복",
+            "방어력 증가",
+            "받는 데미지 감소",
+            "도발",
+            "무기 변경"
+        ],
+        "tagvalue1": 1359740928,
+        "tagvalue2": 2097168,
+        "tagvalue3": 0
+    },
+    {
+        "name": "앨리스 : 원더랜드 바니",
+        "dataname": "Alice_WonderlandBunny",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "저지 부위 데미지 증가",
+            "최대 장탄수 증가",
+            "최대 체력 비례 회복",
+            "받는 체력 회복량 증가",
+            "탄환 충전",
+            "중첩 가능한 효과 중첩 증가",
+            "버스트 재진입",
+            "버스트 충전 속도 증가"
+        ],
+        "tagvalue1": 6340608,
+        "tagvalue2": 1068,
+        "tagvalue3": 0
+    },
+    {
+        "name": "아니스",
+        "dataname": "Anis",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "RL",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": [
+            "방어력 증가",
+            "받는 데미지 균등 분배",
+            "최종 공격력 n% 데미지",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 805568512,
+        "tagvalue2": 32768,
+        "tagvalue3": 0
+    },
+    {
+        "name": "도로시",
+        "dataname": "Dorothy",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "pilgrim",
+        "tags": [
+            "파츠 데미지 증가",
+            "관통 특화",
+            "버스트 쿨타임 감소",
+            "최종 공격력 n% 분배 데미지"
+        ],
+        "tagvalue1": 2147487744,
+        "tagvalue2": 16385,
+        "tagvalue3": 0
+    },
+    {
+        "name": "라푼젤 : 퓨어 그레이스",
+        "dataname": "Rapunzel_PureGrace",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "pilgrim",
+        "tags": [
+            "공격 데미지 증가",
+            "최대 체력 증가",
+            "최대 체력 비례 회복",
+            "최대 체력 비례 보호막"
+        ],
+        "tagvalue1": 11010080,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "리틀 머메이드",
+        "dataname": "LittleMermaid",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "pilgrim",
+        "tags": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tagvalue1": 0,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "라푼젤",
+        "dataname": "Rapunzel",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "pilgrim",
+        "tags": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tagvalue1": 0,
         "tagvalue2": 0,
         "tagvalue3": 0
     },

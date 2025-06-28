@@ -9,20 +9,24 @@ fetch('./NikkeList.json')
         card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
         card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
         card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
-        card.filtering = function (comparisonValue, valueType) {
-            if (hasTagvalue(card, valueType)) {
-                card.style.display = 'flex';
-                if (comparisonValue > 0) {
-                    let comparisonBinary = reverseString(comparisonValue.toString(2));
-                    let tagvalueBinary = whatTagvalue(card, valueType);
-                    console.log('비교값:', comparisonBinary, '니케값:', tagvalueBinary, '벨류타입:', valueType);
-                    for (let index = 0; index < comparisonBinary.length; index++) {
-                        //console.log('횟수:', index);
-                        if (comparisonBinary[index] != 0 && tagvalueBinary[index] != 1) {
-                            //console.log('비교값:', comparisonBinary[index], '니케값:', tagvalueBinary[index]);
-                            card.style.display = 'none';
-                            break;
+        card.filtering = function (comparisonValue) {
+            for (let i = 0; i < comparisonValue.length; i++) {
+                if (comparisonValue[i] != 0) {
+                    card.style.display = 'flex';
+                    if (isTagvalue(card.dataset, i)) {
+                        let comparisonBinary = reverseString(comparisonValue[i].toString(2));
+                        let tagvalueBinary = whatTagvalue(card.dataset, i);
+                        //console.log('비교값:', comparisonBinary, '니케값:', tagvalueBinary, '니케이름:', card.dataset.name);
+                        for (let index = 0; index < comparisonBinary.length; index++) {
+                            //console.log('횟수:', index);
+                            if (comparisonBinary[index] != 0 && tagvalueBinary[index] != 1) {
+                                //console.log('비교값:', comparisonBinary[index], '니케값:', tagvalueBinary[index]);
+                                card.style.display = 'none';
+                                return;
+                            }
                         }
+                    } else {
+                        card.style.display = 'none';
                     }
                 }
             }
@@ -111,20 +115,20 @@ function reverseString(str) {
     return str.split("").reverse().join("");
 }
 
-function whatTagvalue(card, valueType) {
-    if (valueType == 1)
-        return reverseString(card.dataset.tagvalue1);
-    else if (valueType == 2)
-        return reverseString(card.dataset.tagvalue2);
+function isTagvalue(card, valueType) {
+    if (valueType == 0)
+        return card.tagvalue1 != 0;
+    else if (valueType == 1)
+        return card.tagvalue2 != 0;
     else
-        return reverseString(card.dataset.tagvalue3);
+        return card.tagvalue3 != 0;
 }
 
-function hasTagvalue(card, valueType) {
-    if (valueType == 1)
-        return card.dataset.tagvalue1 > 0;
-    else if (valueType == 2)
-        return card.dataset.tagvalue2 > 0;
+function whatTagvalue(card, valueType) {
+    if (valueType == 0)
+        return reverseString(card.tagvalue1.toString(2));
+    else if (valueType == 1)
+        return reverseString(card.tagvalue2.toString(2));
     else
-        return card.dataset.tagvalue3 > 0;
+        return reverseString(card.tagvalue3.toString(2));
 }

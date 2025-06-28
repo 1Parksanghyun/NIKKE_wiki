@@ -37,8 +37,9 @@ body {
 #NikkeList {
     min-width: fit-content;
     width: 44%;
+    padding: 10px;
     margin-right: 10px;
-    height: 1000px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,12 +50,18 @@ body {
     background: none;
     cursor: pointer;
     border: none;
-    background-image: url(NikkeCard/NikkeCardImg/elysion.png);
     background-repeat: no-repeat;
     display: flex;
     margin: 10px 0px 0px 0px;
     height: 120px;
     width: 775px;
+}
+
+.NikkeInfo .ProfileImg {
+    height: 100%;
+    width: auto;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 80%, transparent);
 }
 
 #NameAndTag {
@@ -129,7 +136,7 @@ body {
     display: block;
     width: 20%;
     padding: 2px;
-    height: 5000px;
+    height: fit-content;
     border: 2px solid rgb(64, 64, 67);
     border-radius: 5px;
     background-color: rgb(28, 29, 33);
@@ -150,6 +157,11 @@ body {
     height: auto;
     min-height: 25px;
     padding: 2px;
+}
+
+#Reset {
+    width: 100%;
+    height: auto;
 }
 
 .SelectedTag {
@@ -176,12 +188,6 @@ body {
 .Search #SearchBar:focus {
     outline: none;
 
-}
-
-
-.ProfileImg {
-    height: 100%;
-    width: auto;
 }
 
 #TagList {
