@@ -63,5 +63,6 @@
     "INDESTRUCTIBLE": 61,
     "COPY_ATK": 62,
     "COPY_HP": 63,
-    "RANGE_UP": 64
+    "RANGE_UP": 64,
+    "FOCUS_AIMING": 65
 }

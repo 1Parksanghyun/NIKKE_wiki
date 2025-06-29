@@ -13,7 +13,9 @@ fetch('../MainHome/NikkeList.json')
             else {
                 document.getElementById("NikkeName").innerText = index.name;
                 //스탠딩 이미지 삽입
-                document.getElementById("NikkeStandImg").src = `/InfoPage/InfoPageImage/${index.dataname}Stand.png`;
+                const StandImg = document.getElementById("NikkeStandImg");
+                StandImg.src = `/InfoPage/InfoPageImage/${index.dataname}Stand.png`;
+                console.log(StandImg.height);
                 InsertSkillInfo();
                 break;
             }

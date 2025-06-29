@@ -46,3 +46,14 @@ function SearchingTag() {
 function ClassifyTagValue(TagValue, TagType) {
     SelectedTagsValue[TagType] |= (1 << TagValue % 32);
 }
+
+function Texte() {
+    const input = document.getElementById('SearchBar').value;
+
+    const output = input
+        .replace(/<br\s*\/?>/gi, '\\n') // <br>을 줄바꿈 문자 그대로인 \n 문자열로
+        .replace(/<(?!br\s*\/?>)[^>]+>/gi, ''); // <br> 외 태그 제거
+
+    console.log(output);
+
+}

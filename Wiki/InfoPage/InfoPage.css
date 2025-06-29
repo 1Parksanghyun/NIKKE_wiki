@@ -28,8 +28,13 @@ body {
     width: 70%;
 }
 
+#NikkeStand {
+    width: fit-content;
+}
+
+
 #NikkeProfileBox #NikkeName {
-    width: 382px;
+    width: auto;
     font-size: 20px;
     padding: 5px;
     margin: 0px;
@@ -45,9 +50,21 @@ body {
     display: flex;
 }
 
-#ProfileDisplaySector #NikkeStandImg {
+#StandImgBackground {
+    max-width: 400px;
+    overflow: hidden;
+    min-width: 360px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    height: 820px;
+    background-color: rgb(28, 29, 33);
+}
+
+#ProfileDisplaySector #NikkeStandImg {
+    box-sizing: border-box;
+    max-height: 840px;
+    height: auto;
     width: auto;
     background-color: rgb(28, 29, 33);
 }
@@ -75,8 +92,9 @@ body {
 #SkillInfoSector .Skill {
     display: flex;
     width: 100%;
-    height: 25%;
     margin: 10px;
+    min-height: 25%;
+    max-height: 25%;
     border: 1px solid;
     border-color: rgb(76, 77, 83);
     border-radius: 10px;
@@ -116,6 +134,7 @@ body {
 }
 
 .SkillEffect {
+    overflow: auto;
     padding: 0px 0px 0px 10px;
     margin: 0px;
     align-content: center;

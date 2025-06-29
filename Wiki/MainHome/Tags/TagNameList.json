@@ -63,5 +63,6 @@
     "불굴": "INDESTRUCTIBLE",
     "공격력 복제": "COPY_ATK",
     "체력 복제": "COPY_HP",
-    "사거리 증가": "RANGE_UP"
+    "사거리 증가": "RANGE_UP",
+    "사격 집중": "FOCUS_AIMING"
 }
