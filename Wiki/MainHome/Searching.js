@@ -52,7 +52,8 @@ function Texte() {
 
     const output = input
         .replace(/<br\s*\/?>/gi, '\\n') // <br>을 줄바꿈 문자 그대로인 \n 문자열로
-        .replace(/<(?!br\s*\/?>)[^>]+>/gi, ''); // <br> 외 태그 제거
+        .replace(/<(?!br\s*\/?>)[^>]+>/gi, '') // <br> 외 태그 제거
+        .replace(/&nbsp;/gi, ' ')
 
     console.log(output);
 
