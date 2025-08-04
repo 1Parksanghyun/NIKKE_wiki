@@ -33,7 +33,7 @@ fetch('./NikkeList.json')
         }
         //클릭시 함수 실행(NikkeInfo.js)
         card.onclick = () => AllocateDataname(card);
-        InsertNikkeImg(card, `NikkeCard/NikkeCardImg/Nikke/${char.dataname}.png`);
+        InsertNikkeImg(card, `NikkeCard/NikkeCardImg/Nikke/${char.dataname}.webp`);
         const addeddiv = card.appendChild(Object.assign(document.createElement("div"), {
             id: 'NameAndTag'
         }));

@@ -11,8 +11,16 @@ fetch('../MainHome/NikkeList.json')
                 continue;
             }
             else {
-                document.getElementById("NikkeName").innerText = index.name;
+                const NikkeName = document.createElement("div");
+                NikkeName.innerText = index.name;
+                if (index.tier == "SSR") {
+                    NikkeName.id = "NikkeNameSSR";
+                } else if (index.tier == "SR") {
+                    NikkeName.id = "NikkeNameSR";
+                } else
+                    NikkeName.id = "NikkeNameR";
                 //스탠딩 이미지 삽입
+                document.getElementById("NikkeStand").prepend(NikkeName);
                 const StandImg = document.getElementById("NikkeStandImg");
                 StandImg.src = `/InfoPage/InfoPageImage/${index.dataname}Stand.png`;
                 console.log(StandImg.height);
