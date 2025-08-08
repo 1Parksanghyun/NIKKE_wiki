@@ -7,7 +7,6 @@ fetch('../MainHome/NikkeList.json')
     .then(data => {
         for (let index of data) {
             if (index.dataname != NikkeName) {
-                console.log(`Not ${NikkeName}`);
                 continue;
             }
             else {
@@ -22,8 +21,7 @@ fetch('../MainHome/NikkeList.json')
                 //스탠딩 이미지 삽입
                 document.getElementById("NikkeStand").prepend(NikkeName);
                 const StandImg = document.getElementById("NikkeStandImg");
-                StandImg.src = `/InfoPage/InfoPageImage/${index.dataname}Stand.png`;
-                console.log(StandImg.height);
+                StandImg.src = `./InfoPage/InfoPageImage/${index.dataname}Stand.webp`;
                 InsertSkillInfo();
                 break;
             }

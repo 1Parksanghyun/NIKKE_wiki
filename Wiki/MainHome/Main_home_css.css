@@ -17,14 +17,6 @@ body {
     height: 109px;
 }
 
-.MainHomeBanner {
-    margin: 0 auto;
-    width: 1200px;
-    height: 667px;
-    background-image: url(MainHomeImg/MainBanner.png);
-    background-size: 100% 100%;
-}
-
 .blank {
     height: 50px;
 }
@@ -38,13 +30,24 @@ body {
 #NikkeList {
     min-width: fit-content;
     width: 44%;
+    max-height: 800px;
+    height: fit-content;
+    overflow: auto;
     padding: 10px;
     margin-right: 10px;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(28, 29, 33);
+}
+
+#NikkeList::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+#NikkeList::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .NikkeInfo {

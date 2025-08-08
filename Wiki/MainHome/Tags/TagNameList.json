@@ -78,5 +78,6 @@
         "머신건 예열 속도 증가": "MG_READY_SPEED_UP",
         "주는 체력 회복량 증가": "HEAL_GIVING_UP",
         "체력 회복 균등 분배": "SHARING_HEAL",
-        "방어력 무시 공격": "IGNORE_DEF_DEALING"
+        "방어력 무시 공격": "IGNORE_DEF_DEALING",
+        "엄페물 방어력 증가": "COVER_DEF_UP"
     }

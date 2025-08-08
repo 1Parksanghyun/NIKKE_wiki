@@ -1,5 +1,23 @@
 [
     {
+        "name": "솔져 O.W.",
+        "tier": "R",
+        "dataname": "SoldierOW",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "스킬 데미지 공격",
+            "엄페물 방어력 증가",
+            "최대 장탄수 증가"
+        ],
+        "tagvalue1": 294912,
+        "tagvalue2": 0,
+        "tagvalue3": 65536
+    },
+    {
         "name": "네온",
         "tier": "SR",
         "dataname": "Neon",
@@ -15,6 +33,25 @@
         ],
         "tagvalue1": 294920,
         "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "앵커",
+        "tier": "SR",
+        "dataname": "Anchor",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "스킬 데미지 공격",
+            "도발",
+            "방어력 증가",
+            "발사체 데미지 증가"
+        ],
+        "tagvalue1": 268705792,
+        "tagvalue2": 16,
         "tagvalue3": 0
     },
     {
@@ -92,6 +129,63 @@
         ],
         "tagvalue1": 23068672,
         "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "소라",
+        "tier": "SSR",
+        "dataname": "Sora",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "주는 체력 회복량 증가",
+            "저장",
+            "시전자 공격력 증가",
+            "최대 체력 비례 회복",
+            "해로운 효과 해제"
+        ],
+        "tagvalue1": 2097156,
+        "tagvalue2": 268435520,
+        "tagvalue3": 8192
+    },
+    {
+        "name": "솔져 F.A.",
+        "tier": "R",
+        "dataname": "SoldierFA",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "SG",
+        "burst": "Burst2",
+        "company": "elysion",
+        "tags": [
+            "방어력 증가",
+            "공격 데미지 비례 회복",
+            "최대 체력 증가"
+        ],
+        "tagvalue1": 285736960,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "델타",
+        "tier": "SR",
+        "dataname": "Delta",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "elysion",
+        "tags": [
+            "최대 체력 증가",
+            "방어력 증가",
+            "디코이",
+            "도발"
+        ],
+        "tagvalue1": 268959744,
+        "tagvalue2": 144,
         "tagvalue3": 0
     },
     {
@@ -297,27 +391,7 @@
         "tagvalue3": 4
     },
     {
-        "name": "소라",
-        "tier": "SSR",
-        "dataname": "Sora",
-        "class": "Supporter",
-        "type": "ANMI",
-        "weapon": "RL",
-        "burst": "Burst1",
-        "company": "elysion",
-        "tags": [
-            "주는 체력 회복량 증가",
-            "저장",
-            "시전자 공격력 증가",
-            "최대 체력 비례 회복",
-            "해로운 효과 해제"
-        ],
-        "tagvalue1": 2097156,
-        "tagvalue2": 268435520,
-        "tagvalue3": 8192
-    },
-    {
-        "name": "솔저E.G.",
+        "name": "솔저 E.G.",
         "tier": "R",
         "dataname": "SoldierEG",
         "class": "Attacker",
@@ -670,6 +744,62 @@
         "tagvalue3": 0
     },
     {
+        "name": "프로덕트 08",
+        "tier": "R",
+        "dataname": "Product08",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "방어력 증가",
+            "크리티컬 확률 증가",
+            "공격력 증가"
+        ],
+        "tagvalue1": 268435465,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "N102",
+        "tier": "SR",
+        "dataname": "N102",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "최대 장탄수 증가",
+            "크리티컬 데미지 증가",
+            "차지 데미지 증가",
+            "공격력 증가"
+        ],
+        "tagvalue1": 33809,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "에테르",
+        "tier": "SR",
+        "dataname": "Ether",
+        "class": "Defender",
+        "type": "ZEUS",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "missilis",
+        "tags": [
+            "받는 데미지 감소",
+            "스킬 데미지 공격",
+            "적 방어력 감소",
+            "최대 체력 비례 보호막"
+        ],
+        "tagvalue1": 1082392576,
+        "tagvalue2": 65536,
+        "tagvalue3": 0
+    },
+    {
         "name": "페퍼",
         "tier": "SSR",
         "dataname": "Pepper",
@@ -773,7 +903,26 @@
         "tagvalue3": 0
     },
     {
+        "name": "프로덕트 23",
+        "tier": "R",
+        "dataname": "Product23",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SG",
+        "burst": "Burst2",
+        "company": "missilis",
+        "tags": [
+            "방어력 증가",
+            "공격 데미지 비례 회복",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 285212672,
+        "tagvalue2": 65536,
+        "tagvalue3": 0
+    },
+    {
         "name": "유니",
+        "tier": "SSR",
         "dataname": "Yuni",
         "class": "Defender",
         "type": "HSTA",
@@ -794,6 +943,7 @@
     },
     {
         "name": "센티",
+        "tier": "SSR",
         "dataname": "Centi",
         "class": "Defender",
         "type": "DMTR",
@@ -812,6 +962,7 @@
     },
     {
         "name": "애드미",
+        "tier": "SSR",
         "dataname": "Admi",
         "class": "Supporter",
         "type": "ANMI",
@@ -830,6 +981,7 @@
     },
     {
         "name": "길티",
+        "tier": "SSR",
         "dataname": "Guilty",
         "class": "Attacker",
         "type": "ANMI",
@@ -849,6 +1001,7 @@
     },
     {
         "name": "신",
+        "tier": "SSR",
         "dataname": "Sin",
         "class": "Defender",
         "type": "ZEUS",
@@ -871,6 +1024,7 @@
     },
     {
         "name": "퀀시",
+        "tier": "SSR",
         "dataname": "Quency",
         "class": "Supporter",
         "type": "ZEUS",
@@ -889,6 +1043,7 @@
     },
     {
         "name": "나가",
+        "tier": "SSR",
         "dataname": "Naga",
         "class": "Supporter",
         "type": "ZEUS",
@@ -908,6 +1063,7 @@
     },
     {
         "name": "일레그",
+        "tier": "SSR",
         "dataname": "Elegg",
         "class": "Supporter",
         "type": "ZEUS",
@@ -929,6 +1085,7 @@
     },
     {
         "name": "트리나",
+        "tier": "SSR",
         "dataname": "Trina",
         "class": "Supporter",
         "type": "ZEUS",
@@ -951,6 +1108,7 @@
     },
     {
         "name": "모리",
+        "tier": "SSR",
         "dataname": "Mori",
         "class": "Defender",
         "type": "ANMI",
@@ -1010,7 +1168,7 @@
         "tagvalue3": 0
     },
     {
-        "name": "프로덕트12",
+        "name": "프로덕트 12",
         "tier": "R",
         "dataname": "Product12",
         "class": "Attacker",
@@ -1282,6 +1440,59 @@
         "tagvalue3": 24
     },
     {
+        "name": "iDoll 오션",
+        "tier": "R",
+        "dataname": "IDollOcean",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "최대 체력 비례 회복"
+        ],
+        "tagvalue1": 2097152,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "idoll 플라워",
+        "tier": "R",
+        "dataname": "IDollFlower",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "적 공격력 감소",
+            "스킬 데미지 공격",
+            "도발"
+        ],
+        "tagvalue1": 262144,
+        "tagvalue2": 32784,
+        "tagvalue3": 0
+    },
+    {
+        "name": "미카",
+        "tier": "SR",
+        "dataname": "Mica",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": [
+            "방어력 증가",
+            "최대 장탄수 증가",
+            "스킬 데미지 공격",
+            "적 방어력 감소"
+        ],
+        "tagvalue1": 268730368,
+        "tagvalue2": 65536,
+        "tagvalue3": 0
+    },
+    {
         "name": "엑시아",
         "tier": "SSR",
         "dataname": "Exia",
@@ -1480,7 +1691,7 @@
     {
         "name": "미카 : 스노우 버디",
         "tier": "SSR",
-        "dataname": "Mika_SnowBuddy",
+        "dataname": "Mica_SnowBuddy",
         "class": "Supporter",
         "type": "DMTR",
         "weapon": "SMG",
@@ -1700,6 +1911,25 @@
         "tagvalue1": 805568512,
         "tagvalue2": 65536,
         "tagvalue3": 0
+    },
+    {
+        "name": "벨로타",
+        "tier": "SR",
+        "dataname": "Belrota",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": [
+            "폭발 범위 증가",
+            "적 방어력 감소",
+            "스킬 데미지 공격",
+            "차지속도 증가"
+        ],
+        "tagvalue1": 327680,
+        "tagvalue2": 65536,
+        "tagvalue3": 32
     },
     {
         "name": "루피",
@@ -1983,7 +2213,7 @@
     {
         "name": "iDoll썬",
         "tier": "R",
-        "dataname": "iDollSun",
+        "dataname": "IDollSun",
         "class": "Supporter",
         "type": "DMTR",
         "weapon": "AR",
@@ -2556,6 +2786,119 @@
         "tagvalue3": 0
     },
     {
+        "name": "파스칼",
+        "tier": "SR",
+        "dataname": "Pascal",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": [
+            "최대 체력 비례 회복",
+            "받는 체력 회복량 증가"
+        ],
+        "tagvalue1": 6291456,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
+        "name": "람",
+        "tier": "SR",
+        "dataname": "Ram",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "SR",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": [
+            "적 공격력 감소",
+            "버스트 쿨타임 감소",
+            "최대 체력만 증가",
+            "방어력 증가",
+            "최대 체력 비례 보호막"
+        ],
+        "tagvalue1": 277872640,
+        "tagvalue2": 32769,
+        "tagvalue3": 0
+    },
+    {
+        "name": "카츠라기 미사토",
+        "tier": "SR",
+        "dataname": "Misato",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": [
+            "명중률 증가",
+            "최대 체력 비례 회복",
+            "보호막 데미지 증가",
+            "주는 체력 회복량 증가"
+        ],
+        "tagvalue1": 2097154,
+        "tagvalue2": 0,
+        "tagvalue3": 10240
+    },
+    {
+        "name": "스즈하라 사쿠라",
+        "tier": "SR",
+        "dataname": "SakuraSuzuhara",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SMG",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": [
+            "적 받는 데미지 증가",
+            "받는 체력 회복량 증가",
+            "받는 데미지 감소",
+            "최대 체력 비례 회복"
+        ],
+        "tagvalue1": 1080033280,
+        "tagvalue2": 131072,
+        "tagvalue3": 0
+    },
+    {
+        "name": "히메노",
+        "tier": "SR",
+        "dataname": "Himeno",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "abnormal",
+        "tags": [
+            "적 방어력 감소",
+            "공격력 증가",
+            "최대 장탄수 증가",
+            "차지 데미지 증가",
+            "크리티컬 확률 증가"
+        ],
+        "tagvalue1": 33801,
+        "tagvalue2": 65536,
+        "tagvalue3": 0
+    },
+    {
+        "name": "릴리",
+        "tier": "SR",
+        "dataname": "Lily",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SMG",
+        "burst": "Burst2",
+        "company": "abnormal",
+        "tags": [
+            "시전자 공격력 증가",
+            "엄페물 체력 회복",
+            "엄페물 부활"
+        ],
+        "tagvalue1": 167772164,
+        "tagvalue2": 0,
+        "tagvalue3": 0
+    },
+    {
         "name": "마키마",
         "tier": "SSR",
         "dataname": "Makima",
@@ -2683,7 +3026,7 @@
     {
         "name": "에밀리아",
         "tier": "SSR",
-        "dataname": "Emilia",
+        "dataname": "Emillia",
         "class": "Attacker",
         "type": "PSID",
         "weapon": "RL",

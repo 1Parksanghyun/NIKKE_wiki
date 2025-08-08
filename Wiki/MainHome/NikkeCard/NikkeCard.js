@@ -4,7 +4,7 @@ fetch('./NikkeList.json')
         //프로필 카드 생성
         const card = document.createElement("button");
         card.className = 'NikkeInfo';
-        card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.png')`
+        card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.webp')`
         card.dataset.name = char.dataname;
         card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
         card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
@@ -81,12 +81,12 @@ function InsertMarkdiv1(NikkeMarks, data) {
     Marksdiv1.className = 'Marksdiv1';
     //무기 마크 삽입
     const WeaponMark = document.createElement("img");
-    WeaponMark.src = `NikkeCard/NikkeCardImg/Weapon/${data.weapon}.png`;
+    WeaponMark.src = `NikkeCard/NikkeCardImg/Weapon/${data.weapon}.webp`;
     WeaponMark.classList.add("WeaponImg");
     Marksdiv1.appendChild(WeaponMark);
     //클래스 마크 삽입
     const ClassMark = document.createElement("img");
-    ClassMark.src = `NikkeCard/NikkeCardImg/Class/${data.class}.png`;
+    ClassMark.src = `NikkeCard/NikkeCardImg/Class/${data.class}.webp`;
     ClassMark.classList.add("ClassImg");
     Marksdiv1.appendChild(ClassMark);
     //마크 구역1 삽입
@@ -98,12 +98,12 @@ function InsertMarkdiv2(NikkeMarks, data) {
     Marksdiv2.className = 'Marksdiv2';
     //속성 마크 삽입
     const TypeMark = document.createElement("img");
-    TypeMark.src = `NikkeCard/NikkeCardImg/Type/${data.type}.png`;
+    TypeMark.src = `NikkeCard/NikkeCardImg/Type/${data.type}.webp`;
     TypeMark.classList.add("TypeImg");
     Marksdiv2.appendChild(TypeMark);
     //버스트 마크 삽입
     const BurstMark = document.createElement("img");
-    BurstMark.src = `NikkeCard/NikkeCardImg/Burst/${data.burst}.png`;
+    BurstMark.src = `NikkeCard/NikkeCardImg/Burst/${data.burst}.webp`;
     BurstMark.classList.add("BurstImg");
     Marksdiv2.appendChild(BurstMark);
     //마크 구역2 삽입
