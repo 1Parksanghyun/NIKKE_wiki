@@ -6,6 +6,7 @@
     <script src="./Tags/SelectedTagList.js" defer></script>
     <script src="./Tags/TagList.js" defer></script>
     <script src="./Searching.js" defer></script>
+    <script src="./PageMoveFunction.js" defer></script>
     <link rel="stylesheet" href="/MainHome/Main_home_css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +15,22 @@
 </head>
 
 <body>
-    <div class="LogoPlace">
-        <img src="MainHomeImg/Logo.png" class="Logo">
+    <div id="LogoPlace" onclick="GoMain()">
+        <img src="MainHomeImg/Logo.png" id="Logo">
     </div>
-    <div class="blank"></div>
+    <div id="PatchNote">
+        v1.0.1 패치노트
+        <div id="PatchContents">
+            - 여름 니케 및 뉴 앱솔루트 추가<br>
+            - 리틀 머메이드의 태그:기절 효과가 누락된 사항 수정<br>
+            - 태그:순차 공격 효과 추가<br>
+            - 태그:시전자 공격력 증가 -> 태그:시전자 기준 공격력 증가 로 변경<br>
+            - 홈으로 이동 기능 추가(로고 공간을 클릭하면 이동 됩니다)<br>
+            - 태그:발사체 폭발 데미지 증가 추가<br>
+            - 태그:발사체 데미지 증가 -> 태그:발사체에 가하는 데미지 증가 로 변경<br>
+            - 니케 "블랑" 이 누락된 현상 수정
+        </div>
+    </div>
     <div class="MainContainer">
         <div id=NikkeList></div>
         <script src='NikkeCard/NikkeCard.js'></script>
@@ -27,6 +40,8 @@
                 <button id="SearchButton" onclick="SearchingNikke()">검색</button>
             </div>
             <button id="Reset" onclick="ResetList()">검색 초기화</button>
+            <button onclick="Texte()">추출</button>
+            <button onclick="Texte2()">스킬추출</button>
             <input type="text" id="SearchBar" placeholder="태그 검색">
             <div id="TagList">
             </div>

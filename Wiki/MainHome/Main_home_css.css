@@ -3,22 +3,39 @@ body {
     background-color: rgb(40, 40, 46);
 }
 
-.LogoPlace {
-    align-content: center;
-    height: 100px;
+#LogoPlace {
+    width: 100%;
+    height: fit-content;
     background-color: rgb(28, 29, 33);
     border-bottom: 1px solid;
     border-color: rgb(64, 64, 67);
     margin-bottom: 35px;
 }
 
-.LogoPlace .Logo {
+#LogoPlace #Logo {
     width: 198px;
     height: 109px;
+    align-self: left;
 }
 
-.blank {
-    height: 50px;
+#PatchNote {
+    justify-self: center;
+    width: 70%;
+    height: fit-content;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(28, 29, 33);
+    text-align: left;
+    color: white;
+    font-size: 40px;
+}
+
+#PatchContents {
+    justify-self: center;
+    width: 90%;
+    text-align: left;
+    color: white;
+    font-size: 20px;
 }
 
 .MainContainer {
@@ -100,7 +117,7 @@ body {
     border: 1px solid;
     border-radius: 7px;
     border-color: black;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
     color: rgb(255, 255, 255);
     padding: 3px;
     font-size: 12px;

@@ -1,7 +1,7 @@
     {
         "공격력 증가": "ATK_UP",
         "명중률 증가": "ACC_UP",
-        "시전자 공격력 증가": "ATK_UP_CASTER",
+        "시전자 기준 공격력 증가": "ATK_UP_CASTER",
         "크리티컬 확률 증가": "CRT_CHANCE_UP",
         "크리티컬 데미지 증가": "CRT_DMG_UP",
         "공격 데미지 증가": "ATK_DMG_UP",
@@ -11,9 +11,9 @@
         "방어력 무시 데미지 증가": "DEF_PEN_DMG_UP",
         "차지 데미지 증가": "CHARGE_DMG_UP",
         "분배 데미지 증가": "DISTRIBUTED_DMG_UP",
-        "파츠 데미지 증가": "PART_DMG_UP",
-        "발사체 데미지 증가": "PROJECTILE_DMG_UP",
-        "저지 부위 데미지 증가": "STAGGER_DMG_UP",
+        "파츠 데미지 증가": "PART_DEALING_UP",
+        "발사체에 가하는 데미지 증가": "PROJECTILE_DEALING_UP",
+        "저지 부위 데미지 증가": "STAGGER_DEALING_UP",
         "최대 장탄수 증가": "MAX_AMMO_UP",
         "차지속도 증가": "CHARGE_SPEED_UP",
         "공격 속도 증가": "ATK_SPEED_UP",
@@ -79,5 +79,7 @@
         "주는 체력 회복량 증가": "HEAL_GIVING_UP",
         "체력 회복 균등 분배": "SHARING_HEAL",
         "방어력 무시 공격": "IGNORE_DEF_DEALING",
-        "엄페물 방어력 증가": "COVER_DEF_UP"
+        "엄페물 방어력 증가": "COVER_DEF_UP",
+        "순차 공격": "SEQUENTIAL_DEALING",
+        "발사체 폭발 데미지 증가": "PROJECTILE_EXPLOSIVE_DMG_UP"
     }
