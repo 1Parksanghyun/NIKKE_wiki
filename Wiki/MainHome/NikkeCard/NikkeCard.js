@@ -5,7 +5,7 @@ fetch('./NikkeList.json')
         const card = document.createElement("button");
         card.className = 'NikkeInfo';
         card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.webp')`
-        card.dataset.name = char.dataname;
+        card.name = char.dataname;
         card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
         card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
         card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
@@ -43,6 +43,18 @@ fetch('./NikkeList.json')
         //프로필 카드 삽입
         document.getElementById("NikkeList").appendChild(card);
     }))
+    .then(fetch('./Nikketreasure.json')
+        .then(res => res.json()).then(NikkeData => {
+            const TreasureNikkeName = Object.keys(NikkeData)
+            const TreasureNikkeValue = Object.values(NikkeData)
+            for (let index = TreasureNikkeName.length - 1; index >= 0; index--) {
+                const NikkeCard = document.getElementsByName(TreasureNikkeName[index])
+                InsertTreasureNikkeTags(NikkeCard, TreasureNikkeValue[index].tags)
+                NikkeCard[0].dataset.tagvalue1 = (parseInt(NikkeCard[0].dataset.tagvalue1, 2) + TreasureNikkeValue[index].tagvalue1).toString(2)
+                NikkeCard[0].dataset.tagvalue2 = (parseInt(NikkeCard[0].dataset.tagvalue2, 2) + TreasureNikkeValue[index].tagvalue2).toString(2)
+                NikkeCard[0].dataset.tagvalue3 = (parseInt(NikkeCard[0].dataset.tagvalue3, 2) + TreasureNikkeValue[index].tagvalue3).toString(2)
+            }
+        }))
 
 function InsertNikkeImg(card, data) {
     const NikkeImg = document.createElement("img");
@@ -59,7 +71,7 @@ function InsertNikkeName(addeddiv, data) {
 }
 function InsertNikkeTags(addeddiv, data) {
     const NikkeTags = document.createElement("div");
-    NikkeTags.className = 'NikkeTags';
+    NikkeTags.id = 'NikkeTags';
     for (let index = 0; index < data.length; index++) {
         const Tag = document.createElement("p");
         Tag.className = 'NikkeTag'
@@ -68,6 +80,17 @@ function InsertNikkeTags(addeddiv, data) {
     }
     addeddiv.appendChild(NikkeTags);
 }
+
+function InsertTreasureNikkeTags(card, data) {
+    const NikkeTags = card[0].childNodes[1].childNodes[1]
+    for (let index = 0; index < data.length; index++) {
+        const Tag = document.createElement("p");
+        Tag.className = 'NikkeTreasureTag'
+        Tag.textContent = data[index];
+        NikkeTags.appendChild(Tag);
+    }
+}
+
 function InsertNikkeMarks(card, data) {
     const NikkeMarks = document.createElement("div");
     NikkeMarks.className = 'NikkeMarks';
