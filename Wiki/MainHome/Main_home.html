@@ -1,46 +1,119 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <script src="../InfoPage/NikkeInfo.js" defer></script>
-    <script src="./Tags/SelectedTagList.js" defer></script>
-    <script src="./Tags/TagList.js" defer></script>
-    <script src="./Searching.js" defer></script>
-    <script src="./PageMoveFunction.js" defer></script>
-    <link rel="stylesheet" href="/MainHome/Main_home_css.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-    <title>니케 위키</title>
-</head>
+    <head>
+        <script src="../InfoPage/NikkeInfo.js" defer></script>
+        <script src="./Tags/SelectedTagList.js" defer></script>
+        <script src="./Tags/TagList.js" defer></script>
+        <script src="./Searching.js" defer></script>
+        <script src="./PageMoveFunction.js" defer></script>
+        <link rel="stylesheet" href="/MainHome/Main_home_css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+        <title>니케 위키</title>
+    </head>
 
-<body>
-    <div id="LogoPlace" onclick="GoMain()">
-        <img src="MainHomeImg/Logo.png" id="Logo">
-    </div>
-    <div id="PatchNote">
-        v1.0.2 패치노트
-        <div id="PatchContents">
-            - 애장품 스킬 추가(애장품으로 추가된 태그는 기존 태그와 구별되게 표시됩니다.)
+    <body>
+        <div id="LogoPlace" onclick="GoMain()">
+            <img src="MainHomeImg/Logo.png" id="Logo">
         </div>
-    </div>
-    <div class="MainContainer">
-        <div id=NikkeList></div>
-        <script src='NikkeCard/NikkeCard.js'></script>
-        <div class="Search">
-            <div id="SelectedTagList">
-                <div id="SelectedTags"></div>
-                <button id="SearchButton" onclick="SearchingNikke()">검색</button>
-            </div>
-            <button id="Reset" onclick="ResetList()">검색 초기화</button>
-            <button onclick="Texte()">추출</button>
-            <button onclick="Texte2()">스킬추출</button>
-            <input type="text" id="SearchBar" placeholder="태그 검색">
-            <div id="TagList">
+        <div id="PatchNote">
+            v1.0.3 패치노트
+            <div id="PatchContents">
+                - 니케 필터링 기능 추가<br> - 솔린 무기군이 AR 로 잘못 표기된 현상 수정<br> - 드레이크의 애장품 태그 검색이 제대로 작동되지 않는 현상 수정
             </div>
         </div>
-    </div>
-    </div>
-</body>
+        <div class="MainContainer">
+            <div id="MainContents">
+                <div id="Attributes">
+                    <div class="Attribute" id="Manufacturer">
+                        <p>기업</p>
+                        <label><input type="checkbox" name="elysion"
+                            onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">엘리시온</label>
+                        <label><input type="checkbox" name="missilis"
+                            onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">미실리스</label>
+                        <label><input type="checkbox" name="tetra"
+                            onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">테트라</label>
+                        <label><input type="checkbox" name="pilgrim"
+                            onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">필그림</label>
+                        <label><input type="checkbox" name="abnormal"
+                            onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">어브노말</label>
+                    </div>
+                    <div class="Attribute" id="Class">
+                        <p>역할군</p>
+                        <label><input type="checkbox" name="Attacker"
+                            onchange="AttributeChanged(this.name, this.checked, 'class')">화력형</label>
+                        <label><input type="checkbox" name="Supporter"
+                            onchange="AttributeChanged(this.name, this.checked, 'class')">지원형</label>
+                        <label><input type="checkbox" name="Defender"
+                            onchange="AttributeChanged(this.name, this.checked, 'class')">방어형</label>
+                    </div>
+                    <div class="Attribute" id="Weapon">
+                        <p>무기군</p>
+                        <label><input type="checkbox" name="AR"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">AR</label>
+                        <label><input type="checkbox" name="MG"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">MG</label>
+                        <label><input type="checkbox" name="SMG"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">SMG</label>
+                        <label><input type="checkbox" name="RL"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">RL</label>
+                        <label><input type="checkbox" name="SR"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">SR</label>
+                        <label><input type="checkbox" name="SG"
+                            onchange="AttributeChanged(this.name, this.checked, 'weapon')">SG</label>
+                    </div>
+                    <div class="Attribute" id="Type">
+                        <p>우월코드</p>
+                        <label><input type="checkbox" name="ANMI"
+                            onchange="AttributeChanged(this.name, this.checked, 'type')">풍압</label>
+                        <label><input type="checkbox" name="DMTR"
+                            onchange="AttributeChanged(this.name, this.checked, 'type')">철갑</label>
+                        <label><input type="checkbox" name="HSTA"
+                            onchange="AttributeChanged(this.name, this.checked, 'type')">작열</label>
+                        <label><input type="checkbox" name="PSID"
+                            onchange="AttributeChanged(this.name, this.checked, 'type')">수냉</label>
+                        <label><input type="checkbox" name="ZEUS"
+                            onchange="AttributeChanged(this.name, this.checked, 'type')">전격</label>
+                    </div>
+                    <div class="Attribute" id="Burst">
+                        <p>버스트</p>
+                        <label><input type="checkbox" name="Burst1"
+                            onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 1</label>
+                        <label><input type="checkbox" name="Burst2"
+                            onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 2</label>
+                        <label><input type="checkbox" name="Burst3"
+                            onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 3</label>
+                    </div>
+                    <div class="Attribute" id="Rarity">
+                        <p>희귀도</p>
+                        <label><input type="checkbox" name="R"
+                            onchange="AttributeChanged(this.name, this.checked, 'rarity')">R</label>
+                        <label><input type="checkbox" name="SR"
+                            onchange="AttributeChanged(this.name, this.checked, 'rarity')">SR</label>
+                        <label><input type="checkbox" name="SSR"
+                            onchange="AttributeChanged(this.name, this.checked, 'rarity')">SSR</label>
+                    </div>
+                </div>
+                <div id="NikkeList"></div>
+            </div>
+            <script src='NikkeCard/NikkeCard.js'></script>
+            <div class="Search">
+                <div id="SelectedTagList">
+                    <div id="SelectedTags"></div>
+                    <button id="SearchButton" onclick="Search()">검색</button>
+                </div>
+                <button id="Reset" onclick="ResetList()">검색 초기화</button>
+                <!--<button onclick="Texte()">추출</button>-->
+                <!--<button onclick="Texte2()">스킬추출</button>-->
+                <label><input type="text" id="SearchBar" placeholder="태그 검색">
+                <div id="TagList">
+            </label>
+            </div>
+        </div>
+        </div>
+        </div>
+    </body>
 
 </html>

@@ -12,6 +12,15 @@ SearchingTag();
 let TagValues = null;
 LoadTagValue();
 let SelectedTagsValue = new Uint32Array(3);
+let SelectedAttributes = {
+    "manufacturer": new Set(),
+    "class": new Set(),
+    "weapon": new Set(),
+    "type": new Set(),
+    "burst": new Set(),
+    "rarity": new Set(),
+};
+let NikkeList;
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
@@ -31,8 +40,14 @@ function SearchingNikke() {
     //console.log(SelectedTagValue.toString(2));
 }
 
+function Search() {
+    ResetList()
+    SearchingNikke()
+    AttributeSearch()
+}
+
 /**필터링 된 니케 목록을 초기화 하는 함수.*/
-function ResetList(params) {
+function ResetList() {
     document.querySelectorAll('.NikkeInfo').forEach((el) => {
         el.style.display = 'flex';
     })
@@ -63,6 +78,36 @@ function ClassifyTagValue(TagValue, TagType) {
     SelectedTagsValue[TagType] |= (1 << TagValue % 32);
 }
 
+function AttributeChanged(attribute, Ischecked, attributetype) {
+    if (!NikkeList) {
+        NikkeList = document.getElementById('NikkeList').childNodes
+    }
+
+    if (Ischecked)
+        SelectedAttributes[attributetype].add(attribute)
+    else
+        SelectedAttributes[attributetype].delete(attribute)
+    ResetList()
+    AttributeSearch()
+    SearchingNikke()
+}
+
+function AttributeSearch() {
+    for (let index = 0; index < NikkeList.length; index++) {
+        for (let key in SelectedAttributes) {
+            if (SelectedAttributes[key].size == 0)
+                continue;
+            let pass = 1
+            for (let value of SelectedAttributes[key]) {
+                if (NikkeList[index].style.display != 'none' && NikkeList[index].dataset[key] == value) {
+                    pass = 0
+                }
+            }
+            if (pass)
+                NikkeList[index].style.display = 'none'
+        }
+    }
+}
 
 /**(임시) 스킬텍스트 가공*/
 function Texte() {

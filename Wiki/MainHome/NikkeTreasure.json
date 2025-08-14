@@ -94,10 +94,9 @@
     },
     "Drake": {
         "tags": [
-            "공격력 증가",
             "공격 데미지 증가"
         ],
-        "tagvalue1": 33,
+        "tagvalue1": 32,
         "tagvalue2": 0,
         "tagvalue3": 0
     },

@@ -9,10 +9,15 @@ fetch('./NikkeList.json')
         card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
         card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
         card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
+        card.dataset.manufacturer = char.company;
+        card.dataset.class = char.class;
+        card.dataset.weapon = char.weapon;
+        card.dataset.type = char.type;
+        card.dataset.burst = char.burst;
+        card.dataset.rarity = char.tier;
         card.filtering = function (comparisonValue) {
             for (let i = 0; i < comparisonValue.length; i++) {
                 if (comparisonValue[i] != 0) {
-                    card.style.display = 'flex';
                     if (isTagvalue(card.dataset, i)) {
                         let comparisonBinary = reverseString(comparisonValue[i].toString(2));
                         let tagvalueBinary = whatTagvalue(card.dataset, i);
@@ -43,7 +48,7 @@ fetch('./NikkeList.json')
         //프로필 카드 삽입
         document.getElementById("NikkeList").appendChild(card);
     }))
-    .then(fetch('./Nikketreasure.json')
+    .then(fetch('./NikkeTreasure.json')
         .then(res => res.json()).then(NikkeData => {
             const TreasureNikkeName = Object.keys(NikkeData)
             const TreasureNikkeValue = Object.values(NikkeData)
