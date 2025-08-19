@@ -35,12 +35,15 @@ function SearchingNikke() {
     //console.log('1번', SelectedTagsValue[0].toString(2), '2번', SelectedTagsValue[1].toString(2), '3번', SelectedTagsValue[2].toString(2));
     const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
     Nikkeinfo.forEach((ele) => {
-        ele.filtering(SelectedTagsValue);
-    })
-    //console.log(SelectedTagValue.toString(2));
+            ele.filtering(SelectedTagsValue);
+        })
+        //console.log(SelectedTagValue.toString(2));
 }
 
 function Search() {
+    if (!NikkeList) {
+        NikkeList = document.getElementById('NikkeList').childNodes
+    }
     ResetList()
     SearchingNikke()
     AttributeSearch()
@@ -82,7 +85,6 @@ function AttributeChanged(attribute, Ischecked, attributetype) {
     if (!NikkeList) {
         NikkeList = document.getElementById('NikkeList').childNodes
     }
-
     if (Ischecked)
         SelectedAttributes[attributetype].add(attribute)
     else

@@ -47,38 +47,38 @@
         "tagvalue3": 0
     },
     "Tove": {
-        "tags": [],
-        "tagvalue1": 0,
+        "tags": [
+            "크리티컬 확률 증가"
+        ],
+        "tagvalue1": 8,
         "tagvalue2": 0,
         "tagvalue3": 0
     },
     "Poli": {
         "tags": [
-            "최대 체력 비례 보호막",
             "불굴",
             "최대 체력 비례 회복"
         ],
-        "tagvalue1": 10485760,
+        "tagvalue1": 2097152,
         "tagvalue2": 536870912,
         "tagvalue3": 0
     },
     "Viper": {
         "tags": [
-            "명중률 증가",
+            "지속 데미지 증가",
             "지속 데미지 공격",
             "버스트 재진입"
         ],
-        "tagvalue1": 2,
+        "tagvalue1": 0,
         "tagvalue2": 32,
-        "tagvalue3": 0
+        "tagvalue3": 16
     },
     "Miranda": {
         "tags": [
             "크리티컬 확률 증가",
-            "공격 데미지 증가",
-            "공격력 증가"
+            "공격 데미지 증가"
         ],
-        "tagvalue1": 41,
+        "tagvalue1": 40,
         "tagvalue2": 0,
         "tagvalue3": 0
     },

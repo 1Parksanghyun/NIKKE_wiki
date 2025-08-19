@@ -1,119 +1,154 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <script src="../InfoPage/NikkeInfo.js" defer></script>
-        <script src="./Tags/SelectedTagList.js" defer></script>
-        <script src="./Tags/TagList.js" defer></script>
-        <script src="./Searching.js" defer></script>
-        <script src="./PageMoveFunction.js" defer></script>
-        <link rel="stylesheet" href="/MainHome/Main_home_css.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-        <title>니케 위키</title>
-    </head>
+<head>
+    <script src="../InfoPage/NikkeInfo.js" defer></script>
+    <script src="./Tags/SelectedTagList.js" defer></script>
+    <script src="./Tags/TagList.js" defer></script>
+    <script src="./Searching.js" defer></script>
+    <script src="./PageMoveFunction.js" defer></script>
+    <link rel="stylesheet" href="/MainHome/Main_home_css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>니케 위키</title>
+</head>
 
-    <body>
-        <div id="LogoPlace" onclick="GoMain()">
-            <img src="MainHomeImg/Logo.png" id="Logo">
-        </div>
-        <div id="PatchNote">
-            v1.0.3 패치노트
-            <div id="PatchContents">
-                - 니케 필터링 기능 추가<br> - 솔린 무기군이 AR 로 잘못 표기된 현상 수정<br> - 드레이크의 애장품 태그 검색이 제대로 작동되지 않는 현상 수정
-            </div>
-        </div>
-        <div class="MainContainer">
-            <div id="MainContents">
-                <div id="Attributes">
-                    <div class="Attribute" id="Manufacturer">
-                        <p>기업</p>
-                        <label><input type="checkbox" name="elysion"
+<body>
+    <div id="LogoPlace" onclick="GoMain()">
+        <img src="MainHomeImg/Logo.png" id="Logo">
+    </div>
+    <div id="PatchNote">
+        v1.1.0 패치노트
+        <pre id="PatchContents" >
+<span style="font-size:30px">- 이제 각 니케 효과에 마우스를 올리면 어떤 대상에게 효과가 적용되는지 표시됩니다</span>
+        - 자신에게만 적용되는 효과는 "자신에게" 로 분류됩니다
+        - 아군 n명, 아군 전체에게 적용되는 효과는 "아군에게" 로 분류됩니다
+        - 적에게 적용되는 효과는 "적에게" 로 분류됩니다
+        
+- 간헐적으로 애장품 효과 태그가 보이지 않던 현상 수정
+- 라피의 도발 효과가 누락된 현상 수정
+- 라피:레드후드 "발사체 폭발 데미지 증가" 효과 추가
+- 베스티 "풀버스트 시간 감소" 효과 추가
+- 길로틴:윈터슬레이어 "시전자 기준 공격력 증가" 효과 추가
+- 메이든:아이스로즈 "공격력 증가" 효과 추가
+- 팬텀 "공격력 증가" 효과 추가
+- 아르카나 "스킬 데미지 공격" 효과 추가
+- 아스카:WILLE "적 받는 데미지 증가" 효과 추가
+- 레이븐 "스킬 데미지 공격" 효과 추가
+- 토브 "크리티컬 확률 증가" 애장품 효과 추가
+- 누아르의 효과 "시전자 기준 공격력 증가" 효과가 "공격력 증가"로 잘못 표기된 현상 수정
+- 클레이의 효과 "시전자 기준 공격력 증가" 효과가 "공격력 증가"로 잘못 표기된 현상 수정
+- 길로틴:윈터슬레이어의 효과 "지속 데미지 공격" 효과가 "스킬 데미지 공격" 으로 잘못 표기된 현상 수정
+- 루피:윈터쇼퍼의 효과 "버스트 충전 속도 증가" 효과가 "버스트 게이지 충전 속도 증가"로 잘못 표기된 현상 수정
+- 네온:블루 오션의 효과:"공격력 증가"가 잘못 기재된 현상 수정
+- 라플라스의 효과:"파츠 데미지 증가"가 잘못 기재된 현상 수정
+- 마스트:로망틱메이드 "명중률 증가" 효과가 잘못 기재된 현상 수정
+- 앵커:이노센트메이드 "중첩 가능한 효과 중첩" 효과가 잘못 기재된 현상 수정
+- 이제 "해로운 효과 해제" 와 "해로운 효과 면역"이 구분됩니다
+        - 에이드의 "해로운 효과 해제" 가 "해로운 효과 면역으로 변경됩니다
+        - 클레이의 "해로운 효과 해제" 가 "해로운 효과 면역으로 변경됩니다
+- "보호막 회복" 효과가 추가됩니다
+        - 라푼젤:퓨어그레이스 "보호막 회복" 효과 추가
+        - 킬로 "보호막 회복" 효과 추가
+        - 모리 "보호막 회복" 효과 추가
+- 이제 무기 변경 또는 버스트 스킬로 일시적으로 추가되는 효과도 표시됩니다
+        - 모더니아 "최대 장탄수 증가" 효과 추가
+        - 맥스웰 "관통 특화" 효과 추가
+        - 츠바이 "관통 특화" 효과 추가
+버그 및 오류,건의사항 제보 : nikkeskillwiki@gmail.com
+        </pre>
+    </div>
+    <div class="MainContainer">
+        <div id="MainContents">
+            <div id="Attributes">
+                <div class="Attribute" id="Manufacturer">
+                    <p>기업</p>
+                    <label><input type="checkbox" name="elysion"
                             onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">엘리시온</label>
-                        <label><input type="checkbox" name="missilis"
+                    <label><input type="checkbox" name="missilis"
                             onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">미실리스</label>
-                        <label><input type="checkbox" name="tetra"
+                    <label><input type="checkbox" name="tetra"
                             onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">테트라</label>
-                        <label><input type="checkbox" name="pilgrim"
+                    <label><input type="checkbox" name="pilgrim"
                             onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">필그림</label>
-                        <label><input type="checkbox" name="abnormal"
+                    <label><input type="checkbox" name="abnormal"
                             onchange="AttributeChanged(this.name, this.checked, 'manufacturer')">어브노말</label>
-                    </div>
-                    <div class="Attribute" id="Class">
-                        <p>역할군</p>
-                        <label><input type="checkbox" name="Attacker"
+                </div>
+                <div class="Attribute" id="Class">
+                    <p>역할군</p>
+                    <label><input type="checkbox" name="Attacker"
                             onchange="AttributeChanged(this.name, this.checked, 'class')">화력형</label>
-                        <label><input type="checkbox" name="Supporter"
+                    <label><input type="checkbox" name="Supporter"
                             onchange="AttributeChanged(this.name, this.checked, 'class')">지원형</label>
-                        <label><input type="checkbox" name="Defender"
+                    <label><input type="checkbox" name="Defender"
                             onchange="AttributeChanged(this.name, this.checked, 'class')">방어형</label>
-                    </div>
-                    <div class="Attribute" id="Weapon">
-                        <p>무기군</p>
-                        <label><input type="checkbox" name="AR"
+                </div>
+                <div class="Attribute" id="Weapon">
+                    <p>무기군</p>
+                    <label><input type="checkbox" name="AR"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">AR</label>
-                        <label><input type="checkbox" name="MG"
+                    <label><input type="checkbox" name="MG"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">MG</label>
-                        <label><input type="checkbox" name="SMG"
+                    <label><input type="checkbox" name="SMG"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">SMG</label>
-                        <label><input type="checkbox" name="RL"
+                    <label><input type="checkbox" name="RL"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">RL</label>
-                        <label><input type="checkbox" name="SR"
+                    <label><input type="checkbox" name="SR"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">SR</label>
-                        <label><input type="checkbox" name="SG"
+                    <label><input type="checkbox" name="SG"
                             onchange="AttributeChanged(this.name, this.checked, 'weapon')">SG</label>
-                    </div>
-                    <div class="Attribute" id="Type">
-                        <p>우월코드</p>
-                        <label><input type="checkbox" name="ANMI"
+                </div>
+                <div class="Attribute" id="Type">
+                    <p>우월코드</p>
+                    <label><input type="checkbox" name="ANMI"
                             onchange="AttributeChanged(this.name, this.checked, 'type')">풍압</label>
-                        <label><input type="checkbox" name="DMTR"
+                    <label><input type="checkbox" name="DMTR"
                             onchange="AttributeChanged(this.name, this.checked, 'type')">철갑</label>
-                        <label><input type="checkbox" name="HSTA"
+                    <label><input type="checkbox" name="HSTA"
                             onchange="AttributeChanged(this.name, this.checked, 'type')">작열</label>
-                        <label><input type="checkbox" name="PSID"
+                    <label><input type="checkbox" name="PSID"
                             onchange="AttributeChanged(this.name, this.checked, 'type')">수냉</label>
-                        <label><input type="checkbox" name="ZEUS"
+                    <label><input type="checkbox" name="ZEUS"
                             onchange="AttributeChanged(this.name, this.checked, 'type')">전격</label>
-                    </div>
-                    <div class="Attribute" id="Burst">
-                        <p>버스트</p>
-                        <label><input type="checkbox" name="Burst1"
+                </div>
+                <div class="Attribute" id="Burst">
+                    <p>버스트</p>
+                    <label><input type="checkbox" name="Burst1"
                             onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 1</label>
-                        <label><input type="checkbox" name="Burst2"
+                    <label><input type="checkbox" name="Burst2"
                             onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 2</label>
-                        <label><input type="checkbox" name="Burst3"
+                    <label><input type="checkbox" name="Burst3"
                             onchange="AttributeChanged(this.name, this.checked, 'burst')">버스트 3</label>
-                    </div>
-                    <div class="Attribute" id="Rarity">
-                        <p>희귀도</p>
-                        <label><input type="checkbox" name="R"
+                </div>
+                <div class="Attribute" id="Rarity">
+                    <p>희귀도</p>
+                    <label><input type="checkbox" name="R"
                             onchange="AttributeChanged(this.name, this.checked, 'rarity')">R</label>
-                        <label><input type="checkbox" name="SR"
+                    <label><input type="checkbox" name="SR"
                             onchange="AttributeChanged(this.name, this.checked, 'rarity')">SR</label>
-                        <label><input type="checkbox" name="SSR"
+                    <label><input type="checkbox" name="SSR"
                             onchange="AttributeChanged(this.name, this.checked, 'rarity')">SSR</label>
-                    </div>
                 </div>
-                <div id="NikkeList"></div>
             </div>
-            <script src='NikkeCard/NikkeCard.js'></script>
-            <div class="Search">
-                <div id="SelectedTagList">
-                    <div id="SelectedTags"></div>
-                    <button id="SearchButton" onclick="Search()">검색</button>
-                </div>
-                <button id="Reset" onclick="ResetList()">검색 초기화</button>
-                <!--<button onclick="Texte()">추출</button>-->
-                <!--<button onclick="Texte2()">스킬추출</button>-->
-                <label><input type="text" id="SearchBar" placeholder="태그 검색">
+            <div id="NikkeList"></div>
+        </div>
+        <script src='NikkeCard/NikkeCard.js' defer></script>
+        <div class="Search">
+            <div id="SelectedTagList">
+                <div id="SelectedTags"></div>
+                <button id="SearchButton" onclick="Search()">검색</button>
+            </div>
+            <button id="Reset" onclick="ResetList()">검색 초기화</button>
+            <!--<button onclick="Texte()">추출</button>-->
+            <!--<button onclick="Texte2()">스킬추출</button>-->
+            <label><input type="text" id="SearchBar" placeholder="태그 검색">
                 <div id="TagList">
             </label>
-            </div>
         </div>
-        </div>
-        </div>
-    </body>
+    </div>
+    </div>
+    </div>
+</body>
 
 </html>

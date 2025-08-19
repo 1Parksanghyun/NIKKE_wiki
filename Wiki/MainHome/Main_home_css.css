@@ -22,6 +22,8 @@ body {
     justify-self: center;
     width: 70%;
     height: fit-content;
+    max-height: 300px;
+    overflow: auto;
     margin: 20px;
     padding: 10px;
     background-color: rgb(28, 29, 33);
@@ -36,6 +38,7 @@ body {
     text-align: left;
     color: white;
     font-size: 20px;
+    font-family: inherit;
 }
 
 .MainContainer {
@@ -75,13 +78,12 @@ body {
 }
 
 #NikkeList {
-    max-height: 800px;
-    height: fit-content;
+    height: 800px;
     overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 #NikkeList::-webkit-scrollbar {
@@ -113,6 +115,41 @@ body {
 
 #NameAndTag {
     width: 60%;
+    position: relative;
+}
+
+#NameAndTag #Detail {
+    display: none;
+    /* 기본적으로 숨김 */
+    position: absolute;
+    top: -25%;
+    /* div 아래쪽에 위치 */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 10;
+    text-align: left;
+}
+
+.Detailtitle {
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Detailtitle>div {
+    display: grid;
+    max-height: 190px;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, auto);
+    margin: 5px;
+    font-size: 18px;
+    justify-items: center;
 }
 
 .NikkeName {
@@ -133,7 +170,9 @@ body {
     display: flex;
 }
 
-#NikkeTags .NikkeTag {
+.NikkeTag {
+    width: fit-content;
+    height: fit-content;
     white-space: nowrap;
     margin: 2px;
     border: 1px solid;
@@ -261,4 +300,38 @@ body {
     margin: 1px;
     border: 1px solid;
     border-radius: 5px;
+}
+
+#TagList .Tag:hover {
+    background-color: rgb(193, 193, 193);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    background: lightblue;
+    cursor: pointer;
+}
+
+.popup-box {
+    display: none;
+    /* 기본적으로 숨김 */
+    position: absolute;
+    top: 110%;
+    /* div 아래쪽에 위치 */
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.container:hover .popup-box {
+    display: block;
+    /* hover하면 보이기 */
 }

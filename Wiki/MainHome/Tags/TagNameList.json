@@ -57,7 +57,7 @@
         "전체 대상 버스트 스킬 데미지 증가": "BURST_ALL_DMG_UP",
         "방어력 무시 데미지로 치환": "DAMAGE_SWAP_TO_DEF_PEN",
         "공격 범위 중심 강제 이동": "FORCED_MOVEMENT_TO_CENTER",
-        "이동 불가": "IMMOBILIZE",
+        "적 이동 불가": "IMMOBILIZE",
         "부활": "REVIVE",
         "저장": "SAVE_STATE",
         "불굴": "INDESTRUCTIBLE",
@@ -81,5 +81,7 @@
         "방어력 무시 공격": "IGNORE_DEF_DEALING",
         "엄페물 방어력 증가": "COVER_DEF_UP",
         "순차 공격": "SEQUENTIAL_DEALING",
-        "발사체 폭발 데미지 증가": "PROJECTILE_EXPLOSIVE_DMG_UP"
+        "발사체 폭발 데미지 증가": "PROJECTILE_EXPLOSIVE_DMG_UP",
+        "해로운 효과 면역": "DEBUFF_IMMUNITY",
+        "보호막 회복": "SHIELD_RECOVERY"
     }
