@@ -15,7 +15,8 @@
         ],
         "tagvalue1": 294912,
         "tagvalue2": 0,
-        "tagvalue3": 65536
+        "tagvalue3": 65536,
+        "version": "v=1"
     },
     {
         "name": "네온",
@@ -33,7 +34,8 @@
         ],
         "tagvalue1": 294920,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "앵커",
@@ -52,7 +54,8 @@
         ],
         "tagvalue1": 268705792,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "미란다",
@@ -70,7 +73,8 @@
         ],
         "tagvalue1": 19,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "D:킬러 와이프",
@@ -92,7 +96,8 @@
         ],
         "tagvalue1": 2147746148,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "츠바이",
@@ -112,7 +117,8 @@
         ],
         "tagvalue1": 2181038344,
         "tagvalue2": 2097152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "엠마 : 택티컬 업",
@@ -135,7 +141,8 @@
         ],
         "tagvalue1": 6291988,
         "tagvalue2": 131088,
-        "tagvalue3": 262144
+        "tagvalue3": 262144,
+        "version": "v=1"
     },
     {
         "name": "엠마",
@@ -153,7 +160,8 @@
         ],
         "tagvalue1": 23068672,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "소라",
@@ -173,7 +181,8 @@
         ],
         "tagvalue1": 2097156,
         "tagvalue2": 268435520,
-        "tagvalue3": 8192
+        "tagvalue3": 8192,
+        "version": "v=2"
     },
     {
         "name": "솔져 F.A.",
@@ -191,7 +200,8 @@
         ],
         "tagvalue1": 285736960,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "델타",
@@ -210,7 +220,8 @@
         ],
         "tagvalue1": 268959744,
         "tagvalue2": 144,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "시그널",
@@ -229,7 +240,8 @@
         ],
         "tagvalue1": 17039360,
         "tagvalue2": 98304,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "디젤",
@@ -250,7 +262,8 @@
         ],
         "tagvalue1": 270827520,
         "tagvalue2": 20,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "은화",
@@ -270,7 +283,8 @@
         ],
         "tagvalue1": 328712,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "마스트",
@@ -290,7 +304,8 @@
         ],
         "tagvalue1": 1310744,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "헬름 : 아쿠아 마린",
@@ -308,7 +323,8 @@
         ],
         "tagvalue1": 262144,
         "tagvalue2": 131073,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "마르차나",
@@ -328,7 +344,8 @@
         ],
         "tagvalue1": 291504128,
         "tagvalue2": 268435456,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "은화 : 택티컬 업",
@@ -353,7 +370,8 @@
         ],
         "tagvalue1": 1545,
         "tagvalue2": 19007488,
-        "tagvalue3": 294912
+        "tagvalue3": 294912,
+        "version": "v=1"
     },
     {
         "name": "폴리",
@@ -372,7 +390,8 @@
         ],
         "tagvalue1": 813694977,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "마스트 : 로망틱 메이드",
@@ -393,7 +412,8 @@
         ],
         "tagvalue1": 2108,
         "tagvalue2": 2,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "앵커 : 이노센트 메이드",
@@ -415,7 +435,8 @@
         ],
         "tagvalue1": 6293510,
         "tagvalue2": 268435458,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "아르카나",
@@ -436,7 +457,8 @@
         ],
         "tagvalue1": 262180,
         "tagvalue2": 131073,
-        "tagvalue3": 4
+        "tagvalue3": 4,
+        "version": "v=1"
     },
     {
         "name": "솔저 E.G.",
@@ -454,7 +476,8 @@
         ],
         "tagvalue1": 294913,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "라피",
@@ -472,7 +495,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "프리바티",
@@ -491,7 +515,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 262146,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "브리드",
@@ -508,7 +533,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "솔린",
@@ -527,7 +553,8 @@
         ],
         "tagvalue1": 393240,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "베스티",
@@ -548,7 +575,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 0,
-        "tagvalue3": 288
+        "tagvalue3": 288,
+        "version": "v=1"
     },
     {
         "name": "메이든",
@@ -567,7 +595,8 @@
         ],
         "tagvalue1": 262161,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "길로틴",
@@ -586,7 +615,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "헬름",
@@ -606,7 +636,8 @@
         ],
         "tagvalue1": 17055784,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "D",
@@ -628,7 +659,8 @@
         ],
         "tagvalue1": 17043584,
         "tagvalue2": 512,
-        "tagvalue3": 192
+        "tagvalue3": 192,
+        "version": "v=1"
     },
     {
         "name": "네온:블루오션",
@@ -647,7 +679,8 @@
         ],
         "tagvalue1": 266368,
         "tagvalue2": 2097152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "키리",
@@ -667,7 +700,8 @@
         ],
         "tagvalue1": 2621452,
         "tagvalue2": 32768,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "프리바티:언카인드메이드",
@@ -688,7 +722,8 @@
         ],
         "tagvalue1": 262193,
         "tagvalue2": 6,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "길로틴:윈터슬레이어",
@@ -710,7 +745,8 @@
         ],
         "tagvalue1": 2097317,
         "tagvalue2": 4,
-        "tagvalue3": 8
+        "tagvalue3": 8,
+        "version": "v=1"
     },
     {
         "name": "팬텀",
@@ -732,7 +768,8 @@
         ],
         "tagvalue1": 264227,
         "tagvalue2": 81920,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "메이든:아이스로즈",
@@ -752,7 +789,8 @@
         ],
         "tagvalue1": 1310853,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "라피:레드후드",
@@ -775,7 +813,8 @@
         ],
         "tagvalue1": 278565,
         "tagvalue2": 1,
-        "tagvalue3": 262176
+        "tagvalue3": 262176,
+        "version": "v=1"
     },
     {
         "name": "K",
@@ -795,7 +834,8 @@
         ],
         "tagvalue1": 262188,
         "tagvalue2": 2097152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "베스티 : 택티컬 업",
@@ -817,7 +857,8 @@
         ],
         "tagvalue1": 67073,
         "tagvalue2": 0,
-        "tagvalue3": 294944
+        "tagvalue3": 294944,
+        "version": "v=1"
     },
     {
         "name": "프로덕트 08",
@@ -835,7 +876,8 @@
         ],
         "tagvalue1": 268435465,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "N102",
@@ -854,7 +896,8 @@
         ],
         "tagvalue1": 33809,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "에테르",
@@ -873,7 +916,8 @@
         ],
         "tagvalue1": 1082392576,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "페퍼",
@@ -893,7 +937,8 @@
         ],
         "tagvalue1": 6553600,
         "tagvalue2": 32776,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "자칼",
@@ -913,7 +958,8 @@
         ],
         "tagvalue1": 805306368,
         "tagvalue2": 4358144,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "리타",
@@ -933,7 +979,8 @@
         ],
         "tagvalue1": 33587217,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "토브",
@@ -953,7 +1000,8 @@
         ],
         "tagvalue1": 163860,
         "tagvalue2": 4,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "티아",
@@ -976,7 +1024,8 @@
         ],
         "tagvalue1": 125829152,
         "tagvalue2": 49,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "프로덕트 23",
@@ -994,7 +1043,8 @@
         ],
         "tagvalue1": 285212672,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "유니",
@@ -1015,7 +1065,8 @@
         ],
         "tagvalue1": 285573120,
         "tagvalue2": 67108864,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "센티",
@@ -1034,7 +1085,8 @@
         ],
         "tagvalue1": 8650752,
         "tagvalue2": 65536,
-        "tagvalue3": 4
+        "tagvalue3": 4,
+        "version": "v=1"
     },
     {
         "name": "애드미",
@@ -1053,7 +1105,8 @@
         ],
         "tagvalue1": 1073742864,
         "tagvalue2": 2,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "길티",
@@ -1073,7 +1126,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 1073807368,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "신",
@@ -1096,7 +1150,8 @@
         ],
         "tagvalue1": 289669120,
         "tagvalue2": 2147615760,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "퀀시",
@@ -1115,7 +1170,8 @@
         ],
         "tagvalue1": 524305,
         "tagvalue2": 2147483648,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "나가",
@@ -1135,7 +1191,8 @@
         ],
         "tagvalue1": 2183135300,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "일레그",
@@ -1157,7 +1214,8 @@
         ],
         "tagvalue1": 272388,
         "tagvalue2": 82432,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "트리나",
@@ -1180,7 +1238,8 @@
         ],
         "tagvalue1": 3178530,
         "tagvalue2": 8392706,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "모리",
@@ -1201,7 +1260,8 @@
         ],
         "tagvalue1": 8912896,
         "tagvalue2": 16,
-        "tagvalue3": 1048600
+        "tagvalue3": 1048600,
+        "version": "v=1"
     },
     {
         "name": "플로라",
@@ -1221,7 +1281,8 @@
         ],
         "tagvalue1": 14680576,
         "tagvalue2": 512,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "앤 : 미라클 페어리",
@@ -1242,7 +1303,8 @@
         ],
         "tagvalue1": 23068673,
         "tagvalue2": 135266304,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "프로덕트 12",
@@ -1259,7 +1321,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "미하라",
@@ -1279,7 +1342,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 0,
-        "tagvalue3": 256
+        "tagvalue3": 256,
+        "version": "v=1"
     },
     {
         "name": "맥스웰",
@@ -1300,7 +1364,8 @@
         ],
         "tagvalue1": 2147549209,
         "tagvalue2": 2097152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "율리아",
@@ -1318,7 +1383,8 @@
         ],
         "tagvalue1": 262168,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "드레이크",
@@ -1337,7 +1403,8 @@
         ],
         "tagvalue1": 294915,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "크로우",
@@ -1355,7 +1422,8 @@
         ],
         "tagvalue1": 268697600,
         "tagvalue2": 32768,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "라플라스",
@@ -1375,7 +1443,8 @@
         ],
         "tagvalue1": 2147745792,
         "tagvalue2": 2097152,
-        "tagvalue3": 32800
+        "tagvalue3": 32800,
+        "version": "v=2"
     },
     {
         "name": "에피넬",
@@ -1394,7 +1463,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "킬로",
@@ -1413,7 +1483,8 @@
         ],
         "tagvalue1": 9175040,
         "tagvalue2": 0,
-        "tagvalue3": 1048576
+        "tagvalue3": 1048576,
+        "version": "v=1"
     },
     {
         "name": "트로니",
@@ -1432,7 +1503,8 @@
         ],
         "tagvalue1": 2049,
         "tagvalue2": 81920,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "아인",
@@ -1451,7 +1523,8 @@
         ],
         "tagvalue1": 1537,
         "tagvalue2": 0,
-        "tagvalue3": 32768
+        "tagvalue3": 32768,
+        "version": "v=1"
     },
     {
         "name": "퀀시:이스케이프 퀸",
@@ -1474,7 +1547,8 @@
         ],
         "tagvalue1": 2155,
         "tagvalue2": 16386,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "마나",
@@ -1497,7 +1571,8 @@
         ],
         "tagvalue1": 2097185,
         "tagvalue2": 134218752,
-        "tagvalue3": 536
+        "tagvalue3": 536,
+        "version": "v=1"
     },
     {
         "name": "미하라:본딩체인",
@@ -1515,7 +1590,8 @@
         ],
         "tagvalue1": 262144,
         "tagvalue2": 0,
-        "tagvalue3": 24
+        "tagvalue3": 24,
+        "version": "v=1"
     },
     {
         "name": "일레그 : 붐 앤 쇼크",
@@ -1535,7 +1611,8 @@
         ],
         "tagvalue1": 262277,
         "tagvalue2": 0,
-        "tagvalue3": 131072
+        "tagvalue3": 131072,
+        "version": "v=1"
     },
     {
         "name": "iDoll 오션",
@@ -1551,7 +1628,8 @@
         ],
         "tagvalue1": 2097152,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "idoll 플라워",
@@ -1569,7 +1647,8 @@
         ],
         "tagvalue1": 262144,
         "tagvalue2": 32784,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "미카",
@@ -1588,7 +1667,8 @@
         ],
         "tagvalue1": 268730368,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "엑시아",
@@ -1607,7 +1687,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 98304,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "프림",
@@ -1625,7 +1706,8 @@
         ],
         "tagvalue1": 786432,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "루드밀라",
@@ -1646,7 +1728,8 @@
         ],
         "tagvalue1": 1342439424,
         "tagvalue2": 98320,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "얀",
@@ -1666,7 +1749,8 @@
         ],
         "tagvalue1": 263177,
         "tagvalue2": 33554432,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "볼륨",
@@ -1685,7 +1769,8 @@
         ],
         "tagvalue1": 25,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "루피 : 윈터 쇼퍼",
@@ -1706,7 +1791,8 @@
         ],
         "tagvalue1": 285212672,
         "tagvalue2": 1074,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "코코아",
@@ -1725,7 +1811,8 @@
         ],
         "tagvalue1": 1107296256,
         "tagvalue2": 32832,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "소다",
@@ -1745,7 +1832,8 @@
         ],
         "tagvalue1": 2883584,
         "tagvalue2": 262152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "라이",
@@ -1765,7 +1853,8 @@
         ],
         "tagvalue1": 1073741824,
         "tagvalue2": 912,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "메어리 : 베이 갓데스",
@@ -1784,7 +1873,8 @@
         ],
         "tagvalue1": 2621569,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "미카 : 스노우 버디",
@@ -1805,7 +1895,8 @@
         ],
         "tagvalue1": 1073774596,
         "tagvalue2": 1096,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "루주",
@@ -1826,7 +1917,8 @@
         ],
         "tagvalue1": 1075314724,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "루마니",
@@ -1846,7 +1938,8 @@
         ],
         "tagvalue1": 1074270240,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "메어리",
@@ -1864,7 +1957,8 @@
         ],
         "tagvalue1": 274726912,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "밀크",
@@ -1883,7 +1977,8 @@
         ],
         "tagvalue1": 17039377,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "노이즈",
@@ -1902,7 +1997,8 @@
         ],
         "tagvalue1": 1076363264,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "사쿠라",
@@ -1923,7 +2019,8 @@
         ],
         "tagvalue1": 1342201860,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "로산나",
@@ -1944,7 +2041,8 @@
         ],
         "tagvalue1": 262153,
         "tagvalue2": 526848,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "목단",
@@ -1966,7 +2064,8 @@
         ],
         "tagvalue1": 1359740928,
         "tagvalue2": 2097168,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "앨리스 : 원더랜드 바니",
@@ -1989,7 +2088,8 @@
         ],
         "tagvalue1": 6340608,
         "tagvalue2": 1068,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "아니스",
@@ -2008,7 +2108,8 @@
         ],
         "tagvalue1": 805568512,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "벨로타",
@@ -2027,7 +2128,8 @@
         ],
         "tagvalue1": 327680,
         "tagvalue2": 65536,
-        "tagvalue3": 32
+        "tagvalue3": 32,
+        "version": "v=1"
     },
     {
         "name": "루피",
@@ -2046,7 +2148,8 @@
         ],
         "tagvalue1": 262153,
         "tagvalue2": 8,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "도라",
@@ -2066,7 +2169,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 1,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "노벨",
@@ -2085,7 +2189,8 @@
         ],
         "tagvalue1": 268697600,
         "tagvalue2": 196608,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "바이퍼",
@@ -2106,7 +2211,8 @@
         ],
         "tagvalue1": 262147,
         "tagvalue2": 71680,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "네로",
@@ -2127,7 +2233,8 @@
         ],
         "tagvalue1": 1078722560,
         "tagvalue2": 131088,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "레오나",
@@ -2147,7 +2254,8 @@
         ],
         "tagvalue1": 26,
         "tagvalue2": 8192,
-        "tagvalue3": 1
+        "tagvalue3": 1,
+        "version": "v=1"
     },
     {
         "name": "에이드",
@@ -2165,7 +2273,8 @@
         ],
         "tagvalue1": 1048580,
         "tagvalue2": 0,
-        "tagvalue3": 524288
+        "tagvalue3": 524288,
+        "version": "v=1"
     },
     {
         "name": "로산나 : 시크 오션",
@@ -2185,7 +2294,8 @@
         ],
         "tagvalue1": 4100,
         "tagvalue2": 131072,
-        "tagvalue3": 24
+        "tagvalue3": 24,
+        "version": "v=1"
     },
     {
         "name": "크러스트",
@@ -2206,7 +2316,8 @@
         ],
         "tagvalue1": 268437540,
         "tagvalue2": 64,
-        "tagvalue3": 16
+        "tagvalue3": 16,
+        "version": "v=1"
     },
     {
         "name": "폴크방",
@@ -2226,7 +2337,8 @@
         ],
         "tagvalue1": 29884416,
         "tagvalue2": 16,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "아리아",
@@ -2245,7 +2357,8 @@
         ],
         "tagvalue1": 8388634,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "비스킷",
@@ -2266,7 +2379,8 @@
         ],
         "tagvalue1": 153092105,
         "tagvalue2": 4096,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "베이",
@@ -2286,7 +2400,8 @@
         ],
         "tagvalue1": 1979711488,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "클레이",
@@ -2306,7 +2421,8 @@
         ],
         "tagvalue1": 8708,
         "tagvalue2": 16777216,
-        "tagvalue3": 524288
+        "tagvalue3": 524288,
+        "version": "v=1"
     },
     {
         "name": "블랑",
@@ -2327,7 +2443,8 @@
         ],
         "tagvalue1": 11010048,
         "tagvalue2": 537001985,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=2"
     },
     {
         "name": "iDoll썬",
@@ -2345,7 +2462,8 @@
         ],
         "tagvalue1": 268468225,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "네베",
@@ -2365,7 +2483,8 @@
         ],
         "tagvalue1": 2147745803,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "슈가",
@@ -2386,7 +2505,8 @@
         ],
         "tagvalue1": 163866,
         "tagvalue2": 2,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "앨리스",
@@ -2406,7 +2526,8 @@
         ],
         "tagvalue1": 2164327425,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "율하",
@@ -2425,7 +2546,8 @@
         ],
         "tagvalue1": 537133065,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "누아르",
@@ -2446,7 +2568,8 @@
         ],
         "tagvalue1": 311302,
         "tagvalue2": 4,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "아니스:스파클링서머",
@@ -2466,7 +2589,8 @@
         ],
         "tagvalue1": 278660,
         "tagvalue2": 2,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "루드밀라:윈터오너",
@@ -2487,7 +2611,8 @@
         ],
         "tagvalue1": 262153,
         "tagvalue2": 131078,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "소다:트윙클링바니",
@@ -2508,7 +2633,8 @@
         ],
         "tagvalue1": 262195,
         "tagvalue2": 0,
-        "tagvalue3": 128
+        "tagvalue3": 128,
+        "version": "v=1"
     },
     {
         "name": "브래디",
@@ -2528,7 +2654,8 @@
         ],
         "tagvalue1": 33,
         "tagvalue2": 147456,
-        "tagvalue3": 8
+        "tagvalue3": 8,
+        "version": "v=2"
     },
     {
         "name": "사쿠라:블룸인서머",
@@ -2548,7 +2675,8 @@
         ],
         "tagvalue1": 262176,
         "tagvalue2": 0,
-        "tagvalue3": 131096
+        "tagvalue3": 131096,
+        "version": "v=1"
     },
     {
         "name": "도로시",
@@ -2568,7 +2696,8 @@
         ],
         "tagvalue1": 2147487744,
         "tagvalue2": 16385,
-        "tagvalue3": 4
+        "tagvalue3": 4,
+        "version": "v=1"
     },
     {
         "name": "라푼젤 : 퓨어 그레이스",
@@ -2588,7 +2717,8 @@
         ],
         "tagvalue1": 11010080,
         "tagvalue2": 0,
-        "tagvalue3": 1048576
+        "tagvalue3": 1048576,
+        "version": "v=1"
     },
     {
         "name": "리틀 머메이드",
@@ -2613,7 +2743,8 @@
         ],
         "tagvalue1": 262180,
         "tagvalue2": 393733,
-        "tagvalue3": 131074
+        "tagvalue3": 131074,
+        "version": "v=1"
     },
     {
         "name": "라푼젤",
@@ -2633,7 +2764,8 @@
         ],
         "tagvalue1": 6815744,
         "tagvalue2": 134479872,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "니힐리스타",
@@ -2652,7 +2784,8 @@
         ],
         "tagvalue1": 2147778560,
         "tagvalue2": 0,
-        "tagvalue3": 8
+        "tagvalue3": 8,
+        "version": "v=1"
     },
     {
         "name": "크라운",
@@ -2676,7 +2809,8 @@
         ],
         "tagvalue1": 283115556,
         "tagvalue2": 4114,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "그레이브",
@@ -2700,7 +2834,8 @@
         ],
         "tagvalue1": 2149876009,
         "tagvalue2": 1024,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=2"
     },
     {
         "name": "노아",
@@ -2720,7 +2855,8 @@
         ],
         "tagvalue1": 1342177280,
         "tagvalue2": 36864,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "스노우 화이트",
@@ -2740,7 +2876,8 @@
         ],
         "tagvalue1": 2147745801,
         "tagvalue2": 2097152,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "이사벨",
@@ -2761,7 +2898,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 131072,
-        "tagvalue3": 256
+        "tagvalue3": 256,
+        "version": "v=1"
     },
     {
         "name": "홍련",
@@ -2780,7 +2918,8 @@
         ],
         "tagvalue1": 262169,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "하란",
@@ -2800,7 +2939,8 @@
         ],
         "tagvalue1": 2147745801,
         "tagvalue2": 0,
-        "tagvalue3": 8
+        "tagvalue3": 8,
+        "version": "v=1"
     },
     {
         "name": "모더니아",
@@ -2821,7 +2961,8 @@
         ],
         "tagvalue1": 294931,
         "tagvalue2": 0,
-        "tagvalue3": 128
+        "tagvalue3": 128,
+        "version": "v=1"
     },
     {
         "name": "레드후드",
@@ -2847,7 +2988,8 @@
         ],
         "tagvalue1": 2436957189,
         "tagvalue2": 2097169,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "스노우화이트:이노센트데이즈",
@@ -2866,7 +3008,8 @@
         ],
         "tagvalue1": 294945,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "홍련:흑영",
@@ -2887,7 +3030,8 @@
         ],
         "tagvalue1": 295937,
         "tagvalue2": 16388,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "신데렐라",
@@ -2908,7 +3052,8 @@
         ],
         "tagvalue1": 851969,
         "tagvalue2": 128,
-        "tagvalue3": 131072
+        "tagvalue3": 131072,
+        "version": "v=1"
     },
     {
         "name": "도로시 : 세렌디피티",
@@ -2930,7 +3075,8 @@
         ],
         "tagvalue1": 2147615011,
         "tagvalue2": 8192,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "파스칼",
@@ -2947,7 +3093,8 @@
         ],
         "tagvalue1": 6291456,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "람",
@@ -2967,7 +3114,8 @@
         ],
         "tagvalue1": 277872640,
         "tagvalue2": 32769,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "카츠라기 미사토",
@@ -2986,7 +3134,8 @@
         ],
         "tagvalue1": 2097154,
         "tagvalue2": 0,
-        "tagvalue3": 10240
+        "tagvalue3": 10240,
+        "version": "v=1"
     },
     {
         "name": "스즈하라 사쿠라",
@@ -3005,7 +3154,8 @@
         ],
         "tagvalue1": 1080033280,
         "tagvalue2": 131072,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "히메노",
@@ -3025,7 +3175,8 @@
         ],
         "tagvalue1": 33801,
         "tagvalue2": 65536,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "릴리",
@@ -3043,7 +3194,8 @@
         ],
         "tagvalue1": 167772164,
         "tagvalue2": 0,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "마키마",
@@ -3066,7 +3218,8 @@
         ],
         "tagvalue1": 2436890624,
         "tagvalue2": 536870931,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=1"
     },
     {
         "name": "렘",
@@ -3087,7 +3240,8 @@
         ],
         "tagvalue1": 16809997,
         "tagvalue2": 0,
-        "tagvalue3": 16384
+        "tagvalue3": 16384,
+        "version": "v=1"
     },
     {
         "name": "마리",
@@ -3109,7 +3263,8 @@
         ],
         "tagvalue1": 2147746085,
         "tagvalue2": 0,
-        "tagvalue3": 2048
+        "tagvalue3": 2048,
+        "version": "v=1"
     },
     {
         "name": "파워",
@@ -3128,7 +3283,8 @@
         ],
         "tagvalue1": 262145,
         "tagvalue2": 4,
-        "tagvalue3": 32
+        "tagvalue3": 32,
+        "version": "v=1"
     },
     {
         "name": "2B",
@@ -3147,7 +3303,8 @@
         ],
         "tagvalue1": 786433,
         "tagvalue2": 16384,
-        "tagvalue3": 0
+        "tagvalue3": 0,
+        "version": "v=2"
     },
     {
         "name": "A2",
@@ -3168,7 +3325,8 @@
         ],
         "tagvalue1": 332801,
         "tagvalue2": 0,
-        "tagvalue3": 32
+        "tagvalue3": 32,
+        "version": "v=1"
     },
     {
         "name": "에밀리아",
@@ -3188,7 +3346,8 @@
         ],
         "tagvalue1": 99328,
         "tagvalue2": 0,
-        "tagvalue3": 1056
+        "tagvalue3": 1056,
+        "version": "v=2"
     },
     {
         "name": "아스카",
@@ -3211,7 +3370,8 @@
         ],
         "tagvalue1": 2164261091,
         "tagvalue2": 0,
-        "tagvalue3": 2048
+        "tagvalue3": 2048,
+        "version": "v=1"
     },
     {
         "name": "레이",
@@ -3232,7 +3392,8 @@
         ],
         "tagvalue1": 8650916,
         "tagvalue2": 0,
-        "tagvalue3": 2048
+        "tagvalue3": 2048,
+        "version": "v=1"
     },
     {
         "name": "아스카:WILLE",
@@ -3255,7 +3416,8 @@
         ],
         "tagvalue1": 2359332,
         "tagvalue2": 131078,
-        "tagvalue3": 4096
+        "tagvalue3": 4096,
+        "version": "v=1"
     },
     {
         "name": "레이(가칭)",
@@ -3274,7 +3436,8 @@
         ],
         "tagvalue1": 262180,
         "tagvalue2": 0,
-        "tagvalue3": 4096
+        "tagvalue3": 4096,
+        "version": "v=1"
     },
     {
         "name": "이브",
@@ -3296,7 +3459,8 @@
         ],
         "tagvalue1": 294924,
         "tagvalue2": 131076,
-        "tagvalue3": 131072
+        "tagvalue3": 131072,
+        "version": "v=1"
     },
     {
         "name": "레이븐",
@@ -3316,6 +3480,7 @@
         ],
         "tagvalue1": 266244,
         "tagvalue2": 0,
-        "tagvalue3": 24
+        "tagvalue3": 24,
+        "version": "v=1"
     }
 ]

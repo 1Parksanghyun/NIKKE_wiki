@@ -21,7 +21,11 @@ fetch('../MainHome/NikkeList.json')
                 //스탠딩 이미지 삽입
                 document.getElementById("NikkeStand").prepend(NikkeName);
                 const StandImg = document.getElementById("NikkeStandImg");
-                StandImg.src = `./InfoPage/InfoPageImage/${index.dataname}Stand.webp`;
+                StandImg.src = `./InfoPage/InfoPageImage/${index.dataname}Stand.webp?${index.version}`;
+                InsertIcon('Weapon', index.weapon)
+                InsertIcon('Class', index.class)
+                InsertIcon('Burst', index.burst)
+                InsertIcon('Type', index.type)
                 InsertSkillInfo();
                 break;
             }
@@ -40,4 +44,12 @@ function InsertSkillInfo() {
             }
         }
         )
+}
+
+function InsertIcon(attribute, filename) {
+    const Standbackground = document.getElementById("NikkeAttribute");
+    Standbackground.appendChild(Object.assign(document.createElement('img'), {
+        id: `${attribute}`,
+        src: `../MainHome/NikkeCard/NikkeCardImg/${attribute}/${filename}.webp`
+    }))
 }
