@@ -2320,6 +2320,28 @@
         "version": "v=1"
     },
     {
+        "name": "에이드 : 에이전트 바니",
+        "tier": "SSR",
+        "dataname": "Ade_AgentBunny",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "시전자 기준 공격력 증가",
+            "공격 데미지 증가",
+            "관통 데미지 증가",
+            "관통 특화",
+            "사거리 증가"
+        ],
+        "tagvalue1": 2147483941,
+        "tagvalue2": 0,
+        "tagvalue3": 1,
+        "version": "v=2"
+    },
+    {
         "name": "폴크방",
         "tier": "SSR",
         "dataname": "Folkwang",
@@ -2676,6 +2698,26 @@
         "tagvalue1": 262176,
         "tagvalue2": 0,
         "tagvalue3": 131096,
+        "version": "v=1"
+    },
+    {
+        "name": "밀크:블루밍 바니",
+        "tier": "SSR",
+        "dataname": "Milk_BloomingBunny",
+        "class": "Attacker",
+        "type": "DMTR",
+        "weapon": "SR",
+        "burst": "Burst3",
+        "company": "tetra",
+        "tags": [
+            "공격력 증가",
+            "관통 데미지 증가",
+            "분배 데미지 공격",
+            "관통 특화"
+        ],
+        "tagvalue1": 2147483905,
+        "tagvalue2": 16384,
+        "tagvalue3": 0,
         "version": "v=1"
     },
     {

@@ -35,9 +35,9 @@ function SearchingNikke() {
     //console.log('1번', SelectedTagsValue[0].toString(2), '2번', SelectedTagsValue[1].toString(2), '3번', SelectedTagsValue[2].toString(2));
     const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
     Nikkeinfo.forEach((ele) => {
-            ele.filtering(SelectedTagsValue);
-        })
-        //console.log(SelectedTagValue.toString(2));
+        ele.filtering(SelectedTagsValue);
+    })
+    //console.log(SelectedTagValue.toString(2));
 }
 
 function Search() {
@@ -101,7 +101,10 @@ function AttributeSearch() {
                 continue;
             let pass = 1
             for (let value of SelectedAttributes[key]) {
-                if (NikkeList[index].style.display != 'none' && NikkeList[index].dataset[key] == value) {
+                if (NikkeList[index].name == 'RedHood' && key == 'burst') {
+                    if (NikkeList[index].style.display != 'none' && SelectedAttributes[key].size != 0)
+                        pass = 0
+                } else if (NikkeList[index].style.display != 'none' && NikkeList[index].dataset[key] == value) {
                     pass = 0
                 }
             }
