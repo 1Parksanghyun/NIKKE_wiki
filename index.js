@@ -2,6 +2,12 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+app.get('/robots.txt', (req, res) => {
+    res.type('text/plain');
+    res.send("User-agent: *\nAllow: /\nSitemap: https://nikkeskillwiki.com/sitemap.xml");
+});
+
+
 app.use(express.static(path.join(__dirname, 'Wiki'), {
     setHeaders: (res, path) => {
         if (path.endsWith('.png') || path.endsWith('.webp')) {
