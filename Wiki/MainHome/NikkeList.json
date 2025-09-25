@@ -3200,6 +3200,25 @@
         "version": "v=1"
     },
     {
+        "name": "클레어",
+        "tier": "SR",
+        "dataname": "Claire",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": [
+            "최대 체력 비례 회복",
+            "최대 체력 비례 보호막",
+            "해로운 효과 해제"
+        ],
+        "tagvalue1": 10485760,
+        "tagvalue2": 64,
+        "tagvalue3": 0,
+        "version": "v=1"
+    },
+    {
         "name": "히메노",
         "tier": "SR",
         "dataname": "Himeno",
@@ -3523,6 +3542,51 @@
         "tagvalue1": 266244,
         "tagvalue2": 0,
         "tagvalue3": 24,
+        "version": "v=1"
+    },
+    {
+        "name": "에이다",
+        "tier": "SSR",
+        "dataname": "Ada",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst3",
+        "company": "abnormal",
+        "tags": [
+            "공격력 증가",
+            "시전자 기준 공격력 증가",
+            "방어력 무시 데미지 증가",
+            "차지 데미지 증가",
+            "공격 데미지 비례 회복",
+            "방어력 무시 공격"
+        ],
+        "tagvalue1": 16778757,
+        "tagvalue2": 0,
+        "tagvalue3": 32768,
+        "version": "v=2"
+    },
+    {
+        "name": "질 발렌타인",
+        "tier": "SSR",
+        "dataname": "Jill",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "AR",
+        "burst": "Burst3",
+        "company": "abnormal",
+        "tags": [
+            "공격력 증가",
+            "명중률 증가",
+            "공격 데미지 증가",
+            "방어력 무시 데미지 증가",
+            "재장전 속도 증가",
+            "지속 데미지 공격",
+            "방어력 무시 데미지로 치환"
+        ],
+        "tagvalue1": 547,
+        "tagvalue2": 16777218,
+        "tagvalue3": 8,
         "version": "v=1"
     }
 ]
