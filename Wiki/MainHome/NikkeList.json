@@ -461,6 +461,32 @@
         "version": "v=1"
     },
     {
+        "name": "델타 : 닌자 시프",
+        "tier": "SSR",
+        "dataname": "Delta_NinjaThief",
+        "class": "Defender",
+        "type": "PSID",
+        "weapon": "MG",
+        "burst": "Burst2",
+        "company": "elysion",
+        "tags": [
+            "공격력 증가",
+            "시전자 기준 공격력 증가",
+            "분배 데미지 증가",
+            "분배 데미지 공격",
+            "공격 데미지 비례 회복",
+            "최대 체력 비례 회복",
+            "최대 체력 비례 보호막",
+            "도발",
+            "은신",
+            "적 받는 데미지 증가"
+        ],
+        "tagvalue1": 27265029,
+        "tagvalue2": 149520,
+        "tagvalue3": 4,
+        "version": "v=1"
+    },
+    {
         "name": "솔저 E.G.",
         "tier": "R",
         "dataname": "SoldierEG",
