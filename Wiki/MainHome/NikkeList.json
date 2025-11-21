@@ -185,6 +185,25 @@
         "version": "v=2"
     },
     {
+        "name": "솔린 : 프로스트 티켓",
+        "tier": "SSR",
+        "dataname": "Soline_FrostTicket",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "최대 체력만 증가",
+            "버스트 쿨타임 감소",
+            "최대 체력 비례 회복"
+        ],
+        "tagvalue1": 3145728,
+        "tagvalue2": 1,
+        "tagvalue3": 0,
+        "version": "v=1"
+    },
+    {
         "name": "솔져 F.A.",
         "tier": "R",
         "dataname": "SoldierFA",
