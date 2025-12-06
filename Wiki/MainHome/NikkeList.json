@@ -393,6 +393,25 @@
         "version": "v=1"
     },
     {
+        "name": "브리드 : 사일런트 트랙",
+        "tier": "SSR",
+        "dataname": "Brid_SilentTrack",
+        "class": "Supporter",
+        "type": "HSTA",
+        "weapon": "SG",
+        "burst": "Burst2",
+        "company": "elysion",
+        "tags": [
+            "시전자 기준 공격력 증가",
+            "스킬 데미지 공격",
+            "적 받는 데미지 증가"
+        ],
+        "tagvalue1": 262148,
+        "tagvalue2": 131072,
+        "tagvalue3": 0,
+        "version": "v=1"
+    },
+    {
         "name": "폴리",
         "tier": "SSR",
         "dataname": "Poli",
@@ -903,6 +922,26 @@
         "tagvalue1": 67073,
         "tagvalue2": 0,
         "tagvalue3": 294944,
+        "version": "v=1"
+    },
+    {
+        "name": "디젤 : 윈터 스위츠",
+        "tier": "SSR",
+        "dataname": "Diesel_WinterSweets",
+        "class": "Attacker",
+        "type": "HSTA",
+        "weapon": "RL",
+        "burst": "Burst3",
+        "company": "elysion",
+        "tags": [
+            "크리티컬 데미지 증가",
+            "지속 데미지 증가",
+            "지속 데미지 공격",
+            "적 받는 데미지 증가"
+        ],
+        "tagvalue1": 16,
+        "tagvalue2": 131072,
+        "tagvalue3": 24,
         "version": "v=1"
     },
     {
