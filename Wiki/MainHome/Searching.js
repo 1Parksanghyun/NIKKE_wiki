@@ -7,11 +7,8 @@
 6. 생성된 바이너리 값이 포함될 경우 목록에 표시, 아닐 경우 숨김 처리된다.
 */
 
-
-SearchingTag();
-let TagValues = null;
-LoadTagValue();
 let SelectedTagsValue = new Uint32Array(3);
+let TagValues = null;
 let SelectedAttributes = {
     "manufacturer": new Set(),
     "class": new Set(),
@@ -20,7 +17,10 @@ let SelectedAttributes = {
     "burst": new Set(),
     "rarity": new Set(),
 };
-let NikkeList;
+const NikkeList = document.getElementById('NikkeList').childNodes;
+NameSearch();
+SearchingTag();
+LoadTagValue();
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
@@ -82,9 +82,6 @@ function ClassifyTagValue(TagValue, TagType) {
 }
 
 function AttributeChanged(attribute, Ischecked, attributetype) {
-    if (!NikkeList) {
-        NikkeList = document.getElementById('NikkeList').childNodes
-    }
     if (Ischecked)
         SelectedAttributes[attributetype].add(attribute)
     else
@@ -112,6 +109,35 @@ function AttributeSearch() {
                 NikkeList[index].style.display = 'none'
         }
     }
+}
+
+function NameSearch() {
+    const input = document.getElementById("NikkeSearch");
+    input.addEventListener("keydown", function (k) {
+        if (k.key == "Enter") {
+            filteringByName(input.value)
+        }
+    })
+}
+
+async function filteringByName(InputName) {
+    if (InputName == "") {
+        NikkeList.forEach((card) => {
+            card.style.display = 'flex';
+        })
+    }
+    await fetch('./SearchName.json').then((res) => {
+        res.json().then((NameList) => {
+            const JsonName = NameList[InputName];
+            NikkeList.forEach((card) => {
+                if (JsonName.includes(card.name)) {
+                    card.style.display = 'flex'
+                    return;
+                }
+                card.style.display = 'none'
+            })
+        })
+    })
 }
 
 /**(임시) 스킬텍스트 가공*/

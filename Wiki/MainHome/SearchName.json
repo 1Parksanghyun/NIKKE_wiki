@@ -1,0 +1,978 @@
+{
+  "2B": [
+    "2B"
+  ],
+  "A2": [
+    "A2"
+  ],
+  "D": [
+    "D",
+    "D_KillerWife"
+  ],
+  "D:킬러 와이프": [
+    "D_KillerWife"
+  ],
+  "동D": [
+    "D_KillerWife"
+  ],
+  "K": [
+    "K"
+  ],
+  "N102": [
+    "N102"
+  ],
+  "앤": [
+    "N102"
+  ],
+  "iDoll 오션": [
+    "IDollOcean"
+  ],
+  "iDoll썬": [
+    "IDollSun"
+  ],
+  "idoll 플라워": [
+    "IDollFlower"
+  ],
+  "그레이브": [
+    "Grave"
+  ],
+  "길로틴": [
+    "Guillotine",
+    "Guillotine_WinterSlayer"
+  ],
+  "길로틴:윈터슬레이어": [
+    "Guillotine_WinterSlayer"
+  ],
+  "클로틴": [
+    "Guillotine_WinterSlayer"
+  ],
+  "길티": [
+    "Guilty"
+  ],
+  "나가": [
+    "Naga"
+  ],
+  "나유타": [
+    "Nayuta"
+  ],
+  "네로": [
+    "Nero"
+  ],
+  "네베": [
+    "Neve"
+  ],
+  "네온": [
+    "Neon",
+    "Neon_BlueOcean"
+  ],
+  "네온:블루오션": [
+    "Neon_BlueOcean"
+  ],
+  "수네온": [
+    "Neon_BlueOcean"
+  ],
+  "노벨": [
+    "Novel"
+  ],
+  "노아": [
+    "Noah"
+  ],
+  "노이즈": [
+    "Noise"
+  ],
+  "누아르": [
+    "Noir"
+  ],
+  "니힐리스타": [
+    "Nihilister"
+  ],
+  "델타": [
+    "Delta",
+    "Delta_NinjaThief"
+  ],
+  "델타 : 닌자 시프": [
+    "Delta_NinjaThief"
+  ],
+  "도라": [
+    "Dolla"
+  ],
+  "도로시": [
+    "Dorothy",
+    "Dorothy_Serendipity"
+  ],
+  "도로롱": [
+    "Dorothy"
+  ],
+  "도로": [
+    "Dorothy"
+  ],
+  "도로시 : 세렌디피티": [
+    "Dorothy_Serendipity"
+  ],
+  "수로시": [
+    "Dorothy_Serendipity"
+  ],
+  "드레이크": [
+    "Drake"
+  ],
+  "디젤": [
+    "Diesel",
+    "Diesel_WinterSweets"
+  ],
+  "디젤 : 윈터 스위츠": [
+    "Diesel_WinterSweets"
+  ],
+  "라이": [
+    "Rei"
+  ],
+  "라푼젤": [
+    "Rapunzel",
+    "Rapunzel_PureGrace"
+  ],
+  "라푼젤 : 퓨어 그레이스": [
+    "Rapunzel_PureGrace"
+  ],
+  "라플라스": [
+    "Laplace"
+  ],
+  "라피": [
+    "Rapi",
+    "Rapi_RedHood"
+  ],
+  "라피:레드후드": [
+    "Rapi_RedHood"
+  ],
+  "람": [
+    "Ram"
+  ],
+  "레드후드": [
+    "RedHood"
+  ],
+  "레오나": [
+    "Leona"
+  ],
+  "레이": [
+    "AyanamiRei"
+  ],
+  "레이(가칭)": [
+    "Rei_Tentative"
+  ],
+  "레이븐": [
+    "Raven"
+  ],
+  "렘": [
+    "Rem"
+  ],
+  "로산나": [
+    "Rosanna",
+    "Rosanna_ChicOcean"
+  ],
+  "로산나 : 시크 오션": [
+    "Rosanna_ChicOcean"
+  ],
+  "수산나": [
+    "Rosanna_ChicOcean"
+  ],
+  "루드밀라": [
+    "Ludmila",
+    "Ludmilla_WinterOwner"
+  ],
+  "루드밀라:윈터오너": [
+    "Ludmilla_WinterOwner"
+  ],
+  "클루드": [
+    "Ludmilla_WinterOwner"
+  ],
+  "루마니": [
+    "Rumani"
+  ],
+  "루주": [
+    "Rouge"
+  ],
+  "루피": [
+    "Rupee",
+    "Rupee_WinterShopper"
+  ],
+  "루피 : 윈터 쇼퍼": [
+    "Rupee_WinterShopper"
+  ],
+  "클루피": [
+    "Rupee_WinterShopper"
+  ],
+  "리버렐리오": [
+    "Liberalio"
+  ],
+  "리타": [
+    "Liter"
+  ],
+  "리틀 머메이드": [
+    "LittleMermaid"
+  ],
+  "세이렌": [
+    "LittleMermaid"
+  ],
+  "릴리": [
+    "Lily"
+  ],
+  "마나": [
+    "Mana"
+  ],
+  "마르차나": [
+    "Marciana"
+  ],
+  "마리": [
+    "MakinamiMariIllustrious"
+  ],
+  "마스트": [
+    "Mast",
+    "Mast_RomanticMaid"
+  ],
+  "마스트 : 로망틱 메이드": [
+    "Mast_RomanticMaid"
+  ],
+  "메스트": [
+    "Mast_RomanticMaid"
+  ],
+  "마키마": [
+    "Makima"
+  ],
+  "맥스웰": [
+    "Maxwell"
+  ],
+  "메어리": [
+    "Mary",
+    "Mary_BayGoddess"
+  ],
+  "메어리 : 베이 갓데스": [
+    "Mary_BayGoddess"
+  ],
+  "수어리": [
+    "Mary_BayGoddess"
+  ],
+  "메이든": [
+    "Maiden",
+    "Maiden_IceRose"
+  ],
+  "메이든:아이스로즈": [
+    "Maiden_IceRose"
+  ],
+  "클이든": [
+    "Maiden_IceRose"
+  ],
+  "모더니아": [
+    "Modernia"
+  ],
+  "마리안": [
+    "Modernia"
+  ],
+  "모리": [
+    "Mori"
+  ],
+  "목단": [
+    "Moran"
+  ],
+  "미란다": [
+    "Miranda"
+  ],
+  "미카": [
+    "Mica",
+    "Mica_SnowBuddy"
+  ],
+  "미카 : 스노우 버디": [
+    "Mica_SnowBuddy"
+  ],
+  "클미카": [
+    "Mica_SnowBuddy"
+  ],
+  "미하라": [
+    "Mihara",
+    "Mihara_BondingChain"
+  ],
+  "미하라:본딩체인": [
+    "Mihara_BondingChain"
+  ],
+  "밀크": [
+    "Milk",
+    "Milk_BloomingBunny"
+  ],
+  "밀크:블루밍 바니": [
+    "Milk_BloomingBunny"
+  ],
+  "바밀크": [
+    "Milk_BloomingBunny"
+  ],
+  "바이퍼": [
+    "Viper"
+  ],
+  "베스티": [
+    "Vesti",
+    "Vesti_TacticalUpgrade"
+  ],
+  "베스티 : 택티컬 업": [
+    "Vesti_TacticalUpgrade"
+  ],
+  "베이": [
+    "Bay"
+  ],
+  "벨로타": [
+    "Belrota"
+  ],
+  "볼륨": [
+    "Volume"
+  ],
+  "브래디": [
+    "Bready"
+  ],
+  "브리드": [
+    "Brid",
+    "Brid_SilentTrack"
+  ],
+  "브리드 : 사일런트 트랙": [
+    "Brid_SilentTrack"
+  ],
+  "블랑": [
+    "Blanc"
+  ],
+  "비스킷": [
+    "Biscuit"
+  ],
+  "판드랄추": [
+    "Biscuit"
+  ],
+  "사쿠라": [
+    "Sakura",
+    "Sakura_BloominSummer"
+  ],
+  "사쿠라:블룸인서머": [
+    "Sakura_BloominSummer"
+  ],
+  "수쿠라": [
+    "Sakura_BloominSummer"
+  ],
+  "센티": [
+    "Centi"
+  ],
+  "소다": [
+    "Soda",
+    "Soda_TwinklingBunny"
+  ],
+  "소다:트윙클링바니": [
+    "Soda_TwinklingBunny"
+  ],
+  "바소다": [
+    "Soda_TwinklingBunny"
+  ],
+  "소라": [
+    "Sora"
+  ],
+  "솔린": [
+    "Soline",
+    "Soline_FrostTicket"
+  ],
+  "솔린 : 프로스트 티켓": [
+    "Soline_FrostTicket"
+  ],
+  "솔저 E.G.": [
+    "SoldierEG"
+  ],
+  "솔져 F.A.": [
+    "SoldierFA"
+  ],
+  "솔져 O.W.": [
+    "SoldierOW"
+  ],
+  "슈가": [
+    "Sugar"
+  ],
+  "스노우화이트": [
+    "SnowWhite"
+  ],
+  "스화": [
+    "SnowWhite"
+  ],
+  "스노우화이트:이노센트데이즈": [
+    "SnowWhite_InnocentDays"
+  ],
+  "농스화": [
+    "SnowWhite_InnocentDays"
+  ],
+  "스즈하라 사쿠라": [
+    "SakuraSuzuhara"
+  ],
+  "시그널": [
+    "Signal"
+  ],
+  "신": [
+    "Sin"
+  ],
+  "신데렐라": [
+    "Cinderella"
+  ],
+  "아니스": [
+    "Anis",
+    "Anis_SparklingSummer"
+  ],
+  "아니스:스파클링서머": [
+    "Anis_SparklingSummer"
+  ],
+  "수니스": [
+    "Anis_SparklingSummer"
+  ],
+  "아르카나": [
+    "Arcana"
+  ],
+  "아리아": [
+    "Aria"
+  ],
+  "아스카": [
+    "ShikinamiAsukaLangley",
+    "Asuka_WILLE"
+  ],
+  "작스카": [
+    "ShikinamiAsukaLangley"
+  ],
+  "아스카:WILLE": [
+    "Asuka_WILLE"
+  ],
+  "풍스카": [
+    "Asuka_WILLE"
+  ],
+  "아인": [
+    "Ein"
+  ],
+  "애드미": [
+    "Admi"
+  ],
+  "앤 : 미라클 페어리": [
+    "Anne_MiracleFairy"
+  ],
+  "클앤": [
+    "Anne_MiracleFairy"
+  ],
+  "앨리스": [
+    "Alice",
+    "Alice_WonderlandBunny"
+  ],
+  "앨리스 : 원더랜드 바니": [
+    "Alice_WonderlandBunny"
+  ],
+  "바니 앨리스": [
+    "Alice_WonderlandBunny"
+  ],
+  "앵커": [
+    "Anchor",
+    "Anchor_InnocentMaid"
+  ],
+  "앵커 : 이노센트 메이드": [
+    "Anchor_InnocentMaid"
+  ],
+  "메앵": [
+    "Anchor_InnocentMaid"
+  ],
+  "얀": [
+    "Yan"
+  ],
+  "에밀리아": [
+    "Emillia"
+  ],
+  "에이다": [
+    "Ada"
+  ],
+  "에이드": [
+    "Ade",
+    "Ade_AgentBunny"
+  ],
+  "에이드 : 에이전트 바니": [
+    "Ade_AgentBunny"
+  ],
+  "에테르": [
+    "Ether"
+  ],
+  "에피넬": [
+    "Epinel"
+  ],
+  "엑시아": [
+    "Exia"
+  ],
+  "엠마": [
+    "Emma",
+    "Emma_TacticalUpgrade"
+  ],
+  "엠마 : 택티컬 업": [
+    "Emma_TacticalUpgrade"
+  ],
+  "유니": [
+    "Yuni"
+  ],
+  "율리아": [
+    "Julia"
+  ],
+  "율하": [
+    "Yulha"
+  ],
+  "은화": [
+    "Eunhwa",
+    "Eunhwa_TacticalUpgrade"
+  ],
+  "은화 : 택티컬 업": [
+    "Eunhwa_TacticalUpgrade"
+  ],
+  "이브": [
+    "EVE"
+  ],
+  "이사벨": [
+    "Isabel"
+  ],
+  "일레그": [
+    "Elegg",
+    "Elegg_BoomandShock"
+  ],
+  "일레그 : 붐 앤 쇼크": [
+    "Elegg_BoomandShock"
+  ],
+  "수레그": [
+    "Elegg_BoomandShock"
+  ],
+  "자칼": [
+    "Jackal"
+  ],
+  "질 발렌타인": [
+    "Jill"
+  ],
+  "차임": [
+    "Chime"
+  ],
+  "츠바이": [
+    "Zwei"
+  ],
+  "카츠라기 미사토": [
+    "Misato"
+  ],
+  "코코아": [
+    "Cocoa"
+  ],
+  "퀀시": [
+    "Quency",
+    "Quency_EscapeQueen"
+  ],
+  "퀀시:이스케이프 퀸": [
+    "Quency_EscapeQueen"
+  ],
+  "크라운": [
+    "Crown"
+  ],
+  "크러스트": [
+    "Crust"
+  ],
+  "크로우": [
+    "Crow"
+  ],
+  "클레어": [
+    "Claire"
+  ],
+  "클레이": [
+    "Clay"
+  ],
+  "키리": [
+    "Quiry"
+  ],
+  "킬로": [
+    "Kilo"
+  ],
+  "토브": [
+    "Tove"
+  ],
+  "트로니": [
+    "Trony"
+  ],
+  "트리나": [
+    "Trina"
+  ],
+  "티아": [
+    "Tia"
+  ],
+  "파스칼": [
+    "Pascal"
+  ],
+  "파워": [
+    "Power"
+  ],
+  "팬텀": [
+    "Phantom"
+  ],
+  "페퍼": [
+    "Pepper"
+  ],
+  "폴리": [
+    "Poli"
+  ],
+  "폴크방": [
+    "Folkwang"
+  ],
+  "프로덕트 08": [
+    "Product08"
+  ],
+  "프로덕트 12": [
+    "Product12"
+  ],
+  "프로덕트 23": [
+    "Product23"
+  ],
+  "프리바티": [
+    "Privaty",
+    "Privaty_UnkindMaid"
+  ],
+  "프바": [
+    "Privaty",
+    "Privaty_UnkindMaid"
+  ],
+  "프리바티:언카인드메이드": [
+    "Privaty_UnkindMaid"
+  ],
+  "메프바": [
+    "Privaty_UnkindMaid"
+  ],
+  "프림": [
+    "Frima"
+  ],
+  "플로라": [
+    "Flora"
+  ],
+  "하란": [
+    "Harran"
+  ],
+  "헬름": [
+    "Helm",
+    "Helm_AquaMarine"
+  ],
+  "헬름 : 아쿠아 마린": [
+    "Helm_AquaMarine"
+  ],
+  "수헬름": [
+    "Helm_AquaMarine"
+  ],
+  "홍련": [
+    "Scarlet",
+    "Scarlet_BlackShadow"
+  ],
+  "홍북이": [
+    "Scarlet"
+  ],
+  "홍련:흑영": [
+    "Scarlet_BlackShadow"
+  ],
+  "흑련": [
+    "Scarlet_BlackShadow"
+  ],
+  "히메노": [
+    "Himeno"
+  ],
+  "요르하": [
+    "A2",
+    "2B"
+  ],
+  "시지 패러리스": [
+    "D",
+    "K",
+    "D_KillerWife"
+  ],
+  "리콜 & 릴리즈": [
+    "N102",
+    "Anne_MiracleFairy"
+  ],
+  "리플레이스": [
+    "SoldierEG",
+    "SoldierFA",
+    "SoldierOW",
+    "Product08",
+    "Product12",
+    "Product23",
+    "IDollFlower",
+    "IDollOcean",
+    "IDollSun"
+  ],
+  "앱솔루트": [
+    "Emma",
+    "Emma_TacticalUpgrade",
+    "Eunhwa",
+    "Eunhwa_TacticalUpgrade",
+    "Vesti",
+    "Vesti_TacticalUpgrade"
+  ],
+  "올드 테일즈": [
+    "LittleMermaid",
+    "Mori",
+    "Cinderella",
+    "Grave"
+  ],
+  "익스터너": [
+    "Guillotine",
+    "Guillotine_WinterSlayer",
+    "Maiden",
+    "Maiden_IceRose"
+  ],
+  "리얼 카인드니스": [
+    "Sin",
+    "Quency",
+    "Quency_EscapeQueen",
+    "Guilty"
+  ],
+  "다즐링 펄": [
+    "Naga",
+    "Tia"
+  ],
+  "파이오니아": [
+    "Scarlet",
+    "Rapunzel",
+    "SnowWhite",
+    "Nayuta"
+  ],
+  "해피 주": [
+    "Leona",
+    "Nero",
+    "Biscuit"
+  ],
+  "언리미티드": [
+    "Alice",
+    "Alice_WonderlandBunny",
+    "Ludmila",
+    "Ludmilla_WinterOwner",
+    "Neve",
+    "Tove"
+  ],
+  "카운터스": [
+    "Anis",
+    "Anis_SparklingSummer",
+    "Neon",
+    "Neon_BlueOcean",
+    "Rapi",
+    "Rapi_RedHood"
+  ],
+  "프로토콜": [
+    "Novel",
+    "Exia"
+  ],
+  "인헤르트": [
+    "Harran",
+    "Isabel",
+    "Noah",
+    "Dorothy",
+    "Dorothy_Serendipity"
+  ],
+  "프리마돈나": [
+    "Aria",
+    "Noise",
+    "Volume"
+  ],
+  "777": [
+    "Noir",
+    "Blanc",
+    "Rouge"
+  ],
+  "헬레틱": [
+    "Modernia",
+    "Nihilister",
+    "Liberalio"
+  ],
+  "스카우팅": [
+    "Delta",
+    "Delta_NinjaThief",
+    "Signal"
+  ],
+  "달란트": [
+    "Rupee",
+    "Rupee_WinterShopper",
+    "Dolla",
+    "Yan"
+  ],
+  "메티스": [
+    "Laplace",
+    "Maxwell",
+    "Drake"
+  ],
+  "인피니티 레일": [
+    "Soline",
+    "Soline_FrostTicket",
+    "Diesel",
+    "Diesel_WinterSweets",
+    "Brid",
+    "Brid_SilentTrack"
+  ],
+  "스쿨 서클": [
+    "Ein",
+    "Rei",
+    "Zwei"
+  ],
+  "갓데스": [
+    "Scarlet_BlackShadow",
+    "Rapunzel_PureGrace",
+    "SnowWhite_InnocentDays",
+    "RedHood"
+  ],
+  "에밀리아 진영": [
+    "Emillia",
+    "Rem",
+    "Ram"
+  ],
+  "NERV": [
+    "ShikinamiAsukaLangley",
+    "AyanamiRei",
+    "Rei_Tentative",
+    "MakinamiMariIllustrious",
+    "Misato"
+  ],
+  "언더월드 퀸": [
+    "Sakura",
+    "Sakura_BloominSummer",
+    "Rosanna",
+    "Rosanna_ChicOcean",
+    "Moran"
+  ],
+  "강하 부대": [
+    "EVE",
+    "Raven",
+    "Lily"
+  ],
+  "라이프 토닉": [
+    "Epinel",
+    "Rumani",
+    "Folkwang"
+  ],
+  "마이티 툴즈": [
+    "Liter",
+    "Centi"
+  ],
+  "M.M.R": [
+    "Mana",
+    "Ether"
+  ],
+  "아카데미아": [
+    "Marciana"
+  ],
+  "이지스": [
+    "Helm",
+    "Helm_AquaMarine",
+    "Mast",
+    "Mast_RomanticMaid",
+    "Anchor",
+    "Anchor_InnocentMaid"
+  ],
+  "데블 헌터": [
+    "Makima",
+    "Power",
+    "Himeno"
+  ],
+  "세라핌": [
+    "Mary",
+    "Mary_BayGoddess",
+    "Pepper"
+  ],
+  "A.C.P.U.": [
+    "Poli",
+    "Miranda",
+    "Quiry"
+  ],
+  "리틀 캐논": [
+    "Mica",
+    "Mica_SnowBuddy",
+    "Belrota"
+  ],
+  "워드리스": [
+    "Mihara",
+    "Mihara_BondingChain",
+    "Yuni"
+  ],
+  "카페 스위티": [
+    "Frima",
+    "Milk",
+    "Milk_BloomingBunny",
+    "Sugar"
+  ],
+  "이그조틱": [
+    "Viper",
+    "Jackal",
+    "Crow"
+  ],
+  "리와인드": [
+    "Bay",
+    "Clay"
+  ],
+  "쿠킹오일": [
+    "Bready",
+    "Crust "
+  ],
+  "메이드 포 유": [
+    "Cocoa",
+    "Soda",
+    "Soda_TwinklingBunny",
+    "Ade",
+    "Ade_AgentBunny",
+    "Privaty_UnkindMaid"
+  ],
+  "오버 더 호라이즌": [
+    "Sora"
+  ],
+  "WILLE": [
+    "Asuka_WILLE",
+    "SakuraSuzuhara"
+  ],
+  "베스트 셀러": [
+    "Phantom",
+    "Arcana"
+  ],
+  "트라이앵글": [
+    "Privaty",
+    "Yulha",
+    "Admi"
+  ],
+  "B.S.T.": [
+    "Ada",
+    "Claire",
+    "Jill"
+  ],
+  "마스터 핸드": [
+    "Julia"
+  ],
+  "일렉트릭 쇼크": [
+    "Elegg",
+    "Elegg_BoomandShock",
+    "Trony"
+  ],
+  "바이스리터": [
+    "Crown",
+    "Chime"
+  ],
+  "헤비그램": [
+    "Kilo"
+  ],
+  "보타닉 가든": [
+    "Flora",
+    "Trina"
+  ],
+  "기계생명체": [
+    "Pascal"
+  ],
+  "에게리": [
+    "ShikinamiAsukaLangley",
+    "AyanamiRei",
+    "Rei_Tentative",
+    "MakinamiMariIllustrious",
+    "Misato",
+    "Asuka_WILLE",
+    "SakuraSuzuhara"
+  ],
+  "바이오하자드": [
+    "Ada",
+    "Claire",
+    "Jill"
+  ],
+  "체인소맨": [
+    "Makima",
+    "Power",
+    "Himeno"
+  ],
+  "오버스펙": [
+    "Rapi_RedHood",
+    "Mihara_BondingChain"
+  ]
+}

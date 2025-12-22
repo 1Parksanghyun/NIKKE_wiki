@@ -20,16 +20,18 @@
         <img src="MainHomeImg/Logo.png" id="Logo">
     </div>
     <div id="PatchNote">
-        v1.1.7 패치노트
+        v1.2.0 패치노트
         <pre id="PatchContents" >
 버그 및 오류,건의사항 제보 : nikkeskillwiki@gmail.com
-        - 새로운 니케가 추가됩니다.
-                - 디젤 : 윈터 스위츠
-                - 브리드 : 사일런트 트랙
+        - 니케 이름 검색을 지원합니다
+                - 별칭, 스쿼드로도 검색이 가능합니다
+                - 모든 니케의 별칭이 등록되지 않아 메일로 문의 주시면 등록하도록 하겠습니다
+                - 많은 사람들이 사용하는 별칭 위주로 등록하겠습니다(수니스,수헬름,클앤 등)
         </pre>
     </div>
     <div class="MainContainer">
         <div id="MainContents">
+            <input type="text" id="NikkeSearch" placeholder="니케 이름 검색(Enter 검색,입력 없이 검색할 경우 필터링 초기화,별칭 및 스쿼드 검색 가능)">
             <div id="Attributes">
                 <div class="Attribute" id="Manufacturer">
                     <p>기업</p>
@@ -102,6 +104,7 @@
             </div>
             <div id="NikkeList"></div>
         </div>
+        <div style="width : 50px"></div>
         <script src='NikkeCard/NikkeCard.js' defer></script>
         <div class="Search">
             <div id="SelectedTagList">
