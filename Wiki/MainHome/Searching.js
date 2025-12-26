@@ -21,6 +21,7 @@ const NikkeList = document.getElementById('NikkeList').childNodes;
 NameSearch();
 SearchingTag();
 LoadTagValue();
+createSearchCard();
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
@@ -138,6 +139,16 @@ async function filteringByName(InputName) {
             })
         })
     })
+}
+
+function conditionSearching() {
+
+}
+
+function createSearchCard() {
+    const card = document.createElement("div");
+    card.className = "Tagcard"
+    document.getElementById("SelectedTags").appendChild(card);
 }
 
 /**(임시) 스킬텍스트 가공*/
