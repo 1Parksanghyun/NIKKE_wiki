@@ -3165,7 +3165,7 @@
         "version": "v=1"
     },
     {
-        "name": "스노우화이트:이노센트데이즈",
+        "name": "스노우 화이트:이노센트 데이즈",
         "tier": "SSR",
         "dataname": "SnowWhite_InnocentDays",
         "class": "Attacker",
@@ -3269,6 +3269,32 @@
         "tagvalue1": 327713,
         "tagvalue2": 0,
         "tagvalue3": 0,
+        "version": "v=1"
+    },
+    {
+        "name": "스노우 화이트:헤비 암즈",
+        "tier": "SSR",
+        "dataname": "SnowWhite_HeavyArms",
+        "class": "Attacker",
+        "type": "PSID",
+        "weapon": "SR",
+        "burst": "Burst3",
+        "company": "pilgrim",
+        "tags": [
+            "공격력 증가",
+            "차지 데미지 증가",
+            "파츠 데미지 증가",
+            "공격 데미지 증가",
+            "순차 공격 데미지 증가",
+            "방어력 증가",
+            "스킬 데미지 공격",
+            "순차 공격",
+            "관통 특화",
+            "적 받는 데미지 증가"
+        ],
+        "tagvalue1": 2415924257,
+        "tagvalue2": 131072,
+        "tagvalue3": 2228224,
         "version": "v=1"
     },
     {

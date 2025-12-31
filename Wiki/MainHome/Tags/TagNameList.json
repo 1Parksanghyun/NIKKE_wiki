@@ -83,5 +83,6 @@
         "순차 공격": "SEQUENTIAL_DEALING",
         "발사체 폭발 데미지 증가": "PROJECTILE_EXPLOSIVE_DMG_UP",
         "해로운 효과 면역": "DEBUFF_IMMUNITY",
-        "보호막 회복": "SHIELD_RECOVERY"
+        "보호막 회복": "SHIELD_RECOVERY",
+        "순차 공격 데미지 증가": "SEQUENTIAL_DMG_UP"
     }

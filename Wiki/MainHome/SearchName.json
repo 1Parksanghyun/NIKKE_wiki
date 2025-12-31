@@ -384,17 +384,22 @@
   "슈가": [
     "Sugar"
   ],
-  "스노우화이트": [
+  "스노우 화이트": [
     "SnowWhite"
   ],
   "스화": [
-    "SnowWhite"
+    "SnowWhite",
+    "SnowWhite_InnocentDays",
+    "SnowWhite_HeavyArms"
   ],
-  "스노우화이트:이노센트데이즈": [
+  "스노우 화이트:이노센트 데이즈": [
     "SnowWhite_InnocentDays"
   ],
   "농스화": [
     "SnowWhite_InnocentDays"
+  ],
+  "스노우 화이트:헤비 암즈": [
+    "SnowWhite_HeavyArms"
   ],
   "스즈하라 사쿠라": [
     "SakuraSuzuhara"
