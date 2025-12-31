@@ -9,6 +9,8 @@
 
 let SelectedTagsValue = new Uint32Array(3);
 let TagValues = null;
+let ConditionList = null;
+let EffectList = null;
 let SelectedAttributes = {
     "manufacturer": new Set(),
     "class": new Set(),
@@ -21,7 +23,8 @@ const NikkeList = document.getElementById('NikkeList').childNodes;
 NameSearch();
 SearchingTag();
 LoadTagValue();
-createSearchCard();
+LoadCondition();
+LoadEffect();
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
@@ -145,12 +148,72 @@ function conditionSearching() {
 
 }
 
-function createSearchCard() {
+function createSearchCard(condition = "조건 없이 검색", effect = "효과 없이 검색") {
     const card = document.createElement("div");
     card.className = "Tagcard"
+    card.appendChild(ConditionList.cloneNode(true))
+    card.appendChild(EffectList.cloneNode(true))
+    card.appendChild(Object.assign(document.createElement("button"), {
+        onclick: () => { card.remove() }
+    }))
+    card.querySelector("#selectCondition").value = condition;
+    card.querySelector("#selectEffect").value = effect;
     document.getElementById("SelectedTags").appendChild(card);
 }
 
+function addCondition() {
+    const condition = document.createElement("div");
+    condition.id = "condition"
+    condition.innerText = "조건"
+    condition.appendChild(Object.assign(document.createElement("select"), {
+        id: 'selectCondition'
+    }))
+    return condition
+}
+
+function addEffect() {
+    const effect = document.createElement("div");
+    effect.id = "effect"
+    effect.innerText = "효과"
+    effect.appendChild(Object.assign(document.createElement("select"), {
+        id: 'selectEffect'
+    }))
+
+    return effect
+}
+async function LoadCondition() {
+    await fetch('./Tags/ConditionName.json').then((res) => {
+        res.json().then((conditioname) => {
+            const select = addCondition();
+            const list = select.querySelector('#selectCondition');
+            conditioname.forEach(name => {
+                list.appendChild(Object.assign(document.createElement('option'), {
+                    value: `${name}`,
+                    innerText: `${name}`
+                }))
+            })
+            ConditionList = select;
+        })
+    })
+}
+
+async function LoadEffect() {
+    await fetch('./Tags/TagNameList.json').then((res) => {
+        res.json().then((effectname) => {
+            const select = addEffect();
+            const list = select.querySelector('#selectEffect');
+            Object.values(effectname).forEach(namelist => {
+                namelist.forEach(name => {
+                    list.appendChild(Object.assign(document.createElement('option'), {
+                        value: `${name}`,
+                        innerText: `${name}`
+                    }))
+                })
+            })
+            EffectList = select;
+        })
+    })
+}
 /**(임시) 스킬텍스트 가공*/
 function Texte() {
     let CodeArr = [];
