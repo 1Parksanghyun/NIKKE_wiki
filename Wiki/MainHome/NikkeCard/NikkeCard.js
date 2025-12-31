@@ -8,9 +8,7 @@ fetch('./NikkeList.json')
         card.className = 'NikkeInfo';
         card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.webp')`
         card.name = char.dataname;
-        card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
-        card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
-        card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
+        card.tags = char.tags;
         card.dataset.manufacturer = char.company;
         card.dataset.class = char.class;
         card.dataset.weapon = char.weapon;
@@ -45,7 +43,7 @@ fetch('./NikkeList.json')
             id: 'NameAndTag'
         }));
         InsertNikkeName(addeddiv, char.name);
-        InsertNikkeTags(addeddiv, char.tags);
+        InsertNikkeTags(addeddiv, Object.values(char.tags));
         InsertNikkeMarks(card, char);
         //프로필 카드 삽입
         document.getElementById("NikkeList").appendChild(card);
@@ -120,12 +118,12 @@ function InsertNikkeName(addeddiv, data) {
 function InsertNikkeTags(addeddiv, data) {
     const NikkeTags = document.createElement("div");
     NikkeTags.id = 'NikkeTags';
-    for (let index = 0; index < data.length; index++) {
+    data.forEach((name) => {
         const Tag = document.createElement("p");
         Tag.className = 'NikkeTag'
-        Tag.textContent = data[index];
+        Tag.textContent = Object.keys(name);
         NikkeTags.appendChild(Tag);
-    }
+    })
     addeddiv.appendChild(NikkeTags);
 }
 

@@ -22,26 +22,25 @@ let SelectedAttributes = {
 const NikkeList = document.getElementById('NikkeList').childNodes;
 NameSearch();
 SearchingTag();
-LoadTagValue();
 LoadCondition();
 LoadEffect();
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
-    //이전에 입력된 선택된 태그값 초기화
-    for (let index = 0; index < SelectedTagsValue.length; index++) {
-        SelectedTagsValue[index] = 0;
-    }
-    //
-    for (let index of document.getElementById('SelectedTags').children) {
-        ClassifyTagValue(TagValues[index.dataset.name], Math.floor(TagValues[index.dataset.name] / 32));
-    }
-    //console.log('1번', SelectedTagsValue[0].toString(2), '2번', SelectedTagsValue[1].toString(2), '3번', SelectedTagsValue[2].toString(2));
-    const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
-    Nikkeinfo.forEach((ele) => {
-        ele.filtering(SelectedTagsValue);
+    const SelectedCards = document.getElementById("SelectedTags").childNodes;
+    const replica = NikkeList;
+    SelectedCards.forEach((card) => {
+        const toRemove = new Set();
+        replica.forEach((nikke) => {
+            nikke.style.display = "none";
+            if (nikke.tags?.[card.childNodes[0].childNodes[1].value]?.[card.childNodes[1].childNodes[1].value]) {
+                nikke.style.display = "flex";
+            } else {
+                toRemove.add(nikke)
+            }
+        })
+        replica = replica.filter(nikke => !toRemove.has(nikke));
     })
-    //console.log(SelectedTagValue.toString(2));
 }
 
 function Search() {
@@ -58,16 +57,6 @@ function ResetList() {
     document.querySelectorAll('.NikkeInfo').forEach((el) => {
         el.style.display = 'flex';
     })
-}
-
-/**TagValueList.json 파일로 부터 "효과코드": "효과 값"을 불러오는 함수.*/
-async function LoadTagValue() {
-    try {
-        const res = await fetch('./Tags/TagValueList.json');
-        TagValues = await res.json();
-    } catch (error) {
-        console.log('ERROR:', error);
-    }
 }
 
 /**사용자가 입력한 태그 이름에 따라 태그 목록이 필터링 되는 함수 */
