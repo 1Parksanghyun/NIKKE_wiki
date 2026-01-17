@@ -145,6 +145,30 @@
         "version": "v=1"
     },
     {
+        "name": "레이블",
+        "tier": "SSR",
+        "dataname": "Label",
+        "class": "Defender",
+        "type": "DMTR",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": [
+            "공격력 증가",
+            "시전자 기준 공격력 증가",
+            "최대 체력 증가",
+            "최대 체력 비례 보호막",
+            "받는 데미지 감소",
+            "은신",
+            "버스트 충전 속도 증가",
+            "무적"
+        ],
+        "tagvalue1": 1082654725,
+        "tagvalue2": 7168,
+        "tagvalue3": 0,
+        "version": "v=1"
+    },
+    {
         "name": "엠마",
         "tier": "SSR",
         "dataname": "Emma",
