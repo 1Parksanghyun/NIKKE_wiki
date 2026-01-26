@@ -28,12 +28,32 @@ LoadEffect();
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
     const SelectedCards = document.getElementById("SelectedTags").childNodes;
-    const replica = NikkeList;
+    var replica = Array.from(NikkeList);
     SelectedCards.forEach((card) => {
         const toRemove = new Set();
         replica.forEach((nikke) => {
             nikke.style.display = "none";
-            if (nikke.tags?.[card.childNodes[0].childNodes[1].value]?.[card.childNodes[1].childNodes[1].value]) {
+            if (card.childNodes[0].childNodes[1].value == "조건 없이 검색") {
+                var isRemoved = 1
+                for (const effectname of Object.values(nikke.tags)) {
+                    if (card.childNodes[1].childNodes[1].value in effectname) {
+                        nikke.style.display = "flex";
+                        isRemoved = 0
+                        break;
+                    }
+                }
+                if (isRemoved) { toRemove.add(nikke) }
+            } else if (card.childNodes[1].childNodes[1].value == "효과 없이 검색") {
+                var isRemoved = 1
+                for (const effectname of Object.keys(nikke.tags)) {
+                    if (effectname == card.childNodes[0].childNodes[1].value) {
+                        nikke.style.display = "flex";
+                        isRemoved = 0
+                        break;
+                    }
+                    if (isRemoved) { toRemove.add(nikke) }
+                }
+            } else if (nikke.tags?.[card.childNodes[0].childNodes[1].value]?.[card.childNodes[1].childNodes[1].value]) {
                 nikke.style.display = "flex";
             } else {
                 toRemove.add(nikke)
