@@ -8,9 +8,7 @@ fetch('./NikkeList.json')
         card.className = 'NikkeInfo';
         card.style.backgroundImage = `url('NikkeCard/NikkeCardImg/Company/${char.company}.webp')`
         card.name = char.dataname;
-        card.dataset.tagvalue1 = (char.tagvalue1).toString(2);
-        card.dataset.tagvalue2 = (char.tagvalue2).toString(2);
-        card.dataset.tagvalue3 = (char.tagvalue3).toString(2);
+        card.tags = char.tags;
         card.dataset.manufacturer = char.company;
         card.dataset.class = char.class;
         card.dataset.weapon = char.weapon;
@@ -45,24 +43,11 @@ fetch('./NikkeList.json')
             id: 'NameAndTag'
         }));
         InsertNikkeName(addeddiv, char.name);
-        InsertNikkeTags(addeddiv, char.tags);
+        InsertNikkeTags(addeddiv, Object.values(char.tags));
         InsertNikkeMarks(card, char);
         //프로필 카드 삽입
         document.getElementById("NikkeList").appendChild(card);
     }))
-    .then(() => fetch('./NikkeTreasure.json')
-        .then(res => res.json()).then(NikkeData => {
-            const TreasureNikkeName = Object.keys(NikkeData)
-            const TreasureNikkeValue = Object.values(NikkeData)
-            for (let index = TreasureNikkeName.length - 1; index >= 0; index--) {
-                const NikkeCard = document.getElementsByName(TreasureNikkeName[index])
-                //console.log('애장품:', document.getElementsByName(TreasureNikkeName[index]), index)
-                InsertTreasureNikkeTags(NikkeCard, TreasureNikkeValue[index].tags)
-                NikkeCard[0].dataset.tagvalue1 = (parseInt(NikkeCard[0].dataset.tagvalue1, 2) + TreasureNikkeValue[index].tagvalue1).toString(2)
-                NikkeCard[0].dataset.tagvalue2 = (parseInt(NikkeCard[0].dataset.tagvalue2, 2) + TreasureNikkeValue[index].tagvalue2).toString(2)
-                NikkeCard[0].dataset.tagvalue3 = (parseInt(NikkeCard[0].dataset.tagvalue3, 2) + TreasureNikkeValue[index].tagvalue3).toString(2)
-            }
-        }))
     .then(() => fetch('./NikkeDetail.json')
         .then(res => res.json()).then(NikkeDetail => {
             const NikkeDetailName = Object.keys(NikkeDetail)
@@ -118,26 +103,32 @@ function InsertNikkeName(addeddiv, data) {
 }
 
 function InsertNikkeTags(addeddiv, data) {
+    const tags = new Set()
+    const treasuretags = new Set()
     const NikkeTags = document.createElement("div");
     NikkeTags.id = 'NikkeTags';
-    for (let index = 0; index < data.length; index++) {
+    data.forEach((name) => {
+        Object.keys(name).forEach((tag) => {
+            if (name[tag] == "treasure") {
+                treasuretags.add(tag)
+            } else {
+                tags.add(tag)
+            }
+        })
+    })
+    tags.forEach((name) => {
         const Tag = document.createElement("p");
         Tag.className = 'NikkeTag'
-        Tag.textContent = data[index];
+        Tag.textContent = name;
         NikkeTags.appendChild(Tag);
-    }
-    addeddiv.appendChild(NikkeTags);
-}
-
-function InsertTreasureNikkeTags(card, data) {
-    //console.log(card)
-    const NikkeTags = card[0].children[1].children[1]
-    for (let index = 0; index < data.length; index++) {
+    })
+    treasuretags.forEach((name) => {
         const Tag = document.createElement("p");
         Tag.className = 'NikkeTreasureTag'
-        Tag.textContent = data[index];
+        Tag.textContent = name;
         NikkeTags.appendChild(Tag);
-    }
+    })
+    addeddiv.appendChild(NikkeTags);
 }
 
 function InsertNikkeMarks(card, data) {

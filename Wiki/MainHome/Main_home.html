@@ -3,7 +3,6 @@
 
 <head>
     <script src="../InfoPage/NikkeInfo.js" defer></script>
-    <script src="./Tags/SelectedTagList.js" defer></script>
     <script src="./Tags/TagList.js" defer></script>
     <script src="./Searching.js" defer></script>
     <script src="./PageMoveFunction.js" defer></script>
@@ -20,11 +19,13 @@
         <img src="MainHomeImg/Logo.png" id="Logo">
     </div>
     <div id="PatchNote">
-        v1.2.2 패치노트
+        v2.0.0 패치노트
         <pre id="PatchContents" >
 버그 및 오류,건의사항 제보 : nikkeskillwiki@gmail.com
-        - 새로운 니케가 추가됩니다
-                - 레이블
+        - 검색 기능이 이제 발동 조건 검색도 지원합니다.
+                - 스킬 설명에 발동 조건이 포함되지 않더라도 해당 조건으로 발동한다면 검색에 포함됩니다.
+        - 일부 니케의 스킬 설명 텍스트에 비정상적인 표기가 수정되었습니다.
+        - 아군 디버프 관련 효과 태그가 새롭게 추가됩니다.
         </pre>
     </div>
     <div class="MainContainer">
@@ -105,10 +106,8 @@
         <div style="width : 50px"></div>
         <script src='NikkeCard/NikkeCard.js' defer></script>
         <div class="Search">
-            <div id="SelectedTagList">
-                <div id="SelectedTags"></div>
-                <button id="SearchButton" onclick="Search()">검색</button>
-            </div>
+            <div id="SelectedTags"></div>
+            <button id="SearchButton" onclick="Search()">검색</button>
             <button id="Reset" onclick="ResetList()">검색 초기화</button>
             <!--<button onclick="Texte()">추출</button>-->
             <label><input type="text" id="SearchBar" placeholder="태그 검색">

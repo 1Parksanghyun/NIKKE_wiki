@@ -9,6 +9,8 @@
 
 let SelectedTagsValue = new Uint32Array(3);
 let TagValues = null;
+let ConditionList = null;
+let EffectList = null;
 let SelectedAttributes = {
     "manufacturer": new Set(),
     "class": new Set(),
@@ -20,24 +22,45 @@ let SelectedAttributes = {
 const NikkeList = document.getElementById('NikkeList').childNodes;
 NameSearch();
 SearchingTag();
-LoadTagValue();
+LoadCondition();
+LoadEffect();
 
 /**검색창에 입력된 태그에 따라 니케 목록을 필터링 하는 함수 */
 function SearchingNikke() {
-    //이전에 입력된 선택된 태그값 초기화
-    for (let index = 0; index < SelectedTagsValue.length; index++) {
-        SelectedTagsValue[index] = 0;
-    }
-    //
-    for (let index of document.getElementById('SelectedTags').children) {
-        ClassifyTagValue(TagValues[index.dataset.name], Math.floor(TagValues[index.dataset.name] / 32));
-    }
-    //console.log('1번', SelectedTagsValue[0].toString(2), '2번', SelectedTagsValue[1].toString(2), '3번', SelectedTagsValue[2].toString(2));
-    const Nikkeinfo = document.querySelectorAll('.NikkeInfo');
-    Nikkeinfo.forEach((ele) => {
-        ele.filtering(SelectedTagsValue);
+    const SelectedCards = document.getElementById("SelectedTags").childNodes;
+    var replica = Array.from(NikkeList);
+    SelectedCards.forEach((card) => {
+        const toRemove = new Set();
+        replica.forEach((nikke) => {
+            nikke.style.display = "none";
+            if (card.childNodes[0].childNodes[1].value == "조건 없이 검색") {
+                var isRemoved = 1
+                for (const effectname of Object.values(nikke.tags)) {
+                    if (card.childNodes[1].childNodes[1].value in effectname) {
+                        nikke.style.display = "flex";
+                        isRemoved = 0
+                        break;
+                    }
+                }
+                if (isRemoved) { toRemove.add(nikke) }
+            } else if (card.childNodes[1].childNodes[1].value == "효과 없이 검색") {
+                var isRemoved = 1
+                for (const effectname of Object.keys(nikke.tags)) {
+                    if (effectname == card.childNodes[0].childNodes[1].value) {
+                        nikke.style.display = "flex";
+                        isRemoved = 0
+                        break;
+                    }
+                    if (isRemoved) { toRemove.add(nikke) }
+                }
+            } else if (nikke.tags?.[card.childNodes[0].childNodes[1].value]?.[card.childNodes[1].childNodes[1].value]) {
+                nikke.style.display = "flex";
+            } else {
+                toRemove.add(nikke)
+            }
+        })
+        replica = replica.filter(nikke => !toRemove.has(nikke));
     })
-    //console.log(SelectedTagValue.toString(2));
 }
 
 function Search() {
@@ -54,16 +77,6 @@ function ResetList() {
     document.querySelectorAll('.NikkeInfo').forEach((el) => {
         el.style.display = 'flex';
     })
-}
-
-/**TagValueList.json 파일로 부터 "효과코드": "효과 값"을 불러오는 함수.*/
-async function LoadTagValue() {
-    try {
-        const res = await fetch('./Tags/TagValueList.json');
-        TagValues = await res.json();
-    } catch (error) {
-        console.log('ERROR:', error);
-    }
 }
 
 /**사용자가 입력한 태그 이름에 따라 태그 목록이 필터링 되는 함수 */
@@ -140,6 +153,76 @@ async function filteringByName(InputName) {
     })
 }
 
+function conditionSearching() {
+
+}
+
+function createSearchCard(condition = "조건 없이 검색", effect = "효과 없이 검색") {
+    const card = document.createElement("div");
+    card.className = "Tagcard"
+    card.appendChild(ConditionList.cloneNode(true))
+    card.appendChild(EffectList.cloneNode(true))
+    card.appendChild(Object.assign(document.createElement("button"), {
+        onclick: () => { card.remove() }
+    }))
+    card.querySelector("#selectCondition").value = condition;
+    card.querySelector("#selectEffect").value = effect;
+    document.getElementById("SelectedTags").appendChild(card);
+}
+
+function addCondition() {
+    const condition = document.createElement("div");
+    condition.id = "condition"
+    condition.innerText = "조건"
+    condition.appendChild(Object.assign(document.createElement("select"), {
+        id: 'selectCondition'
+    }))
+    return condition
+}
+
+function addEffect() {
+    const effect = document.createElement("div");
+    effect.id = "effect"
+    effect.innerText = "효과"
+    effect.appendChild(Object.assign(document.createElement("select"), {
+        id: 'selectEffect'
+    }))
+
+    return effect
+}
+async function LoadCondition() {
+    await fetch('./Tags/ConditionName.json').then((res) => {
+        res.json().then((conditioname) => {
+            const select = addCondition();
+            const list = select.querySelector('#selectCondition');
+            conditioname.forEach(name => {
+                list.appendChild(Object.assign(document.createElement('option'), {
+                    value: `${name}`,
+                    innerText: `${name}`
+                }))
+            })
+            ConditionList = select;
+        })
+    })
+}
+
+async function LoadEffect() {
+    await fetch('./Tags/TagNameList.json').then((res) => {
+        res.json().then((effectname) => {
+            const select = addEffect();
+            const list = select.querySelector('#selectEffect');
+            Object.values(effectname).forEach(namelist => {
+                namelist.forEach(name => {
+                    list.appendChild(Object.assign(document.createElement('option'), {
+                        value: `${name}`,
+                        innerText: `${name}`
+                    }))
+                })
+            })
+            EffectList = select;
+        })
+    })
+}
 /**(임시) 스킬텍스트 가공*/
 function Texte() {
     let CodeArr = [];
