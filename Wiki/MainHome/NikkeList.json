@@ -3017,6 +3017,33 @@
         "version": "v=2"
     },
     {
+        "name": "벨벳",
+        "tier": "SSR",
+        "dataname": "Velvet",
+        "class": "Supporter",
+        "type": "ANMI",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": {
+            "풀 차지 *회 공격 시": {
+                "공격력 증가": true,
+                "공격 데미지 증가": true,
+                "시전자 기준 공격력 증가": true,
+                "차지 데미지 증가": true
+            },
+            "일반 공격 *회 명중 시": {
+                "공격 데미지 증가": true,
+                "스킬 데미지 공격": true
+            },
+            "버스트 스킬 사용": {
+                "무기변경": true,
+                "공격 데미지 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "폴크방",
         "tier": "SSR",
         "dataname": "Folkwang",
