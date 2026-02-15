@@ -134,7 +134,9 @@
                 "크리티컬 확률 증가": true
             },
             "일반 공격 *회 공격 시": {
-                "엄페물 체력 회복": true
+                "엄페물 체력 회복": true,
+                "크리티컬 확률 증가": true,
+                "관통 데미지 증가": true
             },
             "버스트 스킬 사용": {
                 "관통 데미지 증가": true,
@@ -741,14 +743,18 @@
             "풀 버스트 타임 시작 시": {
                 "공격력 증가": true,
                 "재장전 속도 증가": true,
-                "최대 장탄수 감소": true
+                "최대 장탄수 감소": true,
+                "공격 데미지 증가": "treasure"
             },
             "마지막 탄환 명중 시": {
-                "스킬 데미지 공격": true
+                "스킬 데미지 공격": true,
+                "적 받는 데미지 증가": "treasure"
             },
             "버스트 스킬 사용": {
                 "스킬 데미지 공격": true,
-                "적 기절": true
+                "적 기절": true,
+                "적 공격력 감소": "treasure",
+                "우월코드 데미지 증가": "treasure"
             }
         },
         "version": "v=1"
@@ -1454,7 +1460,11 @@
             },
             "버스트 스킬 사용": {
                 "스킬 데미지 공격": true,
-                "적 방어력 감소": true
+                "적 방어력 감소": true,
+                "최대 체력 증가": "treasure"
+            },
+            "보호막 소모 시": {
+                "최대 체력 비례 회복": "treasure"
             }
         },
         "version": "v=1"
@@ -2661,11 +2671,18 @@
                 "최대 체력 증가": true
             },
             "버스트 스킬 사용": {
+                "시전자 기준 공격력 증가": "treasure",
                 "공격 데미지 비례 회복": true,
                 "도발": true,
                 "방어력 증가": true,
                 "받는 데미지 감소": true,
                 "무기변경": true
+            },
+            "랩처 등장 시": {
+                "버스트 쿨타임 감소": "treasure"
+            },
+            "풀 버스트 타임 시작 시": {
+                "버스트 쿨타임 감소": "treasure"
             }
         },
         "version": "v=1"
@@ -4305,6 +4322,27 @@
         "version": "v=1"
     },
     {
+        "name": "쿠루미",
+        "tier": "SR",
+        "dataname": "Kurumi",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": {
+            "일반 공격 *회 명중 시": {
+                "지속 데미지 공격": true,
+                "스킬 데미지 공격": true
+            },
+            "버스트 스킬 사용": {
+                "지속 데미지 공격": true,
+                "적 받는 데미지 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "마키마",
         "tier": "SSR",
         "dataname": "Makima",
@@ -4711,6 +4749,64 @@
                 "재장전 속도 증가": true,
                 "방어력 무시 데미지로 치환": true,
                 "강제 재장전": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "치사토",
+        "tier": "SSR",
+        "dataname": "Chisato",
+        "class": "Attacker",
+        "type": "DMTR",
+        "weapon": "SMG",
+        "burst": "Burst3",
+        "company": "abnormal",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "방어력 무시 데미지 증가": true,
+                "명중률 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "방어력 무시 데미지 증가": true,
+                "방어력 무시 데미지로 치환": true
+            },
+            "일반 공격 *회 명중 시": {
+                "방어력 무시 공격": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "타키나",
+        "tier": "SSR",
+        "dataname": "Takina",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "abnormal",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "방어력 무시 데미지 증가": true
+            },
+            "풀 버스트 타임 종료 시": {
+                "공격력 증가": true
+            },
+            "*초 마다": {
+                "방어력 무시 데미지 증가": true,
+                "적 받는 데미지 증가": true,
+                "적 기절": true
+            },
+            "버스트 스킬 사용": {
+                "무기변경": true,
+                "방어력 무시 데미지로 치환": true,
+                "적 받는 데미지 증가": true
             }
         },
         "version": "v=1"
