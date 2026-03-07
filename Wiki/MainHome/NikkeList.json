@@ -1205,6 +1205,39 @@
         "version": "v=1"
     },
     {
+        "name": "E.H.",
+        "tier": "SSR",
+        "dataname": "EH",
+        "class": "Attacker",
+        "type": "ANMI",
+        "weapon": "SMG",
+        "burst": "Burst3",
+        "company": "elysion",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "우월코드 데미지 증가": true
+            },
+            "파괴 가능한 발사체 파괴 시": {
+                "공격력 증가": true,
+                "우월코드 데미지 증가": true
+            },
+            "파츠 파괴 시": {
+                "공격력 증가": true,
+                "우월코드 데미지 증가": true
+            },
+            "적 처치 시": {
+                "공격력 증가": true,
+                "우월코드 데미지 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "무기변경": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "프로덕트 08",
         "tier": "R",
         "dataname": "Product08",
