@@ -540,6 +540,34 @@
         "version": "v=1"
     },
     {
+        "name": "아르카나 : 포츈 메이트",
+        "tier": "SSR",
+        "dataname": "Arcana_FortuneMate",
+        "class": "Attacker",
+        "type": "HSTA",
+        "weapon": "SG",
+        "burst": "Burst2",
+        "company": "elysion",
+        "tags": {
+            "풀 버스트 타임 종료 시": {
+                "시전자 기준 공격력 증가": true
+            },
+            "일반 공격 *회 공격 시": {
+                "공격력 증가": true,
+                "일반 공격 데미지 증가": true,
+                "탄환 충전": true,
+                "펠릿 개수 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격 데미지 증가": true,
+                "크리티컬 확률 증가": true,
+                "탄환 충전": true,
+                "스킬 데미지 공격": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "폴리",
         "tier": "SSR",
         "dataname": "Poli",
