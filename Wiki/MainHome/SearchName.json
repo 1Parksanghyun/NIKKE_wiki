@@ -317,6 +317,9 @@
   "벨로타": [
     "Belrota"
   ],
+  "백학": [
+    "Snowcrane"
+  ],
   "볼륨": [
     "Volume"
   ],
@@ -981,5 +984,8 @@
   "오버스펙": [
     "Rapi_RedHood",
     "Mihara_BondingChain"
+  ],
+  "베일드 오더": [
+    "Snowcrane"
   ]
 }
