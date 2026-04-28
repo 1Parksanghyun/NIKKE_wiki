@@ -213,6 +213,32 @@
         "version": "v=1"
     },
     {
+        "name": "아비스타",
+        "tier": "SSR",
+        "dataname": "Avistar",
+        "class": "Supporter",
+        "type": "ZEUS",
+        "weapon": "MG",
+        "burst": "Burst1",
+        "company": "elysion",
+        "tags": {
+            "풀 버스트 타임 종료 시": {
+                "시전자 기준 공격력 증가": true,
+                "최대 체력 비례 회복": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "현재 체력 감소": true,
+                "발사체 폭발 데미지 증가": true,
+                "공격 데미지 증가": true
+            },
+            "버스트 스킬 사용": {
+                "버스트 재진입": true,
+                "최대 체력 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "엠마",
         "tier": "SSR",
         "dataname": "Emma",
@@ -2207,6 +2233,37 @@
         "version": "v=1"
     },
     {
+        "name": "네온:비전 아이",
+        "tier": "SSR",
+        "dataname": "Neon_VisionEye",
+        "class": "Attacker",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst3",
+        "company": "missilis",
+        "tags": {
+            "피격 시": {
+                "무적": true,
+                "해로운 효과 면역": true,
+                "받는 체력 회복량 증가": true
+            },
+            "풀 차지 공격 *회 명중 시": {
+                "스킬 데미지 공격": true
+            },
+            "풀 버스트 타임 종료 시": {
+                "버스트 충전 속도 증가": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "공격력 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격 데미지 증가": true,
+                "폭발 범위 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "iDoll 오션",
         "tier": "R",
         "dataname": "IDollOcean",
@@ -2604,6 +2661,49 @@
                 "일반 공격 데미지 증가": true,
                 "최대 체력 증가": true,
                 "받는 데미지 감소": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "아니스:스타",
+        "tier": "SSR",
+        "dataname": "Anis_Star",
+        "class": "Defender",
+        "type": "ZEUS",
+        "weapon": "RL",
+        "burst": "Burst1",
+        "company": "tetra",
+        "tags": {
+            "전투 시작 시": {
+                "버스트 충전 속도 증가": true,
+                "버스트 재진입": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "시전자 기준 공격력 증가": true,
+                "발사체 폭발 데미지 증가": true,
+                "공격 데미지 증가": true
+            },
+            "풀 버스트 타임 종료 시": {
+                "버스트 재진입": true
+            },
+            "풀 차지 *회 공격 시": {
+                "최대 체력 비례 회복": true
+            },
+            "풀 차지 공격 *회 명중 시": {
+                "스킬 데미지 공격": true
+            },
+            "기본 버스트 단계가 1단계인 아군이 없다면": {
+                "공격력 증가": true,
+                "버스트 쿨타임 감소": true
+            },
+            "버스트 스킬 사용": {
+                "스킬 데미지 공격": true,
+                "차지시간 고정": true,
+                "폭발 범위 증가": true,
+                "방어력 증가": true,
+                "공격 데미지 증가": true,
+                "최대 체력 증가": true
             }
         },
         "version": "v=1"
