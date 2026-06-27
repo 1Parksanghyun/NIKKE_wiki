@@ -3405,6 +3405,38 @@
         "version": "v=1"
     },
     {
+        "name": "프리카",
+        "tier": "SSR",
+        "dataname": "Prika",
+        "class": "Supporter",
+        "type": "PSID",
+        "weapon": "SR",
+        "burst": "Burst2",
+        "company": "tetra",
+        "tags": {
+            "풀 차지 *회 공격 시": {
+                "시전자 기준 공격력 증가": true,
+                "발사체 폭발 데미지 증가": true,
+                "관통 데미지 증가": true
+            },
+            "떼창(민트) 적용 시": {
+                "스킬 지속시간 증가": true,
+                "공격 데미지 증가": true,
+                "버스트 쿨타임 증가": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "최대 체력 증가": true
+            },
+            "버스트 스킬 사용": {
+                "차지 데미지 증가": true,
+                "최대 체력 비례 회복": true,
+                "주는 체력 회복량 증가": true,
+                "관통 특화": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "블랑",
         "tier": "SSR",
         "dataname": "Blanc",
@@ -3738,6 +3770,39 @@
             "버스트 스킬 사용": {
                 "공격력 증가": true,
                 "관통 데미지 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "아크레인저 블랙",
+        "tier": "SSR",
+        "dataname": "ArkRangerBlack",
+        "class": "Attacker",
+        "type": "ANMI",
+        "weapon": "AR",
+        "burst": "Burst3",
+        "company": "tetra",
+        "tags": {
+            "전투 시작 시": {
+                "파츠 데미지 증가": true
+            },
+            "파츠 파괴 시": {
+                "공격력 증가": true
+            },
+            "일반 공격 *회 공격 시": {
+                "지속 데미지 증가": true
+            },
+            "적 등장 시": {
+                "지속 데미지 공격": true
+            },
+            "풀 버스트 타임 시작 시": {
+                "지속 데미지 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "지속 데미지 증가": true,
+                "지속 데미지 공격": true
             }
         },
         "version": "v=1"
