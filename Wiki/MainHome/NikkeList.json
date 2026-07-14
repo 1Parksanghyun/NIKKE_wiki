@@ -1292,6 +1292,46 @@
         "version": "v=1"
     },
     {
+        "name": "마르차나 : 마린 스터디",
+        "tier": "SSR",
+        "dataname": "Marciana_MarineStudy",
+        "class": "Attacker",
+        "type": "DMTR",
+        "weapon": "AR",
+        "burst": "Burst3",
+        "company": "elysion",
+        "tags": {
+            "랩처 등장 시": {
+                "우월코드 데미지 증가": true
+            },
+            "랩처 사망 시": {
+                "우월코드 데미지 증가": true
+            },
+            "적 사망 시": {
+                "스킬 데미지 공격": true,
+                "적 공격력 감소": true
+            },
+            "일반 공격 *회 명중 시": {
+                "스킬 데미지 공격": true
+            },
+            "전투 시작 시": {
+                "공격력 증가": true
+            },
+            "*초 마다": {
+                "공격력 증가": true,
+                "스킬 데미지 공격": true
+            },
+            "버스트 스킬 사용": {
+                "공격 데미지 증가": true,
+                "우월코드 데미지 증가": true,
+                "스킬 데미지 공격": true,
+                "적 공격력 감소": true,
+                "적 방어력 감소": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "프로덕트 08",
         "tier": "R",
         "dataname": "Product08",
@@ -4441,6 +4481,48 @@
             "버스트 스킬 사용": {
                 "공격 데미지 증가": true,
                 "스킬 데미지 공격": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "신데렐라 : 크리스탈 웨이브",
+        "tier": "SSR",
+        "dataname": "Cinderella_CrystalWave",
+        "class": "Attacker",
+        "type": "DMTR",
+        "weapon": "MG",
+        "burst": "Burst3",
+        "company": "pilgrim",
+        "tags": {
+            "최대 장탄 재장전 완료 시": {
+                "무기변경": true,
+                "재장전 시간 고정": true
+            },
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "공격 데미지 증가": true,
+                "코어 데미지 증가": true,
+                "디코이": true
+            },
+            "저격 모드 적용 시": {
+                "파츠 데미지 증가": true
+            },
+            "저격 모드 해제 시": {
+                "코어 데미지 증가": true
+            },
+            "*초 마다": {
+                "스킬 데미지 공격": true
+            },
+            "아군이 탄환 *발 소비 시": {
+                "버스트 충전": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "공격 데미지 증가": true,
+                "스킬 데미지 공격": true,
+                "코어 명중 데미지 공격": true,
+                "디코이": true
             }
         },
         "version": "v=1"
