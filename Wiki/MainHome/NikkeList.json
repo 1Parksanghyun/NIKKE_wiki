@@ -4724,6 +4724,27 @@
         "version": "v=1"
     },
     {
+        "name": "쿠루미",
+        "tier": "SR",
+        "dataname": "Kurumi",
+        "class": "Supporter",
+        "type": "DMTR",
+        "weapon": "AR",
+        "burst": "Burst1",
+        "company": "abnormal",
+        "tags": {
+            "일반 공격 *회 명중 시": {
+                "지속 데미지 공격": true,
+                "스킬 데미지 공격": true
+            },
+            "버스트 스킬 사용": {
+                "지속 데미지 공격": true,
+                "적 받는 데미지 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "히메노",
         "tier": "SR",
         "dataname": "Himeno",
@@ -4769,22 +4790,23 @@
         "version": "v=1"
     },
     {
-        "name": "쿠루미",
+        "name": "아이기스",
         "tier": "SR",
-        "dataname": "Kurumi",
+        "dataname": "Aigis",
         "class": "Supporter",
         "type": "DMTR",
-        "weapon": "AR",
-        "burst": "Burst1",
+        "weapon": "SMG",
+        "burst": "Burst2",
         "company": "abnormal",
         "tags": {
-            "일반 공격 *회 명중 시": {
-                "지속 데미지 공격": true,
-                "스킬 데미지 공격": true
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "방어력 증가": true
             },
             "버스트 스킬 사용": {
-                "지속 데미지 공격": true,
-                "적 받는 데미지 증가": true
+                "시전자 기준 공격력 증가": true,
+                "방어력 증가": true,
+                "분배 데미지 공격": true
             }
         },
         "version": "v=1"
@@ -5254,6 +5276,70 @@
                 "무기변경": true,
                 "방어력 무시 데미지로 치환": true,
                 "적 받는 데미지 증가": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "퀸(마코토)",
+        "tier": "SSR",
+        "dataname": "Queen_Makoto",
+        "class": "Attacker",
+        "type": "HSTA",
+        "weapon": "SG",
+        "burst": "Burst3",
+        "company": "abnormal",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "공격 데미지 증가": true,
+                "우월코드 데미지 증가": true,
+                "방어력 증가": true
+            },
+            "풀 버스트 타임 종료 시": {
+                "공격력 증가": true
+            },
+            "버스트 3단계 진입 시": {
+                "분배 데미지 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "시전자 기준 공격력 증가": true,
+                "우월코드 데미지 증가": true,
+                "방어력 증가": true,
+                "분배 데미지 공격": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "유키코",
+        "tier": "SSR",
+        "dataname": "Yukiko",
+        "class": "Attacker",
+        "type": "HSTA",
+        "weapon": "MG",
+        "burst": "Burst3",
+        "company": "abnormal",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true,
+                "공격 데미지 증가": true,
+                "최대 체력 비례 회복": true
+            },
+            "풀 버스트 타임 종료 시": {
+                "공격력 증가": true
+            },
+            "버스트 3단계 진입 시": {
+                "우월코드 데미지 증가": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "시전자 기준 공격력 증가": true,
+                "분배 데미지 증가": true,
+                "분배 데미지 공격": true,
+                "최대 체력 비례 회복": true,
+                "받는 데미지 감소": true
             }
         },
         "version": "v=1"
