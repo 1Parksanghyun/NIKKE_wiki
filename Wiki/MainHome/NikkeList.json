@@ -2395,6 +2395,64 @@
         "version": "v=1"
     },
     {
+        "name": "길티 : 마이티 바니",
+        "tier": "SSR",
+        "dataname": "Drake_GreatVillain",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "SG",
+        "burst": "Burst3",
+        "company": "missilis",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true
+            },
+            "풀 차지 상태를 *초 이상 유지 시": {
+                "공격 데미지 증가": true,
+                "차지 데미지 증가": true,
+                "방어력 무시 공격": true,
+                "방어력 무시 데미지로 치환": true
+            },
+            "버스트 스킬 사용": {
+                "공격 데미지 증가": true,
+                "차지 데미지 증가": true,
+                "무기변경": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
+        "name": "신 : 스위프트 바니",
+        "tier": "SSR",
+        "dataname": "Drake_GreatVillain",
+        "class": "Defender",
+        "type": "ANMI",
+        "weapon": "SG",
+        "burst": "Burst3",
+        "company": "missilis",
+        "tags": {
+            "전투 시작 시": {
+                "공격력 증가": true
+            },
+            "풀 차지 시": {
+                "일반 공격 데미지 증가": true,
+                "차지 데미지 증가": true
+            },
+            "풀 차지 상태를 *초 이상 유지 시": {
+                "크리티컬 확률 증가": true,
+                "크리티컬 데미지 증가": true,
+                "방어력 무시 데미지로 치환": true
+            },
+            "버스트 스킬 사용": {
+                "공격력 증가": true,
+                "스킬 데미지 공격": true,
+                "방어력 무시 공격": true,
+                "무기변경": true
+            }
+        },
+        "version": "v=1"
+    },
+    {
         "name": "iDoll 오션",
         "tier": "R",
         "dataname": "IDollOcean",
@@ -3811,7 +3869,7 @@
         "version": "v=1"
     },
     {
-        "name": "소다:트윙클링바니",
+        "name": "소다 : 트윙클링 바니",
         "tier": "SSR",
         "dataname": "Soda_TwinklingBunny",
         "class": "Attacker",
@@ -3893,7 +3951,7 @@
         "version": "v=1"
     },
     {
-        "name": "밀크:블루밍 바니",
+        "name": "밀크 : 블루밍 바니",
         "tier": "SSR",
         "dataname": "Milk_BloomingBunny",
         "class": "Attacker",
@@ -4571,12 +4629,14 @@
                 "방어력 증가": true,
                 "적 받는 데미지 증가": true
             },
-            "풀 차지 *회 공격 시": {
+            "풀 차지 시": {
                 "공격력 증가": true,
-                "차지 데미지 증가": true,
                 "파츠 데미지 증가": true,
+                "관통 특화": true
+            },
+            "풀 차지 *회 공격 시": {
+                "차지 데미지 증가": true,
                 "순차 공격 데미지 증가": true,
-                "관통 특화": true,
                 "스킬 데미지 공격": true,
                 "순차 공격": true
             },
