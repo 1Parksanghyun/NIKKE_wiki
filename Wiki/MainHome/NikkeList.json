@@ -2372,9 +2372,9 @@
         "name": "드레이크 : 그레이트 빌런",
         "tier": "SSR",
         "dataname": "Drake_GreatVillain",
-        "class": "Defender",
-        "type": "ANMI",
-        "weapon": "SG",
+        "class": "Attacker",
+        "type": "PSID",
+        "weapon": "SR",
         "burst": "Burst3",
         "company": "missilis",
         "tags": {
@@ -2397,7 +2397,7 @@
     {
         "name": "길티 : 마이티 바니",
         "tier": "SSR",
-        "dataname": "Drake_GreatVillain",
+        "dataname": "Guilty_MightyBunny",
         "class": "Defender",
         "type": "ANMI",
         "weapon": "SG",
@@ -2424,10 +2424,10 @@
     {
         "name": "신 : 스위프트 바니",
         "tier": "SSR",
-        "dataname": "Drake_GreatVillain",
-        "class": "Defender",
-        "type": "ANMI",
-        "weapon": "SG",
+        "dataname": "Sin_SwiftBunny",
+        "class": "Attacker",
+        "type": "PSID",
+        "weapon": "SR",
         "burst": "Burst3",
         "company": "missilis",
         "tags": {
