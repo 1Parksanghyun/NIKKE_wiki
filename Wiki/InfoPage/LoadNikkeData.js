@@ -47,7 +47,7 @@ function InsertSkillInfo() {
 }
 
 function InsertIcon(attribute, filename) {
-    const Standbackground = document.getElementById("NikkeAttribute");
+    const Standbackground = document.getElementById("NikkeInfo");
     Standbackground.appendChild(Object.assign(document.createElement('img'), {
         id: `${attribute}`,
         src: `../MainHome/NikkeCard/NikkeCardImg/${attribute}/${filename}.webp`
@@ -60,9 +60,9 @@ function SetName(nikkename, nikketier, nikkeburstTime) {
     const Div_nikke_burst_time = document.getElementById("NikkeBurstTime")
     Div_nikke_name.innerText = nikkename;
     Div_nikke_tier.innerText = nikketier;
-    Div_nikke_burst_time.innerText = nikkeburstTime
+    //Div_nikke_burst_time.innerText = nikkeburstTime
 
-    const Div_nikke_info = document.getElementById("NikkeInfo")
+    const Div_nikke_info = document.getElementById("NikkeTier")
     switch (nikketier) {
         case "R":
             Div_nikke_info.style.color = "#31a9fc"

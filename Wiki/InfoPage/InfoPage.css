@@ -17,6 +17,33 @@ body {
     align-self: left;
 }
 
+#NikkeInfo {
+    display: flex;
+    min-width: 100%;
+    min-height: 150px;
+    background-color: rgb(28, 29, 33);
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(76, 77, 83);
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#NikkeInfo #NikkeName {
+    color: white;
+    font-size: 50px;
+}
+
+#NikkeInfo #NikkeBurstTime {
+    color: white;
+    font-size: 50px;
+}
+
+#NikkeInfo #NikkeTier {
+    font-size: 50px;
+}
+
 #NikkeDataSector {
     display: flex;
     width: 100%;
@@ -28,58 +55,7 @@ body {
 #NikkeStand {
     width: fit-content;
     height: fit-content;
-    background-color: rgb(28, 29, 33);
-    border: 1px solid;
-    border-radius: 10px;
-    border-color: rgb(40, 40, 46);
-}
-
-#NikkeInfo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 15px 0px 15px;
-    border-bottom: 1px solid;
-    border-color: rgb(40, 40, 46);
-}
-
-#NikkeName {
-    width: auto;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px;
-    margin: 0px;
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
-}
-
-#NikkeTier {
-    width: auto;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px;
-    margin: 0px;
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
-}
-
-#NikkeBurstTime {
-    width: auto;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px;
-    margin: 0px;
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
+    align-self: center;
 }
 
 #ProfileDisplaySector {
@@ -95,11 +71,22 @@ body {
     width: fit-content;
     display: flex;
     justify-content: center;
-    padding: 10px;
     border-color: white;
     border-radius: 10px;
-    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+
+
+/* 캐릭터 이미지가 조명 위에 올라오도록 설정 */
+#StandImgBackground>img,
+#StandImgBackground>* {
+    position: relative;
+    z-index: 2;
+    max-height: 95%;
+    object-fit: contain;
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.7));
 }
 
 #NikkeStandImg {
@@ -109,21 +96,6 @@ body {
     width: auto;
 }
 
-#NikkeAttribute {
-    display: flex;
-
-}
-
-#NikkeAttribute>img {
-    margin-bottom: 20px;
-    filter: drop-shadow(0 0 8px);
-    transform: scale(1.1);
-}
-
-
-#ProfileDisplaySector .Blank {
-    width: 10%;
-}
 
 #SkillInfoSector {
     width: 100%;
@@ -145,8 +117,7 @@ body {
     display: flex;
     width: 100%;
     margin: 10px;
-    min-height: 25%;
-    max-height: 25%;
+    height: 220px;
     border: 1px solid;
     border-color: rgb(76, 77, 83);
     border-radius: 10px;
